@@ -1,0 +1,5 @@
+-r requirements.txt
+
+django-debug-toolbar==1.4
+Fabric==1.10.2
+# wheel   # download dependencies

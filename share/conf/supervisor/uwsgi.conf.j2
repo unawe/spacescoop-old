@@ -1,0 +1,6 @@
+[program:uwsgi-{{ SHORT_NAME }}]
+command = /usr/local/bin/uwsgi-python3 --ini {{ ETC_DIR }}/uwsgi-{{ SHORT_NAME }}.ini --uid web --gid www-data --binary-path /usr/local/bin/uwsgi-python3
+user = web
+
+stdout_logfile = {{ LOG_DIR }}/uwsgi-{{ SHORT_NAME }}-stdout.log
+redirect_stderr = true

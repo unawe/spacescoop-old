@@ -1,0 +1,164 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+msgid "Pictures"
+msgstr "画像"
+
+msgid "Space Words"
+msgstr "天体用語"
+
+msgid "Topics"
+msgstr "トピックス"
+
+msgid "Search"
+msgstr "検索"
+
+msgid "News from Across the Universe"
+msgstr "宇宙ニュース"
+
+msgid "Discover more awesome topics!"
+msgstr "すごいトピックス見つけよう"
+
+msgid "Still curious? Learn more..."
+msgstr "もっと知りたい方へ"
+
+msgid "What is Space Scoop?"
+msgstr "スペース・スクープとは何？"
+
+msgid "Discover more Astronomy"
+msgstr "天文学の発見"
+
+msgid "Inspiring a New Generation of Space Explorers"
+msgstr "つぎの宇宙探検家を励ますこと"
+
+msgid "Space Scoop Friends"
+msgstr "スペース・スクープのなかまたち"
+
+msgid "Contact Us"
+msgstr "お問い合わせ"
+
+msgid "Bringing News from across the Universe to kids around the world"
+msgstr "世界の子どもたちに宇宙からニュースを届けます"
+
+msgid "Cool Fact"
+msgstr "知っ得ダネ"
+
+msgid "This Space Scoop is based on a Press Release from INSTITUTION_NAME"
+msgstr "この記事は INSTITUTION_NAME の報道発表に基づいています"
+
+msgid "This Space Scoop is based on Press Releases from INSTITUTIONS_NAME"
+msgstr "この記事は INSTITUTIONS_NAME の報道発表に基づいています"
+
+msgid "Image"
+msgstr "写真"
+
+msgid "Print Friendly Version"
+msgstr "印刷用ページ"
+
+msgid "Share"
+msgstr "シェアする"
+
+msgid "Related Space Scoops"
+msgstr "スペース・スクープ関連"
+
+msgid "More Space Scoops"
+msgstr "もっとスペース・スクープについて"
+
+msgid "Partner"
+msgstr "協力者"
+
+msgid "[Read more Space Scoops] based on INSTITUTION_NAME Press Releases"
+msgstr "[スペース・スクープについてもっと読む]  INSTITUTION_NAME の報道記事にもとづきます"
+
+msgid "[Learn more] about INSTITUTION_NAME"
+msgstr "[もっと知る]  INSTITUTION_NAME について"
+
+msgid "Newsletter"
+msgstr "ニュースレター"
+
+msgid "Subscribe for the newsletter now and receive all the latest news every month!!"
+msgstr "最新のニュースレター（月刊）読者登録"
+
+msgid "Write your name here..."
+msgstr "ここにあなたの名前を書いて下さい"
+
+msgid "Write your e-mail here..."
+msgstr "ここにあなたのメールアドレスを書いて下さい"
+
+msgid "Subscribe"
+msgstr "無料購読"
+
+msgid "No articles are available."
+msgstr "該当する項目がありません"
+
+msgid "Sorry, no results found that match your query."
+msgstr "ごめんなさい、答えが見つかりません"
+
+msgid "This page isn't available in your language yet, if you'd like to provide a translation please contact us at CONTACT_ADDRESS"
+msgstr "まだ日本語に翻訳されていません。翻訳のご希望は CONTACT_ADDRESS へ連絡して下さい"
+
+msgid "Atoms and Molecules"
+msgstr "原子と分子"
+
+msgid "Cosmology"
+msgstr "宇宙論"
+
+msgid "Black Holes"
+msgstr "ブラックホール"
+
+msgid "Dark Matter"
+msgstr "暗黒物質"
+
+msgid "Missions"
+msgstr "ミッション"
+
+msgid "Technology"
+msgstr "技術"
+
+msgid "Gravity"
+msgstr "重力"
+
+msgid "Solar System"
+msgstr "太陽系"
+
+msgid "Planets"
+msgstr "惑星"
+
+msgid "Comets"
+msgstr "彗星（すいせい）"
+
+msgid "Asteroids"
+msgstr "小惑星"
+
+msgid "Supernova Remnants"
+msgstr "超新星残がい"
+
+msgid "Planetary Nebulae"
+msgstr "惑星状星雲"
+
+msgid "Star Forming Nebulae"
+msgstr "星形成星雲"
+
+msgid "Irregular Galaxies"
+msgstr "不規則銀河"
+
+msgid "Elliptical Galaxies"
+msgstr "だ円銀河"
+
+msgid "Spiral Galaxies"
+msgstr "らせん銀河"
+
+msgid "Stars"
+msgstr "恒（こう）星"
+
+msgid "Open clusters"
+msgstr "散開（さんかい）星団"
+
+msgid "Globular clusters"
+msgstr "球状（きゅうじょう）星団"
+
+msgid "This website was produced by funding from the European Community's Horizon 2020 Programme under grant agreement n° 638653"
+msgstr "このウェブページはn° 638653の助成によるECH2020プログラム基金によって作られました。"

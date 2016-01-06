@@ -1,0 +1,45 @@
+---
+- hosts: all
+  gather_facts: False
+  # sudo: yes
+
+  vars:
+    BASE_DIR: /home/web/spacescoop
+    BASE_DIR_LOCAL: /Users/rino/dev/unawe/spacescoop
+    VIRTUALENV: /home/web/.virtualenvs/spacescoop
+    REPO: https://github.com/unawe/spacescoop.git
+
+  tasks:
+
+
+    # - name: get latest pip
+    #   get_url: url=https://bootstrap.pypa.io/get-pip.py dest=/tmp/
+    # - name: install pip3
+    #   command: '/usr/bin/python3 /tmp/get-pip.py'
+    # - name: install pip2
+    #   command: '/usr/bin/python2 /tmp/get-pip.py'
+
+    # - name: ensure system-wide python packages are installed
+    #   pip: 
+    #     name: "{{ item }}"
+    #     state: present
+    #     executable: /usr/local/bin/pip3
+    #   with_items:
+    #     - virtualenv
+    #     - virtualenvwrapper
+    #     - uwsgi
+
+    - name: install python dependencies in virtualenv
+      # pip: 
+      #   # requirements: "{{ BASE_DIR }}/requirements.txt"
+      #   name: pytz
+      #   virtualenv: /home/web/.virtualenvs/ss3
+      #   # # extra_args: "-i ../dependencies"
+      #   # executable: /usr/local/bin/pip2
+      #   virtualenv_python: python3
+      pip: 
+        requirements: "{{ BASE_DIR }}/requirements.txt"
+        virtualenv: "{{ VIRTUALENV }}"
+        # extra_args: "-i ../dependencies"
+        # executable: /usr/local/bin/pip3
+        virtualenv_python: python3

@@ -1,0 +1,93 @@
+---
+- hosts: all
+  become: yes
+  tasks:
+
+    - name: ensure system packages are installed
+      apt: name={{ item }} update_cache=yes cache_valid_time=3600 state=present
+      with_items:
+        - zip
+        - libjpeg62
+        - libjpeg62-dev
+        # - python-dev
+        - python3-dev
+        # - python-pip # for ansible
+        # - python3-pip # for ansible
+        - supervisor
+        - git
+        - nginx
+        - monit
+        - apache2-utils  # for ab (apache benchmark)
+        - ghostscript
+        - imagemagick
+        # - python-lockfile
+        # - memcached
+        # - redis-server
+        # - libmysqlclient-dev
+        # - mysql-server
+        # - python-mysqldb  # required by the mysql_user ansible module
+        - postgresql
+        - postgresql-contrib
+        - libpq-dev
+        - python-psycopg2  # required by the postgresql ansible modules
+        # - nodejs
+        # - nodejs-legacy  # so that "/usr/bin/env node" works; needed for npm ansible task
+        # - npm
+        - libffi-dev
+        - libssl-dev
+        - libxml2-dev
+        - libxslt1-dev
+        - zlib1g-dev
+
+    - name: get latest pip
+      get_url: url=https://bootstrap.pypa.io/get-pip.py dest=/tmp/
+    - name: install pip3
+      command: '/usr/bin/python3 /tmp/get-pip.py'
+      args:
+        creates: /usr/local/bin/pip3
+
+    - name: ensure system-wide python packages are installed
+      pip: 
+        name: "{{ item }}"
+        state: present
+        virtualenv_python: python3
+      with_items:
+        - virtualenv
+        - virtualenvwrapper
+        - uwsgi
+    # - name: ensure npm packages are installed
+    #   npm: name={{ item }} global=yes state=present
+    #   with_items:
+    #     - yuglify
+
+    - name: move our uwsgi binary to safe location
+      command: 'mv /usr/local/bin/uwsgi /usr/local/bin/uwsgi-python3'
+      args:
+        creates: /usr/local/bin/uwsgi-python3
+
+    - name: ensure web user is in the required groups
+      user: name=web group=www-data groups=sudo
+
+    ## create work dirs
+    - file: path=/home/web/usr/etc state=directory owner=web group=www-data
+    - file: path=/home/web/usr/etc/supervisor state=directory owner=web group=www-data
+    - file: path=/home/web/usr/log state=directory owner=web group=www-data
+    - file: path=/home/web/usr/bin state=directory owner=web group=www-data
+
+    ## supervisor
+    - name: configure supervisor
+      ini_file: dest=/etc/supervisor/supervisord.conf section=include option=files value=/home/web/usr/etc/supervisor/*.conf
+
+    # ## Redis
+    # - name: configure redis
+    #   lineinfile: dest=/etc/redis/redis.conf regexp='^maxmemory' line='maxmemory 50mb'
+    #   notify:
+    #     - restart redis
+
+    ## PostgreSQL
+    - name: ensure postgres user exists
+      become: yes
+      user: name=postgres shell=/bin/bash groups=postgres,ssl-cert
+
+  handlers:
+    - include: handlers/handlers.yml

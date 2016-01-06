@@ -1,0 +1,164 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+msgid "Pictures"
+msgstr "Imagini"
+
+msgid "Space Words"
+msgstr "Cuvinte din astronomie"
+
+msgid "Topics"
+msgstr "Subiecte"
+
+msgid "Search"
+msgstr "Caută"
+
+msgid "News from Across the Universe"
+msgstr "Știri din întregul Univers!"
+
+msgid "Discover more awesome topics!"
+msgstr "Descoperă mai multe subiecte interesante!"
+
+msgid "Still curious? Learn more..."
+msgstr "Ești încă curios? Află mai multe..."
+
+msgid "What is Space Scoop?"
+msgstr "Ce este Space Scoop?"
+
+msgid "Discover more Astronomy"
+msgstr "Descoperă mai multe despre astronomie"
+
+msgid "Inspiring a New Generation of Space Explorers"
+msgstr "Inspiră o nouă generație de exploratori spațiali"
+
+msgid "Space Scoop Friends"
+msgstr "Prietenii Space Scoop"
+
+msgid "Contact Us"
+msgstr "Contactează-ne!"
+
+msgid "Bringing News from across the Universe to kids around the world"
+msgstr "Aduce știrile din Univers copiilor din lumea întreagă"
+
+msgid "Cool Fact"
+msgstr "Interesant"
+
+msgid "This Space Scoop is based on a Press Release from INSTITUTION_NAME"
+msgstr "Acest Space Scoop este realizat pe baza unui comunicat de presă de la INSTITUTION_NAME"
+
+msgid "This Space Scoop is based on Press Releases from INSTITUTIONS_NAME"
+msgstr "Acest Space Scoop este realizat pe baza unui comunicat de presă de la INSTITUTIONS_NAME"
+
+msgid "Image"
+msgstr "Imagine"
+
+msgid "Print Friendly Version"
+msgstr "Versiune printabilă"
+
+msgid "Share"
+msgstr "Distribuie"
+
+msgid "Related Space Scoops"
+msgstr "Articole Space Scoop  asemănatoare"
+
+msgid "More Space Scoops"
+msgstr "Mai multe articole Space Scoop"
+
+msgid "Partner"
+msgstr "Partener"
+
+msgid "[Read more Space Scoops] based on INSTITUTION_NAME Press Releases"
+msgstr "[Citește mai multe articole Space Scoop] realizate pe baza comunicatelor de presă de la  INSTITUTION_NAME"
+
+msgid "[Learn more] about INSTITUTION_NAME"
+msgstr "[Află mai multe] despre INSTITUTION_NAME"
+
+msgid "Newsletter"
+msgstr "Buletin informativ"
+
+msgid "Subscribe for the newsletter now and receive all the latest news every month!!"
+msgstr "Inreginstrează-te  pentru a primi lunar cele mai recente știri!"
+
+msgid "Write your name here..."
+msgstr "Scrie numele tău aici..."
+
+msgid "Write your e-mail here..."
+msgstr "Scrie adresa ta de e-mail aici..."
+
+msgid "Subscribe"
+msgstr "Inreginstrează-te"
+
+msgid "No articles are available."
+msgstr "Nu sunt articole disponibile."
+
+msgid "Sorry, no results found that match your query."
+msgstr "Ne pare rau, nu a fost găsit nici un rezultat in urma căutării tale."
+
+msgid "This page isn't available in your language yet, if you'd like to provide a translation please contact us at CONTACT_ADDRESS"
+msgstr "Acestă pagină nu este tradusă în acestă limbă; dacă doresti să realizezi traducerea te rugăm să ne contactezi la adresa CONTACT_ADDRESS"
+
+msgid "Atoms and Molecules"
+msgstr "Atomi și molecule"
+
+msgid "Cosmology"
+msgstr "Cosmologie"
+
+msgid "Black Holes"
+msgstr "Gaură neagră"
+
+msgid "Dark Matter"
+msgstr "Materie întunecată"
+
+msgid "Missions"
+msgstr "Misiuni spațiale"
+
+msgid "Technology"
+msgstr "Tehnologie"
+
+msgid "Gravity"
+msgstr "Gravitație"
+
+msgid "Solar System"
+msgstr "Sistem Solar"
+
+msgid "Planets"
+msgstr "Planete"
+
+msgid "Comets"
+msgstr "Comete"
+
+msgid "Asteroids"
+msgstr "Asteroizi"
+
+msgid "Supernova Remnants"
+msgstr "Rest de supernovă"
+
+msgid "Planetary Nebulae"
+msgstr "Nebuloasă planetară"
+
+msgid "Star Forming Nebulae"
+msgstr "Nebuloasă în care se nasc stele"
+
+msgid "Irregular Galaxies"
+msgstr "Galaxie neregulată"
+
+msgid "Elliptical Galaxies"
+msgstr "Galaxie eliptică"
+
+msgid "Spiral Galaxies"
+msgstr "Galaxie de tip spirală"
+
+msgid "Stars"
+msgstr "Stea"
+
+msgid "Open clusters"
+msgstr "Roi deschis"
+
+msgid "Globular clusters"
+msgstr "Roi globular"
+
+msgid "This website was produced by funding from the European Community's Horizon 2020 Programme under grant agreement n° 638653"
+msgstr "Acest website a fost realizat pe faza unei finanțări în cadrul programului Comunității Europene -  Horizon 2020, grant  n° 638653."
