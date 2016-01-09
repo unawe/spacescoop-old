@@ -344,6 +344,7 @@ AUTOSLUG_SLUGIFY_FUNCTION = Slugify(translate=None, max_length=200, to_lower=Tru
 # Thumbnails
 # http://sorl-thumbnail.readthedocs.org/en/latest/reference/settings.html
 THUMBNAIL_KVSTORE = 'sorl.thumbnail.kvstores.redis_kvstore.KVStore'
+THUMBNAIL_DBM_FILE = os.path.join(PARENT_DIR, 'usr/redis/thumbnails_spacescoop')
 # THUMBNAIL_ENGINE = 'sorl.thumbnail.engines.convert_engine.Engine'  #TODO: revisit this choice
 THUMBNAIL_ENGINE = 'sorl.thumbnail.engines.pil_engine.Engine'  #TODO: revisit this choice
 THUMBNAIL_KEY_PREFIX = 'sorl-thumbnail-spacescoop'
