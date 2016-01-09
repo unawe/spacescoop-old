@@ -62,9 +62,9 @@ INSTALLED_APPS = (
     'taggit',
     'taggit_autosuggest',
 
-    # 'sorl.thumbnail',
-    'filer',
-    'easy_thumbnails',
+    'sorl.thumbnail',
+    # 'filer',
+    # 'easy_thumbnails',
 
     'smartpages',
     'spacescoop',
@@ -108,6 +108,8 @@ TEMPLATES = [
                 'django.contrib.messages.context_processors.messages',
                 # LANGUAGES, LANGUAGE_CODE
                 'django.template.context_processors.i18n',
+                # THUMBNAIL_ALIASES
+                'django_ext.context_processors.thumbnail_aliases',
             ],
             'debug': False,
         },
@@ -340,31 +342,19 @@ from slugify import Slugify
 AUTOSLUG_SLUGIFY_FUNCTION = Slugify(translate=None, max_length=200, to_lower=True)
 
 # Thumbnails
-# # http://sorl-thumbnail.readthedocs.org/en/latest/reference/settings.html
-# THUMBNAIL_KVSTORE = 'sorl.thumbnail.kvstores.redis_kvstore.KVStore'
+# http://sorl-thumbnail.readthedocs.org/en/latest/reference/settings.html
+THUMBNAIL_KVSTORE = 'sorl.thumbnail.kvstores.redis_kvstore.KVStore'
 # THUMBNAIL_ENGINE = 'sorl.thumbnail.engines.convert_engine.Engine'  #TODO: revisit this choice
-# THUMBNAIL_KEY_PREFIX = 'sorl-thumbnail-spacescoop'
-# THUMBNAIL_PRESERVE_FORMAT = 'True'
-# # THUMBNAIL_ALTERNATIVE_RESOLUTIONS = [1.5, 2]
-
-# easy_thumbnails
-THUMBNAIL_DEBUG = DEBUG
-THUMBNAIL_HIGH_RESOLUTION = True
-THUMBNAIL_PROCESSORS = (
-    'easy_thumbnails.processors.colorspace',
-    'easy_thumbnails.processors.autocrop',
-    #'easy_thumbnails.processors.scale_and_crop',
-    'filer.thumbnail_processors.scale_and_crop_with_subject_location',
-    'easy_thumbnails.processors.filters',
-)
+THUMBNAIL_ENGINE = 'sorl.thumbnail.engines.pil_engine.Engine'  #TODO: revisit this choice
+THUMBNAIL_KEY_PREFIX = 'sorl-thumbnail-spacescoop'
+THUMBNAIL_PRESERVE_FORMAT = 'True'
+# THUMBNAIL_ALTERNATIVE_RESOLUTIONS = [1.5, 2]
 THUMBNAIL_ALIASES = {
-    '': {
-        'original_news_source': {'size': (9999, 60), },
-        'article_feature': {'size': (880, 410), 'crop': True, 'upscale': True, },
-        'article_cover': {'size': (680, 400), 'crop': True, 'upscale': True, },
-        'article_thumb': {'size': (320, 9999), },
-        'article_thumb_inline': {'size': (198, 200), 'crop': True, 'upscale': True, },
-    }
+    'original_news_source': 'x60',
+    'article_feature': '880x410',
+    'article_cover': '680x400',
+    'article_thumb': '320',
+    'article_thumb_inline': '198x200',
 }
 
 # Taggit

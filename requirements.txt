@@ -13,17 +13,17 @@ awesome-slugify==1.6.5
 django-parler==1.5.1
 django-ckeditor==5.0.2
 pillow==3.0.0
-django-taggit==0.17.3
-django-taggit-autosuggest==0.2.7
+django-taggit==0.17.6
+django-taggit-autosuggest==0.2.8
 # django-admin-sortable==2.0.7
 
-django-filer==0.9.12
-easy-thumbnails==2.3
+# django-filer==0.9.12
+# easy-thumbnails==2.3
+sorl-thumbnail==12.3
 
 WeasyPrint==0.24
 
-# sorl-thumbnail==12.3
-# redis==2.10.3
+redis==2.10.5
 
 Whoosh==2.7.0
 # bleach==1.4.2
