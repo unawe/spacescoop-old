@@ -1167,7 +1167,6 @@ h2 {
   margin-bottom: 1.5em; }
 
 #frontispiece {
-  background-color: #4292B2;
   z-index: 1;
   position: relative;
   height: 407px; }
@@ -1176,7 +1175,7 @@ h2 {
     left: 0;
     width: 100%;
     height: 570px;
-    background-image: url(../img/frontispiece/background-xmas.svg);
+    background-image: url(../img/frontispiece/background.svg);
     background-size: 880px auto;
     background-repeat: no-repeat; }
   #frontispiece .frontispiece-img {
@@ -1188,14 +1187,14 @@ h2 {
       top: 0;
       height: 360px;
       width: 360px;
-      background-image: url(../img/frontispiece/image-static-xmas.svg);
+      background-image: url(../img/frontispiece/image-static.svg);
       background-repeat: no-repeat; }
     #frontispiece .frontispiece-img .rotate {
       position: absolute;
       top: 0;
       height: 360px;
       width: 360px;
-      background-image: url(../img/frontispiece/image-moving-xmas.svg);
+      background-image: url(../img/frontispiece/image-moving.svg);
       background-repeat: no-repeat;
       -webkit-animation: spin 320s linear infinite;
       -moz-animation: spin 320s linear infinite;
