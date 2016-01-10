@@ -22,7 +22,7 @@
         - imagemagick
         # - python-lockfile
         # - memcached
-        # - redis-server
+        - redis-server
         # - libmysqlclient-dev
         # - mysql-server
         # - python-mysqldb  # required by the mysql_user ansible module
