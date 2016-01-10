@@ -12,11 +12,11 @@ awesome-slugify==1.6.5
 # unicode-slugify==0.1.3
 django-parler==1.5.1
 django-ckeditor==5.0.2
-pillow==3.0.0
 django-taggit==0.17.6
 django-taggit-autosuggest==0.2.8
 # django-admin-sortable==2.0.7
 
+pillow==3.0.0
 # django-filer==0.9.12
 # easy-thumbnails==2.3
 sorl-thumbnail==12.3
