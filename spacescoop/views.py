@@ -1,7 +1,7 @@
 # from django.http import HttpResponse, Http404
 from django.shortcuts import render
 
-from spacescoop_shared.articles.models import Article, Category
+from spacescoop_shared.spacescoops.models import Article, Category
 
 
 def home(request):

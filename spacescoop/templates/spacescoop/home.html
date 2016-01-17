@@ -29,7 +29,7 @@
             <div class="date">{{ object.release_date|date:"DATE_FORMAT" }}</div>
             <div class="categories">
               {% for category in object.categories.all %}
-                {% include 'articles/category_inline_icon.html' with category=category do_link=False %}
+                {% include 'spacescoops/category_inline_icon.html' with category=category do_link=False %}
               {% endfor %}
             </div>
           </div></a>
@@ -47,7 +47,7 @@
 {% for category in categories %}
             {% if forloop.first %}<div class="col-md-2" dir="rtl"></div>
             {% elif forloop.counter0|divisibleby:4 %}<div class="col-md-2"></div><div class="col-md-2"></div>{% endif %}
-            <div class="col-md-2">{% include 'articles/category_inline_icon.html' with category=category img_class='category-icon' title=category.title %}</div>
+            <div class="col-md-2">{% include 'spacescoops/category_inline_icon.html' with category=category img_class='category-icon' title=category.title %}</div>
             {% if forloop.last %}<div class="col-md-2"></div>{% endif %}
 {% endfor %}
         </div>

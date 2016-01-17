@@ -68,7 +68,7 @@ INSTALLED_APPS = (
 
     'smartpages',
     'spacescoop',
-    'spacescoop_shared.articles',
+    'spacescoop_shared.spacescoops',
     'spacescoop.newsletter',
     'spacescoop.search',
     'glossary',
@@ -497,8 +497,6 @@ if DJANGO_SETTINGS_CONFIG == 'DEV':
     # THUMBNAIL_DUMMY_RATIO = 1.5
 
     WHOOSH_INDEX_PATH = os.path.join(PARENT_DIR, 'usr/whoosh_index')
-
-    DATABASES['default']['NAME'] = 'spacescoop_prod'
 
 elif DJANGO_SETTINGS_CONFIG == 'PROD':
     DEBUG = False

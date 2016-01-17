@@ -9,7 +9,7 @@ from whoosh.sorting import Facets, StoredFieldFacet, FieldFacet
 from whoosh.support.charset import accent_map
 from django.conf import settings
 
-from spacescoop_shared.articles.models import Article
+from spacescoop_shared.spacescoops.models import Article
 
 
 def _get_schema():

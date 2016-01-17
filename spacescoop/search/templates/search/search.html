@@ -11,7 +11,7 @@ page.next_page_number
 
 
 {% block extra_js %}
-  {% include 'articles/article_list_component_js.html' %}
+  {% include 'spacescoops/article_list_component_js.html' %}
 {% endblock %}
 
 {% block extra_body_class %} search-page{% endblock %}
@@ -38,7 +38,7 @@ page.next_page_number
         <div class="grid article-list">
 
         {% for result in page.object_list %}
-          {% include 'articles/article_list_item.html' with object=result.object %}
+          {% include 'spacescoops/article_list_item.html' with object=result.object %}
             <!-- {{ result.score|floatformat:2}} -->
         {% empty %}
             <p class="notfound">{% trans 'Sorry, no results found that match your query.' %}</p>
