@@ -42,7 +42,7 @@ urlpatterns += i18n_patterns(
 if settings.DEBUG:
     # import debug_toolbar
     urlpatterns += patterns('',
-        # # test 404 and 500 pages
+        # test 404 and 500 pages
         (r'^500/$', TemplateView.as_view(template_name='500.html')),
         (r'^404/$', TemplateView.as_view(template_name='404.html')),
 

@@ -59,7 +59,7 @@
     - name: ensure django uploaded directory exists
       file: path={{ BASE_DIR }}_uploads state=directory group=www-data mode="g+w" recurse=no
     # - name: ensure perms for log file
-    #   file: path=/tmp/spacescoop.log state=touch group=www-data mode="g+w" 
+    #   file: path=/tmp/{{ SHORT_NAME }}.log state=touch group=www-data mode="g+w" 
     # - name: install python dependencies in virtualenv
     #   pip: 
     #     requirements: "{{ BASE_DIR }}/requirements.txt"
