@@ -13,22 +13,22 @@
     ETC_DIR: /home/web/usr/etc
   tasks:
 
-    # ## PostgreSQL
-    # - name: ensure database exists
-    #   become: yes
-    #   become_user: postgres
-    #   postgresql_db: 
-    #     name: "{{ SHORT_NAME }}"
-    #     # owner: "{{ SHORT_NAME }}"
-    # - name: ensure database user exists with permissions
-    #   become: yes
-    #   become_user: postgres
-    #   postgresql_user: 
-    #     db: "{{ SHORT_NAME }}"
-    #     name: "{{ DATABASE_USER_PROD }}"
-    #     password: "{{ DATABASE_PASSWORD_PROD }}"
-    #     priv: ALL
-    #     # role_attr_flags=CREATEDB,NOSUPERUSER
+    ## PostgreSQL
+    - name: ensure database exists
+      become: yes
+      become_user: postgres
+      postgresql_db: 
+        name: "{{ SHORT_NAME }}"
+        # owner: "{{ SHORT_NAME }}"
+    - name: ensure database user exists with permissions
+      become: yes
+      become_user: postgres
+      postgresql_user: 
+        db: "{{ SHORT_NAME }}"
+        name: "{{ DATABASE_USER_PROD }}"
+        password: "{{ DATABASE_PASSWORD_PROD }}"
+        priv: ALL
+        # role_attr_flags=CREATEDB,NOSUPERUSER
 
 
 
@@ -38,12 +38,14 @@
       synchronize:
         src: "{{ BASE_DIR_LOCAL }}/"
         dest: "{{ BASE_DIR }}"
+        delete: yes
       notify:
         - restart uwsgi
     - name: copy extra source files
       synchronize:
         src: "{{ BASE_DIR_EXTRAS_LOCAL }}/"
         dest: "{{ BASE_DIR_EXTRAS }}"
+        delete: yes
       notify:
         - restart uwsgi
     # - name: ensure git repository is up-to-date
@@ -60,41 +62,42 @@
       file: path={{ BASE_DIR }}_uploads state=directory group=www-data mode="g+w" recurse=no
     # - name: ensure perms for log file
     #   file: path=/tmp/{{ SHORT_NAME }}.log state=touch group=www-data mode="g+w" 
-    # - name: install python dependencies in virtualenv
-    #   pip: 
-    #     requirements: "{{ BASE_DIR }}/requirements.txt"
-    #     virtualenv: "{{ VIRTUALENV }}"
-    #     # extra_args: "-i ../dependencies"
-    #     virtualenv_python: python3
-    #   notify:
-    #     - restart uwsgi
+    - name: install python dependencies in virtualenv
+      pip: 
+        requirements: "{{ BASE_DIR }}/requirements.txt"
+        virtualenv: "{{ VIRTUALENV }}"
+        # extra_args: "-i ../dependencies"
+        executable: pip3
+        virtualenv_python: python3
+      notify:
+        - restart uwsgi
 
-    # ## NGINX
-    # - name: ensure default nginx configuration is not present
-    #   become: yes
-    #   file: path=/etc/nginx/sites-enabled/default state=absent
-    # - name: ensure nginx 'available' configuration is present
-    #   become: yes
-    #   copy: src={{ BASE_DIR_LOCAL }}/share/conf/nginx.conf dest=/etc/nginx/sites-available/{{ SHORT_NAME }}
-    #   notify:
-    #     - restart nginx
-    # - name: ensure nginx 'enabled' configuration is present
-    #   become: yes
-    #   file: src=/etc/nginx/sites-available/{{ SHORT_NAME }} path=/etc/nginx/sites-enabled/{{ SHORT_NAME }} state=link
-    #   # copy: src={{ BASE_DIR_LOCAL }}/share/conf/nginx.conf dest=/etc/nginx/sites-enabled/{{ SHORT_NAME }}
-    #   notify:
-    #     - restart nginx
+    ## NGINX
+    - name: ensure default nginx configuration is not present
+      become: yes
+      file: path=/etc/nginx/sites-enabled/default state=absent
+    - name: ensure nginx 'available' configuration is present
+      become: yes
+      copy: src={{ BASE_DIR_LOCAL }}/share/conf/nginx.conf dest=/etc/nginx/sites-available/{{ SHORT_NAME }}
+      notify:
+        - restart nginx
+    - name: ensure nginx 'enabled' configuration is present
+      become: yes
+      file: src=/etc/nginx/sites-available/{{ SHORT_NAME }} path=/etc/nginx/sites-enabled/{{ SHORT_NAME }} state=link
+      # copy: src={{ BASE_DIR_LOCAL }}/share/conf/nginx.conf dest=/etc/nginx/sites-enabled/{{ SHORT_NAME }}
+      notify:
+        - restart nginx
 
 
-    # ## uWSGI
-    # - name: ensure uwsgi configuration is present
-    #   template: src={{ BASE_DIR_LOCAL }}/share/conf/uwsgi.ini.j2 dest={{ ETC_DIR }}/uwsgi-{{ SHORT_NAME }}.ini
-    #   notify:
-    #     - restart uwsgi
-    # - name: ensure uwsgi-supervisor configuration is present
-    #   template: src={{ BASE_DIR_LOCAL }}/share/conf/supervisor/uwsgi.conf.j2 dest={{ ETC_DIR }}/supervisor/uwsgi-{{ SHORT_NAME }}.conf
-    #   notify:
-    #     - restart uwsgi
+    ## uWSGI
+    - name: ensure uwsgi configuration is present
+      template: src={{ BASE_DIR_LOCAL }}/share/conf/uwsgi.ini.j2 dest={{ ETC_DIR }}/uwsgi-{{ SHORT_NAME }}.ini
+      notify:
+        - restart uwsgi
+    - name: ensure uwsgi-supervisor configuration is present
+      template: src={{ BASE_DIR_LOCAL }}/share/conf/supervisor/uwsgi.conf.j2 dest={{ ETC_DIR }}/supervisor/uwsgi-{{ SHORT_NAME }}.conf
+      notify:
+        - restart uwsgi
 
     # ## Celery
     # - name: ensure celery-supervisor configuration is present

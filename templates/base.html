@@ -56,7 +56,7 @@
       <div id="left-icons" aria-haspopup="true">
         {% block homelink %}<div class="homelink"><a href="{% url 'home' %}"><img class="large" src="{% static 'img/buttons/home.svg' %}"/></a></div>{% endblock %}
         <div class="button-link gallery">
-          <a href="{% url 'articles:list' %}">
+          <a href="{% url 'scoops:list' %}">
             <div class="off"><div class="icon"></div></div>
             <div class="on"><div class="left"></div><div class="title">{% trans 'Pictures' %}</div><div class="right"></div></div>
           </a>

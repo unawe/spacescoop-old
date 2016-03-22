@@ -3,9 +3,9 @@ import os
 import json
 import copy
 import operator
-from django.utils.translation import ugettext_lazy as _, gettext_noop
 
 
+SHORT_NAME = 'spacescoop'
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PARENT_DIR = os.path.dirname(BASE_DIR)
 
@@ -25,6 +25,8 @@ if DJANGO_SETTINGS_CONFIG == 'DEV':
     DEBUG = True
     # DEBUG_TOOLBAR_PATCH_SETTINGS = False
 
+# cannonical base URL for the website
+SITE_URL = 'http://www.spacescoop.org'
 
 ADMINS = (
     ('Bruno Rino', secrets['ADMIN_EMAIL']),
@@ -66,9 +68,10 @@ INSTALLED_APPS = (
     # 'filer',
     # 'easy_thumbnails',
 
+    'institutions',
     'smartpages',
     'spacescoop',
-    'spacescoop_shared.spacescoops',
+    'spacescoops',
     'spacescoop.newsletter',
     'spacescoop.search',
     'glossary',
@@ -110,6 +113,8 @@ TEMPLATES = [
                 'django.template.context_processors.i18n',
                 # THUMBNAIL_ALIASES
                 'django_ext.context_processors.thumbnail_aliases',
+                # SITE_URL
+                'django_ext.context_processors.site_url',
             ],
             'debug': False,
         },
@@ -473,7 +478,6 @@ LOGGING = {
         }
     }
 }
-
 
 if DJANGO_SETTINGS_CONFIG == 'DEV':
     # TIME_ZONE = 'Europe/Lisbon'

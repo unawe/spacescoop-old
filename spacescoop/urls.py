@@ -30,9 +30,9 @@ urlpatterns = [
 urlpatterns += i18n_patterns(
     url(r'^$', 'spacescoop.views.home', name='home'),
     url(r'^search/', 'spacescoop.search.views.search', name='search'),
-    url(r'^scoops/', include('spacescoop_shared.spacescoops.urls', namespace='articles')),
-    url(r'^topics/', include('spacescoop_shared.spacescoops.urls_categories', namespace='categories')),
-    url(r'^friends/', include('spacescoop_shared.spacescoops.urls_partners', namespace='partners')),
+    url(r'^scoops/', include('spacescoops.urls', namespace='scoops')),
+    url(r'^topics/', include('spacescoops.urls_categories', namespace='categories')),
+    url(r'^friends/', include('spacescoops.urls_partners', namespace='partners')),
     url(r'^words/', include('glossary.urls', namespace='glossary')),
     url(r'^newsletter/', include('spacescoop.newsletter.urls', namespace='newsletter')),
 
