@@ -1,0 +1,47 @@
+---
+- hosts: all
+  become: yes
+  vars:
+    BASE_DIR: /home/web/spacescoop
+    BASE_DIR_LOCAL: /Users/rino/dev/unawe/spacescoop
+    SHORT_NAME: spacescoop
+  tasks:
+
+    ## backups
+    - name: ensure backups/db directory exists
+      file: path=/home/web/backups/{{ SHORT_NAME }}/db state=directory owner=web group=www-data
+    - name: ensure database backup user exists
+      become: yes
+      become_user: postgres
+      postgresql_user: 
+        db: "{{ SHORT_NAME }}"
+        name: "{{ DATABASE_USER_BACKUP }}"
+        password: "{{ DATABASE_PASSWORD_BACKUP }}"
+    - name: ensure backup user in .pgpass
+      lineinfile:
+        dest: /home/web/.pgpass
+        create: yes
+        mode: "0600"
+        owner: web
+        group: www-data
+        line: "*:*:*:backmeup:{{ DATABASE_PASSWORD_BACKUP }}"
+    - name: ensure database backup user exists with permissions
+      become: yes
+      become_user: postgres
+      postgresql_privs: 
+        db: "{{ SHORT_NAME }}"
+        role: "{{ DATABASE_USER_BACKUP }}"
+        privs: SELECT
+        type: table
+        objs: ALL_IN_SCHEMA
+    - name: ensure database backup user exists with permissions
+      become: yes
+      become_user: postgres
+      postgresql_privs: 
+        db: "{{ SHORT_NAME }}"
+        role: "{{ DATABASE_USER_BACKUP }}"
+        privs: SELECT
+        type: sequence
+        objs: ALL_IN_SCHEMA
+
+
