@@ -30,9 +30,9 @@
         - postgresql-contrib
         - libpq-dev
         - python-psycopg2  # required by the postgresql ansible modules
-        # - nodejs
-        # - nodejs-legacy  # so that "/usr/bin/env node" works; needed for npm ansible task
-        # - npm
+        - nodejs
+        - nodejs-legacy  # so that "/usr/bin/env node" works; needed for npm ansible task
+        - npm
         - libffi-dev
         - libssl-dev
         - libxml2-dev
@@ -55,10 +55,10 @@
         - virtualenv
         - virtualenvwrapper
         - uwsgi
-    # - name: ensure npm packages are installed
-    #   npm: name={{ item }} global=yes state=present
-    #   with_items:
-    #     - yuglify
+    - name: ensure npm packages are installed
+      npm: name={{ item }} global=yes state=present
+      with_items:
+        - yuglify
 
     - name: move our uwsgi binary to safe location
       command: 'mv /usr/local/bin/uwsgi /usr/local/bin/uwsgi-python3'

@@ -57,7 +57,7 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
-    # 'pipeline',
+    'pipeline',
 
     'parler',
     'ckeditor',
@@ -266,9 +266,10 @@ STATICFILES_FINDERS = (
     'django.contrib.staticfiles.finders.AppDirectoriesFinder',
     'django.contrib.staticfiles.finders.FileSystemFinder',
     # 'django.contrib.staticfiles.finders.DefaultStorageFinder',
-    # 'pipeline.finders.PipelineFinder',
+    'pipeline.finders.PipelineFinder',
 )
 
+STATICFILES_STORAGE = 'pipeline.storage.PipelineCachedStorage'
 
 # parler
 # http://django-parler.readthedocs.org/en/latest/
@@ -308,40 +309,44 @@ EMAIL_SUBJECT_PREFIX = '[spacescoop] '
 USE_ETAGS = True  # Note: disable debug toolbar while testing!
 
 
-# # Pipeline
-# STATICFILES_STORAGE = 'pipeline.storage.PipelineCachedStorage'
-# PIPELINE_CSS_COMPRESSOR = 'pipeline.compressors.yuglify.YuglifyCompressor'
-# PIPELINE_JS_COMPRESSOR = 'pipeline.compressors.yuglify.YuglifyCompressor'
-# PIPELINE_CSS = {
-#     'styles': {
-#         'source_filenames': (
-#             # 'css/fonts.css',
-#             # 'css/reset.css',
-#             'slick/slick.css',
-#             'slick/slick-theme.css',
-#             'css/main.css',
-#             # 'css/media_1280.css',
-#             # 'css/media_1080.css',
-#             # 'css/media_992.css',
-#             # 'css/media_768.css',
-#             # 'css/media_600.css',
-#             # 'css/media_480.css',
-#         ),
-#         'output_filename': 'css/spacescoop.min.css',
-#         'extra_context': {
-#             'media': 'screen',
-#         },
-#     },
-# }
-# PIPELINE_JS = {
-#     'scripts': {
-#         'source_filenames': [
-#             'js/jquery.js',
-#             'js/scripts.js',
-#         ],
-#         'output_filename': 'js/spacescoop.min.js',
-#     }
-# }
+# Pipeline
+PIPELINE = {
+    # 'CSS_COMPRESSOR': None,
+    'JS_COMPRESSOR': None,
+    'STYLESHEETS': {
+        'styles': {
+            'source_filenames': (
+                # 'css/fonts.css',
+                # 'css/reset.css',
+                'slick/slick.css',
+                'slick/slick-theme.css',
+                'css/main.css',
+                # 'css/media_1280.css',
+                # 'css/media_1080.css',
+                # 'css/media_992.css',
+                # 'css/media_768.css',
+                # 'css/media_600.css',
+                # 'css/media_480.css',
+            ),
+            'output_filename': 'css/spacescoop.min.css',
+            'extra_context': {
+                'media': 'screen',
+            },
+        },
+    },
+    'JAVASCRIPT': {
+        'scripts': {
+            'source_filenames': [
+                'js/jquery-1.11.3.min.js',
+                'js/bootstrap.min.js',
+                'slick/slick.min.js',
+                'js/menus.js',
+                # 'js/scripts.js',
+            ],
+            'output_filename': 'js/spacescoop.min.js',
+        }
+    }
+}
 
 from slugify import Slugify
 AUTOSLUG_SLUGIFY_FUNCTION = Slugify(translate=None, max_length=200, to_lower=True)

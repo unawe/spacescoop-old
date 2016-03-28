@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-{% load i18n parler_tags staticfiles smartpages %}
+{% load i18n parler_tags staticfiles smartpages pipeline %}
 
 {% get_current_language as LANGUAGE_CODE %}
 <html lang="{{ LANGUAGE_CODE }}" dir="{{ LANGUAGE_BIDI|yesno:'rtl,ltr' }}">
@@ -37,9 +37,7 @@
     <link href='https://fonts.googleapis.com/css?family=Comfortaa:300&subset=latin,greek,cyrillic-ext,latin-ext,cyrillic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Dosis:300,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 
-    <link rel="stylesheet" type="text/css" media="screen" href="{% static 'slick/slick.css' %}"/>
-    <link rel="stylesheet" type="text/css" media="screen" href="{% static 'slick/slick-theme.css' %}"/>
-    <link rel="stylesheet" type="text/css" media="screen" href="{% static 'css/main.css' %}">
+    {% load pipeline %}{% stylesheet 'styles' %}
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -142,10 +140,7 @@
       </div>
     </div>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="{% static 'js/bootstrap.min.js' %}"></script>
-    <script src="{% static 'slick/slick.min.js' %}"></script>
-    <script src="{% static 'js/menus.js' %}"></script>
+{% javascript 'scripts' %}
     <script>
 $(document).ready(function(){
   $('.slide-featured').slick({
