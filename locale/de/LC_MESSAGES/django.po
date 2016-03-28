@@ -26,7 +26,7 @@ msgid "Still curious? Learn more..."
 msgstr "Noch neugierig? Lerne mehr..."
 
 msgid "What is Space Scoop?"
-msgstr "Was is Space Scoop?"
+msgstr "Was ist Space Scoop?"
 
 msgid "Discover more Astronomy"
 msgstr "Entdecke mehr Astronomie"

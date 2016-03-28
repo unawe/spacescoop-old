@@ -20,10 +20,10 @@ msgid "News from Across the Universe"
 msgstr "우주로부터의 소식"
 
 msgid "Discover more awesome topics!"
-msgstr "좀 더 멋진 주제에 대해 알아보기!"
+msgstr "주제별로 찾아보기"
 
 msgid "Still curious? Learn more..."
-msgstr "궁금하다면 여기를 클릭"
+msgstr "좀 더 알고 싶으세요?"
 
 msgid "What is Space Scoop?"
 msgstr "Space Scoop 이란?"

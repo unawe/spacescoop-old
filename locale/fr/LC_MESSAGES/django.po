@@ -50,7 +50,7 @@ msgid "This Space Scoop is based on a Press Release from INSTITUTION_NAME"
 msgstr "Ce scoop de l'espace est basé sur un communiqué de presse de INSTITUTION_NAME"
 
 msgid "This Space Scoop is based on Press Releases from INSTITUTIONS_NAME"
-msgstr "Ce Scoop de l'espace est basé sur des communiqués de presse de INSTITUTIONS_NAME"
+msgstr "Ce scoop de l'espace est basé sur des communiqués de presse de INSTITUTIONS_NAME"
 
 msgid "Image"
 msgstr "Image"
@@ -161,4 +161,4 @@ msgid "Globular clusters"
 msgstr "Amas globulaires"
 
 msgid "This website was produced by funding from the European Community's Horizon 2020 Programme under grant agreement n° 638653"
-msgstr "Ce site web a été réalisé grâce au financement du Programme Horizon 2020 de la Communauté Européenne (agrément n°638653)"
+msgstr "Ce site web a été réalisé grâce au financement du Programme Horizon 2020 de la Communauté Européenne sur la base de l'accord de subvention numéro 638653"

@@ -1,5 +1,6 @@
 import os
 import sys
+import csv
 # from urllib.request import urlopen
 
 # # import re
@@ -13,7 +14,7 @@ import sys
 
 
 OUTPUT_FOLDER = '/Users/rino/dev/unawe/spacescoop/locale'
-filename = os.path.join('/Users/rino/Downloads', 'UNAWE website translation - SpaceScoop Website.csv')
+filename = '/Users/rino/dev/unawe/spacescoop/share/translations.csv'
 # url = 'https://docs.google.com/spreadsheet/ccc?key=10lLgvZnX0eW6mR2gusvTHYqWA6PXEOMLa9af6w3xwvI&gid=633367598&output=csv'
 
 LC_MESSAGE = '''
@@ -38,6 +39,8 @@ This Space Scoop is based on a Press Release from INSTITUTION_NAME
 
 This Space Scoop is based on Press Releases from INSTITUTIONS_NAME
 
+...use "Search" correctly
+
 '''
 
 
@@ -48,7 +51,6 @@ def _clean(text):
 translations = {}
 keys = []
 
-import csv
 with open(filename) as csvfile:
     reader = csv.reader(csvfile)
     for row_num, row in enumerate(reader):
