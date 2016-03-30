@@ -170,6 +170,13 @@ django.conf.locale.LANG_INFO['tet'] = {
 django.conf.locale.LANG_INFO['zh'] = {
     'fallback': ['zh-hans'],
 }
+django.conf.locale.LANG_INFO['quc'] = {
+    'bidi': False,
+    'code': 'quc',
+    'name': 'K’iche’',
+    'name_local': 'K’iche’',
+}
+
 
 # the default translation – the final attempt if no better matching translation is found
 LANGUAGE_CODE = 'en'
@@ -203,7 +210,7 @@ LANGUAGES = (
     # ('nb', 'Norwegian Bokmal'),
     # ('nn', 'Norwegian Nynorsk'),
     ('pt', 'Portuguese'),
-    # ('quc', 'K’iche’'),
+    ('quc', 'K’iche’'),
     ('ro', 'Romanian'),
     ('ru', 'Russian'),
     ('si', 'Sinhalese'),
@@ -217,6 +224,10 @@ LANGUAGES = (
     # ('cy', 'Welsh'),
 )
 LANGUAGES = sorted(LANGUAGES, key=operator.itemgetter(0))
+
+# # Languages using BiDi (right-to-left) layout
+# LANGUAGES_BIDI = global_settings.LANGUAGES_BIDI + ("ug",)
+
 
 # TIME_ZONE = 'UTC'
 TIME_ZONE = 'Europe/Amsterdam'

@@ -76,7 +76,7 @@
       <div id="right-icons">
         <div id="search-bar">
           <div class="off"></div>
-          <div class="on"><form action="{% url 'search' %}" method="get" id="search_form"><input id="id_q" name="q" type="text" value="{{ form.cleaned_data.q }}" placeholder="{% trans 'Search...' %}"><!-- {{ form.q }} --></form></div>
+          <div class="on"><form action="{% url 'search' %}" method="get" id="search_form"><input id="id_q" name="q" type="text" value="{{ form.cleaned_data.q }}" placeholder="{% trans 'Search' %}"><!-- {{ form.q }} --></form></div>
         </div>
         
         <a href="{% url 'search' %}"><img src="{% static 'img/buttons/search.svg' %}"/></a>
