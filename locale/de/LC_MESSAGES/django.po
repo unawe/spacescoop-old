@@ -14,7 +14,7 @@ msgid "Topics"
 msgstr "Themen"
 
 msgid "Search"
-msgstr "Suche"
+msgstr "Suchen"
 
 msgid "News from Across the Universe"
 msgstr "Neuigkeiten aus dem Universum"
