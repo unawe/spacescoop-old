@@ -3,10 +3,10 @@
 ## check outdated dependencies:
 #    pip list --outdated
 
-Django==1.8.11
+Django==1.8.12
 pytz
 psycopg2==2.6.1  # postgreSQL 
-django-pipeline==1.6.7
+django-pipeline==1.6.8
 django-autoslug==1.8.0
 awesome-slugify==1.6.5
 # unicode-slugify==0.1.3

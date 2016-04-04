@@ -62,6 +62,8 @@
       file: path={{ BASE_DIR }}_uploads state=directory group=www-data mode="g+w" recurse=no
     # - name: ensure perms for log file
     #   file: path=/tmp/{{ SHORT_NAME }}.log state=touch group=www-data mode="g+w" 
+    - name: ensure scripts are executable
+      file: path={{ BASE_DIR }}/share/bin state=directory mode="u+x,g+x,o+x" recurse=yes
     - name: install python dependencies in virtualenv
       pip: 
         requirements: "{{ BASE_DIR }}/requirements.txt"
