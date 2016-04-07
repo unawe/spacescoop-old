@@ -176,6 +176,12 @@ django.conf.locale.LANG_INFO['quc'] = {
     'name': 'K’iche’',
     'name_local': 'K’iche’',
 }
+django.conf.locale.LANG_INFO['tzj'] = {
+    'bidi': False,
+    'code': 'tzj',
+    'name': 'Tz’utujil',
+    'name_local': 'Tz’utujil',
+}
 
 
 # the default translation – the final attempt if no better matching translation is found
@@ -219,6 +225,7 @@ LANGUAGES = (
     ('ta', 'Tamil'),
     # ('tet', 'Tetum'),
     ('tr', 'Turkish'),
+    ('tzj', 'Tz’utujil'),
     # ('uk', 'Ukrainian'),
     # ('vi', 'Vietnamese'),
     # ('cy', 'Welsh'),
