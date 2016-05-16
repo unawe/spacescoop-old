@@ -47,7 +47,7 @@ msgid "Cool Fact"
 msgstr "Anecdote"
 
 msgid "This Space Scoop is based on a Press Release from INSTITUTION_NAME"
-msgstr "Ce scoop de l'espace est basé sur un communiqué de presse de INSTITUTION_NAME"
+msgstr "Ce scoop de l'espace est tiré d'un communiqué de presse de INSTITUTION_NAME"
 
 msgid "This Space Scoop is based on Press Releases from INSTITUTIONS_NAME"
 msgstr "Ce scoop de l'espace est basé sur des communiqués de presse de INSTITUTIONS_NAME"

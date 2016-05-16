@@ -149,6 +149,12 @@ django.conf.locale.LANG_INFO['gu'] = {
     'name': 'Gurajati',
     'name_local': 'ગુજરાતી',
 }
+django.conf.locale.LANG_INFO['hi'] = {
+    'bidi': False,
+    'code': 'hi',
+    'name': 'Hindi',
+    'name_local': 'हिंदी',
+}
 django.conf.locale.LANG_INFO['mt'] = {
     'bidi': False,
     'code': 'mt',
@@ -196,6 +202,7 @@ LANGUAGES = (
     ('pl', 'Polish'),
     # ('sq', 'Albanian'),
     # ('ar', 'Arabic'),
+    ('bn', 'Bengali'),
     ('bg', 'Bulgarian'),
     # ('zh', 'Chinese'),
     ('cs', 'Czech'),
@@ -205,7 +212,7 @@ LANGUAGES = (
     ('el', 'Greek'),
     # ('gu', 'Gujarati'),
     # ('he', 'Hebrew'),
-    # ('hi', 'Hindi'),
+    ('hi', 'Hindi'),
     # ('hu', 'Hungarian'),
     ('is', 'Icelandic'),
     ('id', 'Indonesian'),
