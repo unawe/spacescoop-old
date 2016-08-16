@@ -119,7 +119,8 @@ select {
   text-transform: none; }
 
 button,
-html input[type="button"], input[type="reset"],
+html input[type="button"],
+input[type="reset"],
 input[type="submit"] {
   -webkit-appearance: button;
   cursor: pointer; }
@@ -209,8 +210,7 @@ textarea {
 a {
   color: #337ab7;
   text-decoration: none; }
-  a:hover,
-  a:focus {
+  a:hover, a:focus {
     color: #23527c;
     text-decoration: underline; }
   a:focus {
@@ -264,8 +264,7 @@ hr {
   clip: rect(0, 0, 0, 0);
   border: 0; }
 
-.sr-only-focusable:active,
-.sr-only-focusable:focus {
+.sr-only-focusable:active, .sr-only-focusable:focus {
   position: static;
   width: auto;
   height: auto;
@@ -281,9 +280,7 @@ hr {
   margin-left: auto;
   padding-left: 15px;
   padding-right: 15px; }
-  .container:before,
-  .container-fixed:before,
-  .container:after, .container-fixed:after {
+  .container:before, .container-fixed:before, .container:after, .container-fixed:after {
     content: " ";
     display: table; }
   .container:after, .container-fixed:after {
@@ -303,8 +300,7 @@ hr {
   margin-left: auto;
   padding-left: 15px;
   padding-right: 15px; }
-  .container-fluid:before,
-  .container-fluid:after {
+  .container-fluid:before, .container-fluid:after {
     content: " ";
     display: table; }
   .container-fluid:after {
@@ -313,8 +309,7 @@ hr {
 .row {
   margin-left: -15px;
   margin-right: -15px; }
-  .row:before,
-  .row:after {
+  .row:before, .row:after {
     content: " ";
     display: table; }
   .row:after {
@@ -1175,7 +1170,7 @@ h2 {
     left: 0;
     width: 100%;
     height: 407px;
-    background-image: url(../img/frontispiece/background.svg);
+    background-image: url(../img/frontispiece/background.png);
     background-size: 880px auto;
     background-repeat: no-repeat; }
   #frontispiece .frontispiece-img {
