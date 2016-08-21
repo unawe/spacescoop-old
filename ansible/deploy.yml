@@ -69,7 +69,7 @@
         requirements: "{{ BASE_DIR }}/requirements.txt"
         virtualenv: "{{ VIRTUALENV }}"
         # extra_args: "-i ../dependencies"
-        #executable: pip3
+        # executable: pip3
         virtualenv_python: python3
       notify:
         - restart uwsgi
@@ -119,7 +119,7 @@
   gather_facts: False
   vars:
     BASE_DIR: /home/web/spacescoop
-    BASE_DIR_LOCAL: /Users/rino/dev/spacescoop
+    BASE_DIR_LOCAL: "{{ lookup('env','UNAWE_BASE') }}spacescoop"
     VIRTUALENV: /home/web/.virtualenvs/spacescoop
     REPO: https://github.com/unawe/spacescoop.git
     LOG_DIR: /home/web/usr/log
