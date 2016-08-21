@@ -3,7 +3,7 @@
 ## check outdated dependencies:
 #    pip list --outdated
 
-Django==1.8.13
+Django==1.8.14
 pytz
 psycopg2==2.6.1  # postgreSQL 
 django-pipeline==1.6.8
@@ -22,6 +22,7 @@ pillow==3.2.0
 sorl-thumbnail==12.3
 
 WeasyPrint==0.28
+html5lib==0.9999999  # the latest html5lib==0.999999999 install fails
 
 redis==2.10.5
 
