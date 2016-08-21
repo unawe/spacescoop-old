@@ -11,7 +11,7 @@
 
 - name: restart uwsgi
   sudo: yes
-  supervisorctl: name=uwsgi state=restarted
+  supervisorctl: name=uwsgi-spacescoop state=restarted
 - name: restart celery
   sudo: yes
   supervisorctl: name=celery state=restarted

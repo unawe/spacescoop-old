@@ -3,7 +3,7 @@
   become: yes
   vars:
     BASE_DIR: /home/web/spacescoop
-    BASE_DIR_LOCAL: /Users/rino/dev/unawe/spacescoop
+    BASE_DIR_LOCAL: "{{ lookup('env','UNAWE_BASE') }}spacescoop"
     SHORT_NAME: spacescoop
   tasks:
 
