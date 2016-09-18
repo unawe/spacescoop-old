@@ -412,18 +412,18 @@ h2 {
 
 
 #frontispiece {
-    // background-color: #4292B2; xmas
-    .background {
-        position: absolute;
-        left: 0;
-        width: 100%;
-        height: 407px;
-        // height: 570px; // there's icicles plunging down
-        //background-image: url(../img/frontispiece/background.svg);
-        background-image: url(../img/frontispiece/background.png);	// No need for such a huge image as the SVG when it is a fixed size
-        background-size: $container-width auto;
-        background-repeat: no-repeat;        
-    }
+	// background-color: #4292B2; xmas
+	.background {
+		position: absolute;
+		left: 0;
+		width: 100%;
+		height: 407px;
+		// height: 570px; // there's icicles plunging down
+		//background-image: url(../img/frontispiece/background.svg);
+		background-image: url(../img/frontispiece/background.png);	// No need for such a huge image as the SVG when it is a fixed size
+		background-size: $container-width auto;
+		background-repeat: no-repeat;        
+	}
     z-index: 1; // this allows for the background to spill down. like, icicles
     // background-image: url(../img/frontispiece/background.svg);
     // background-size: $container-width auto;

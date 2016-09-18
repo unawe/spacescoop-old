@@ -9,6 +9,7 @@ from whoosh.sorting import Facets, StoredFieldFacet, FieldFacet
 from whoosh.support.charset import accent_map
 from django.conf import settings
 
+
 from spacescoops.models import Article
 
 
@@ -101,7 +102,8 @@ def _content(obj):
 def rebuild_indexes():
     try:
         writers = {}
-        for obj_master in Article.objects.available():
+        print("rebuild_indexes")
+        for obj_master in Article.objects.all().exclude(published=False).exclude(release_date__gte=datetime.today()):
             for obj in obj_master.translations.all():
                 lang = obj.language_code
                 if not lang in writers:
@@ -138,6 +140,7 @@ def search(querystring, language_code):
     parser = MultifieldParser(['title', 'keywords', 'content'], ix.schema)  # fieldboosts={'title':5, 'keywords':4, 'content':1})
     parser.remove_plugin_class(WildcardPlugin)  # remove unused feature for better performance
     query = parser.parse(querystring)
+    print(parser,query,querystring)
 
     result = {
         'results': [],
@@ -145,6 +148,7 @@ def search(querystring, language_code):
 
     with ix.searcher() as searcher:
         results = searcher.search(query)
+        print(results)
         # import pdb; pdb.set_trace()
 
         # collect results
@@ -155,8 +159,10 @@ def search(querystring, language_code):
             # my_hit['docnum'] = hit.docnum
             my_hit['score'] = hit.score
             my_hit['object'] = Article.objects.get(code=hit.fields()['code'])
+            #.exclude(published=False).exclude(release_date__gte=datetime.today())
             # my_hit['object']['is_visible'] = True
             result['results'].append(my_hit)
-            # print hit.pos, hit.rank, hit.docnum, hit.score, hit.fields()['age_range'], hit
+            print(hit.pos, hit.rank, hit.docnum, hit.score, hit)
+            #print(hit.pos, hit.rank, hit.docnum, hit.score, hit.fields()['age_range'], hit)
 
     return result
