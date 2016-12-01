@@ -196,7 +196,7 @@ LANGUAGE_CODE = 'en'
 LANGUAGES = (
     ('en', 'English'),
     ('nl', 'Dutch'),
-    # ('it', 'Italian'),
+    ('it', 'Italian'),
     ('de', 'German'),
     ('es', 'Spanish'),
     ('pl', 'Polish'),
