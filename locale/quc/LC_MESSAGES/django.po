@@ -4,6 +4,9 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 
+msgid "Stories"
+msgstr "Taq wachib'al"
+
 msgid "Pictures"
 msgstr "Taq wachib'al"
 

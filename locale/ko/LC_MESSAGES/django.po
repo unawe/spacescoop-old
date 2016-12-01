@@ -4,6 +4,9 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 
+msgid "Stories"
+msgstr "사진"
+
 msgid "Pictures"
 msgstr "사진"
 

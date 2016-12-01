@@ -4,6 +4,9 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 
+msgid "Stories"
+msgstr "चित्र"
+
 msgid "Pictures"
 msgstr "चित्र"
 

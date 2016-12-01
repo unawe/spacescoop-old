@@ -524,6 +524,7 @@ if DJANGO_SETTINGS_CONFIG == 'DEV':
     )
     DEBUG_TOOLBAR_CONFIG = {
         'INTERCEPT_REDIRECTS': False,
+        'JQUERY_URL':'',
     }
     EMAIL_SUBJECT_PREFIX = '[spacescoop dev] '
     # CELERY_ALWAYS_EAGER = True  # Tasks are run synchronously

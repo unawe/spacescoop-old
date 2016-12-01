@@ -1,6 +1,8 @@
+console.log($);
+
 $(document).ready(function(){
 
-
+console.log($);
     $('#laguage_selector').mouseover(function() {
         // .position() uses position relative to the offset parent, 
         // so it supports position: relative parent elements
