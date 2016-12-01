@@ -142,7 +142,6 @@
 
 {% javascript 'scripts' %}
     <script>
-    console.log('test',jQuery)
 	jQuery(document).ready(function(){
 		jQuery('.slide-featured').slick({
 			autoplay: true,
@@ -176,7 +175,6 @@
 			if(jQuery(this).hasClass('on')) {
 				jQuery(this).parent().find('.off').show();
 				jQuery(this).hide();
-				console.log('a');
 				if (jQuery('#left-icons').find('.on:visible').length == 0) {
 					jQuery('#left-icons').width(90);
 				}

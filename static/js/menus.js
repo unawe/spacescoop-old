@@ -1,8 +1,5 @@
-console.log($);
-
 $(document).ready(function(){
 
-console.log($);
     $('#laguage_selector').mouseover(function() {
         // .position() uses position relative to the offset parent, 
         // so it supports position: relative parent elements
@@ -49,4 +46,41 @@ console.log($);
             $oe_menu_items.children('div').hide();
         })
     });
+
+
+	// social sharing
+	$('#twitter').sharrre({
+		share: {
+			twitter: false
+		},
+		enableHover: false,
+		enableTracking: true,
+		// buttons: { twitter: {via: '_JulienH'}},
+		click: function(api, options){
+			// api.simulateClick();
+			api.openPopup('twitter');
+		}
+	});
+	$('#facebook').sharrre({
+		share: {
+			facebook: false
+		},
+		enableHover: false,
+		enableTracking: true,
+		click: function(api, options){
+			// api.simulateClick();
+			api.openPopup('facebook');
+		}
+	});
+	$('#pinterest').sharrre({
+		share: {
+			pinterest: false
+		},
+		enableHover: false,
+		enableTracking: true,
+		click: function(api, options){
+			// api.simulateClick();
+			api.openPopup('pinterest');
+		}
+	});
 });

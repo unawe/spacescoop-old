@@ -367,6 +367,7 @@ PIPELINE = {
                 'js/jquery-1.11.3.min.js',
                 'js/bootstrap.min.js',
                 'slick/slick.min.js',
+                'js/jquery.sharrre.min.js',
                 'js/menus.js',
                 # 'js/scripts.js',
             ],

@@ -1325,7 +1325,8 @@ h2 {
       padding-bottom: 10px; }
     .downloads .share img {
       height: 40px;
-      margin-left: 10px; }
+      margin-left: 10px;
+      cursor: pointer; }
 
 #languages_menu {
   display: none;
