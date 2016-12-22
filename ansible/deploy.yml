@@ -58,8 +58,8 @@
       copy: src={{ BASE_DIR_LOCAL }}/secrets.json dest={{ BASE_DIR }}/secrets.json
     # - name: ensure python dependencies are present (to avoid hitting PyPi)
     #   copy: src=../dependencies dest={{ BASE_DIR }}
-    - name: ensure django uploaded directory exists
-      file: path={{ BASE_DIR }}_uploads state=directory group=www-data mode="g+w" recurse=no
+    # - name: ensure django uploaded directory exists
+    #   file: path={{ BASE_DIR }}_uploads state=directory group=www-data mode="g+w" recurse=no
     # - name: ensure perms for log file
     #   file: path=/tmp/{{ SHORT_NAME }}.log state=touch group=www-data mode="g+w" 
     - name: ensure scripts are executable
