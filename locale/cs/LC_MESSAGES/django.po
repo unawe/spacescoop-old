@@ -4,11 +4,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 
+msgid "Stories"
+msgstr "Obrázky"
+
 msgid "Pictures"
 msgstr "Obrázky"
 
 msgid "Space Words"
-msgstr "Vesmírná slova"
+msgstr "Vesmírný slovník"
 
 msgid "Topics"
 msgstr "Témata"

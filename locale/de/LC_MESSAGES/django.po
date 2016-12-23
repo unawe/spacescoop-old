@@ -4,6 +4,9 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 
+msgid "Stories"
+msgstr "Bilder"
+
 msgid "Pictures"
 msgstr "Bilder"
 
@@ -50,7 +53,7 @@ msgid "This Space Scoop is based on a Press Release from INSTITUTION_NAME"
 msgstr "Dieser Space Scoop basiert auf einer Pressemitteilung von INSTITUTION_NAME"
 
 msgid "This Space Scoop is based on Press Releases from INSTITUTIONS_NAME"
-msgstr "Dieser Space Scoop basiert auf Pressemitteilungen von INSTITUTION_NAME"
+msgstr "Dieser Space Scoop basiert auf Pressemitteilungen von INSTITUTIONS_NAME"
 
 msgid "Image"
 msgstr "Bild"

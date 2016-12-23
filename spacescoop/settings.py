@@ -196,7 +196,7 @@ LANGUAGE_CODE = 'en'
 LANGUAGES = (
     ('en', 'English'),
     ('nl', 'Dutch'),
-    # ('it', 'Italian'),
+    ('it', 'Italian'),
     ('de', 'German'),
     ('es', 'Spanish'),
     ('pl', 'Polish'),
@@ -367,6 +367,7 @@ PIPELINE = {
                 'js/jquery-1.11.3.min.js',
                 'js/bootstrap.min.js',
                 'slick/slick.min.js',
+                'js/jquery.sharrre.min.js',
                 'js/menus.js',
                 # 'js/scripts.js',
             ],
@@ -525,6 +526,7 @@ if DJANGO_SETTINGS_CONFIG == 'DEV':
     )
     DEBUG_TOOLBAR_CONFIG = {
         'INTERCEPT_REDIRECTS': False,
+        'JQUERY_URL':'',
     }
     EMAIL_SUBJECT_PREFIX = '[spacescoop dev] '
     # CELERY_ALWAYS_EAGER = True  # Tasks are run synchronously

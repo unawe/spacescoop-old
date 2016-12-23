@@ -13,8 +13,8 @@ import csv
 #     data = json.load(infile)
 
 
-OUTPUT_FOLDER = '/Users/rino/dev/unawe/spacescoop/locale'
-filename = '/Users/rino/dev/unawe/spacescoop/share/translations.csv'
+OUTPUT_FOLDER = os.environ.get('UNAWE_BASE') + 'spacescoop/locale'
+filename = os.environ.get('UNAWE_BASE') + 'spacescoop/share/translations.csv'
 # url = 'https://docs.google.com/spreadsheet/ccc?key=10lLgvZnX0eW6mR2gusvTHYqWA6PXEOMLa9af6w3xwvI&gid=633367598&output=csv'
 
 LC_MESSAGE = '''

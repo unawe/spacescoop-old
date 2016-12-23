@@ -4,6 +4,9 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 
+msgid "Stories"
+msgstr "চিত্র"
+
 msgid "Pictures"
 msgstr "চিত্র"
 
@@ -42,6 +45,9 @@ msgstr "আমাদের সাথে যোগাযোগ করুন"
 
 msgid "Bringing News from across the Universe to kids around the world"
 msgstr "মহাবিশ্ব জুড়ে থাকা খবর সংগ্রহ করে আনছি  সারা বিশ্বর শিশুদের জন্য"
+
+msgid "Cool Fact"
+msgstr "কৌতূহলী তথ্য"
 
 msgid "This Space Scoop is based on a Press Release from INSTITUTION_NAME"
 msgstr "এই স্পেস  স্কুপটি  একটি  INSTITUTION NAME 'র  প্রেস রিলিজ ভিত্তি করে"

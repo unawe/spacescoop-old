@@ -1078,7 +1078,8 @@ body.search-page #search-bar {
   font-family: "Comfortaa", sans-serif; }
 
 #article-slider {
-  padding: 0; }
+  padding: 0;
+  z-index: 0; }
 
 #more-info {
   background-color: #E2F2F8;
@@ -1171,8 +1172,11 @@ h2 {
     width: 100%;
     height: 407px;
     background-image: url(../img/frontispiece/background.png);
+    background-image: url(../img/frontispiece/background-xmas.svg);
     background-size: 880px auto;
     background-repeat: no-repeat; }
+    #frontispiece .background img {
+      width: 100%; }
   #frontispiece .frontispiece-img {
     height: 360px;
     width: 360px;
@@ -1183,6 +1187,7 @@ h2 {
       height: 360px;
       width: 360px;
       background-image: url(../img/frontispiece/image-static.svg);
+      background-image: url(../img/frontispiece/image-static-xmas.svg);
       background-repeat: no-repeat; }
     #frontispiece .frontispiece-img .rotate {
       position: absolute;
@@ -1325,7 +1330,8 @@ h2 {
       padding-bottom: 10px; }
     .downloads .share img {
       height: 40px;
-      margin-left: 10px; }
+      margin-left: 10px;
+      cursor: pointer; }
 
 #languages_menu {
   display: none;
