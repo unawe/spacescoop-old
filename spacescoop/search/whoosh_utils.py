@@ -103,7 +103,7 @@ def rebuild_indexes():
     try:
         writers = {}
         print("rebuild_indexes")
-        for obj_master in Article.objects.all().exclude(published=False).exclude(release_date__gte=datetime.today()):
+        for obj_master in Article.objects.available():
             for obj in obj_master.translations.all():
                 lang = obj.language_code
                 if not lang in writers:

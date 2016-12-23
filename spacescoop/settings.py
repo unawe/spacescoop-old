@@ -273,7 +273,7 @@ MEDIA_URL = '/media/'
 # Don't put anything in this directory yourself; store your static files
 # in apps' "static/" subdirectories and in STATICFILES_DIRS.
 # Example: "/var/www/example.com/static/"
-STATIC_ROOT = '/tmp'
+STATIC_ROOT = os.path.join(PARENT_DIR, 'spacescoop_static')
 
 # URL prefix for static files.
 # Example: "http://example.com/static/", "http://static.example.com/"
@@ -466,7 +466,7 @@ CKEDITOR_CONFIGS['spacescoop']['contentsCss'] = ['%sckeditor/ckeditor/contents.c
 CKEDITOR_CONFIGS['spacescoop']['toolbar_Custom'].insert(2, ['Glossary', ])
 # CKEDITOR_CONFIGS['spacescoop']['toolbar_Custom'].append(['Glossary', ])
 
-WHOOSH_INDEX_PATH = '/tmp/whoosh_index'
+WHOOSH_INDEX_PATH = os.path.join(PARENT_DIR, '/home/web/usr/whoosh_index/spacescoop')
 
 LOGGING = {
     'version': 1,
@@ -513,6 +513,7 @@ LOGGING = {
 
 if DJANGO_SETTINGS_CONFIG == 'DEV':
     # TIME_ZONE = 'Europe/Lisbon'
+    STATIC_ROOT = '/tmp'
     TEMPLATES[0]['OPTIONS']['debug'] = True  # TEMPLATE_DEBUG
     # debug toolbar
     INTERNAL_IPS = ('127.0.0.1',)
@@ -532,12 +533,10 @@ if DJANGO_SETTINGS_CONFIG == 'DEV':
     # THUMBNAIL_DUMMY_SOURCE = 'http://placekitten.com/%(width)s/%(height)s'
     # THUMBNAIL_DUMMY_RATIO = 1.5
 
-    WHOOSH_INDEX_PATH = os.path.join(PARENT_DIR, 'usr/whoosh_index')
+    WHOOSH_INDEX_PATH = os.path.join(PARENT_DIR, 'usr/whoosh_index/spacescoop')
 
 elif DJANGO_SETTINGS_CONFIG == 'PROD':
     DEBUG = False
-    STATIC_ROOT = os.path.join(PARENT_DIR, 'spacescoop_static')
-    WHOOSH_INDEX_PATH = os.path.join(PARENT_DIR, '/home/web/usr/whoosh_index')
     # PIPELINE_JS['scripts']['source_filenames'].append('js/download-analytics.js')
 
 else:
