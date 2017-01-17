@@ -3,3 +3,91 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#: spacescoop/newsletter/templates/spacescoop/newsletter/subscribe.html:14
+msgid "Newsletter"
+msgstr "ניוזלטר"
+
+#: spacescoop/newsletter/templates/spacescoop/newsletter/subscribe.html:25
+msgid ""
+"Subscribe for the newsletter now and receive all the latest news every "
+"month!!"
+msgstr "הרשמו לניוזלטר כעת ותקבלו חדשות עדכניות בכל חודש!"
+
+#: spacescoop/newsletter/templates/spacescoop/newsletter/subscribe.html:27
+msgid "Write your name here..."
+msgstr "...כתבו את שמכם כאן"
+
+#: spacescoop/newsletter/templates/spacescoop/newsletter/subscribe.html:30
+msgid "Write your e-mail here..."
+msgstr ""
+
+#: spacescoop/newsletter/templates/spacescoop/newsletter/subscribe.html:37
+msgid "Subscribe"
+msgstr "הרשמה"
+
+#: spacescoop/search/templates/search/search.html:22
+#: spacescoop/search/templates/search/search.html:27 templates/base.html:79
+msgid "Search"
+msgstr "חיפוש"
+
+#: spacescoop/search/templates/search/search.html:45
+#: spacescoop/search/templates/search/search.html:58
+msgid "Sorry, no results found that match your query."
+msgstr "מצטערים, לא נמצאו תוצאות תואמות לחיפוש זה"
+
+#: spacescoop/templates/spacescoop/home.html:15
+msgid "News from Across the Universe"
+msgstr "חדשות מרחבי החלל"
+
+#: spacescoop/templates/spacescoop/home.html:45
+msgid "Discover more awesome topics!"
+msgstr "!גלו נושאים מרתקים נוספים"
+
+#: templates/base.html:59
+msgid "Pictures"
+msgstr "תמונות"
+
+#: templates/base.html:65
+msgid "Space Words"
+msgstr "מונחי חלל"
+
+#: templates/base.html:71
+msgid "Topics"
+msgstr "נושאים"
+
+#: templates/base.html:103
+msgid "Still curious? Learn more..."
+msgstr "...עדיין סקרנים? קיראו עוד"
+
+#: templates/base.html:104
+msgid "What is Space Scoop?"
+msgstr "?מהו סקופ חלל"
+
+#: templates/base.html:105
+msgid "Discover more Astronomy"
+msgstr "גלו עוד אסטרונומיה"
+
+#: templates/base.html:106
+msgid "Inspiring a New Generation of Space Explorers"
+msgstr "לעורר השראה בדור חדש של מגלי חלל"
+
+#: templates/base.html:107
+msgid "Space Scoop Friends"
+msgstr "חברים של סקופ חלל"
+
+#: templates/base.html:111
+msgid "Contact Us"
+msgstr "צרו קשר"
+
+#: templates/base.html:138
+msgid ""
+"This website was produced by funding from the European Community's Horizon "
+"2020 Programme under grant agreement n° 638653"
+msgstr "האתר הופק בעזרת מימון של תוכנית Horizon 2020 של האיחוד האירופי, במסגרת"
+"מענק מס' 638653"
+
+#: templates/warning_fallback_language.html:4
+msgid ""
+"This page isn't available in your language yet, if you'd like to provide a "
+"translation please contact us at "
+msgstr "עמוד זה עדיין אינו זמין בעברית. אם ברצונך לתרגמו, אנא צור קשר דרך"

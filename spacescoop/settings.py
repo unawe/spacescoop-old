@@ -188,6 +188,18 @@ django.conf.locale.LANG_INFO['tzj'] = {
     'name': 'Tz’utujil',
     'name_local': 'Tz’utujil',
 }
+django.conf.locale.LANG_INFO['ar'] = {
+    'bidi': False,
+    'code': 'ar',
+    'name': 'Arabic',
+    'name_local': 'العربيّة',
+}
+django.conf.locale.LANG_INFO['he'] = {
+    'bidi': False,
+    'code': 'he',
+    'name': 'Hebrew',
+    'name_local': 'עברית',
+}
 
 
 # the default translation – the final attempt if no better matching translation is found
@@ -211,7 +223,7 @@ LANGUAGES = (
     ('fr', 'French'),
     ('el', 'Greek'),
     # ('gu', 'Gujarati'),
-    # ('he', 'Hebrew'),
+    ('he', 'Hebrew'),
     ('hi', 'Hindi'),
     # ('hu', 'Hungarian'),
     ('is', 'Icelandic'),
