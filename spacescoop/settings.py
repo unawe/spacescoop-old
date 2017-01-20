@@ -213,7 +213,7 @@ LANGUAGES = (
     ('es', 'Spanish'),
     ('pl', 'Polish'),
     # ('sq', 'Albanian'),
-    # ('ar', 'Arabic'),
+    ('ar', 'Arabic'),
     ('bn', 'Bengali'),
     ('bg', 'Bulgarian'),
     # ('zh', 'Chinese'),
