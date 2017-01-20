@@ -1171,10 +1171,7 @@ h2 {
     left: 0;
     width: 100%;
     height: 407px;
-    background-image: url(../img/frontispiece/background.png);
-    /* background-image: url(../img/frontispiece/background-xmas.svg);*/
-    background-size: 880px auto;
-    background-repeat: no-repeat; }
+  }
     #frontispiece .background img {
       width: 100%; }
   #frontispiece .frontispiece-img {
