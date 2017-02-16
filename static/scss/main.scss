@@ -419,10 +419,6 @@ h2 {
 		left: 0;
 		width: 100%;
 		height: 407px;
-		// height: 570px; // there's icicles plunging down
-		//background-image: url(../img/frontispiece/background.svg);
-		background-image: url(../img/frontispiece/background.png);	// No need for such a huge image as the SVG when it is a fixed size
-		background-image: url(../img/frontispiece/background-xmas.svg);	// xmas
 		background-size: $container-width auto;
 		background-repeat: no-repeat;  
 		img {
