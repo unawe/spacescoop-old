@@ -1,5 +1,7 @@
 msgid ""
 msgstr ""
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-02-17 20:46+0100\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
@@ -43,17 +45,86 @@ msgstr "חדשות מרחבי החלל"
 msgid "Discover more awesome topics!"
 msgstr "!גלו נושאים מרתקים נוספים"
 
+#: spacescoops/models.py:73 spacescoops/models.py:251
+msgid "title"
+msgstr ""
+
+#: spacescoops/templates/spacescoops/article_detail.html:40
+msgid "Cool Fact"
+msgstr "עובדה מעניינת"
+
+#: spacescoops/templates/spacescoops/article_detail.html:51
+msgid "This Space Scoop is based on a Press Release from "
+msgstr "סקופ החלל הזה מבוסס על הודעה לעיתונות של"
+
+#: spacescoops/templates/spacescoops/article_detail.html:54
+msgid "This Space Scoop is based on Press Releases from "
+msgstr "סקופ החלל הזה מבוסס על הודעה לעיתונות של"
+
+#: spacescoops/templates/spacescoops/article_detail.html:78
+msgid "Image"
+msgstr "תמונה"
+
+#: spacescoops/templates/spacescoops/article_detail.html:82
+msgid "Print Friendly Version"
+msgstr "גרסה להדפסה"
+
+#: spacescoops/templates/spacescoops/article_detail.html:85
+msgid "Share"
+msgstr "שתפו"
+
+#: spacescoops/templates/spacescoops/article_detail.html:114
+#, fuzzy
+#| msgid "Space Scoop Friends"
+msgid "More Space Scoops"
+msgstr "עוד סקופים  של חלל"
+
+#: spacescoops/templates/spacescoops/article_list.html:13
 #: templates/base.html:59
 msgid "Pictures"
 msgstr "תמונות"
 
-#: templates/base.html:65
-msgid "Space Words"
-msgstr "מונחי חלל"
+#: spacescoops/templates/spacescoops/article_list_component.html:33
+#: spacescoops/templates/spacescoops/category_list.html:24
+msgid "No articles are available."
+msgstr ""
 
+#: spacescoops/templates/spacescoops/category_detail.html:13
+#: spacescoops/templates/spacescoops/category_list.html:8
 #: templates/base.html:71
 msgid "Topics"
 msgstr "נושאים"
+
+#: spacescoops/templates/spacescoops/partner_detail.html:13
+msgid "Partner"
+msgstr ""
+
+#: spacescoops/templates/spacescoops/partner_list.html:9
+#: templates/base.html:107
+msgid "Space Scoop Friends"
+msgstr "חברים של סקופ חלל"
+
+#: spacescoops/templates/spacescoops/partner_list.html:30
+#, python-format
+msgid ""
+"<a href=\"%(partner_detail_url)s\">Read more Space Scoops</a> based on "
+"%(partner_name)s Press Releases."
+msgstr ""
+
+#: spacescoops/templates/spacescoops/partner_list.html:31
+#, python-format
+msgid ""
+"<a href=\"%(partner_url)s\" target=\"_blank\">Learn more</a> about "
+"%(partner_name)s."
+msgstr ""
+
+#: spacescoops/views.py:114
+msgid "Article does not exist"
+msgstr ""
+
+#: templates/base.html:65
+msgid "Space Words"
+msgstr "מונחי חלל"
 
 #: templates/base.html:103
 msgid "Still curious? Learn more..."
@@ -71,10 +142,6 @@ msgstr "גלו עוד אסטרונומיה"
 msgid "Inspiring a New Generation of Space Explorers"
 msgstr "לעורר השראה בדור חדש של מגלי חלל"
 
-#: templates/base.html:107
-msgid "Space Scoop Friends"
-msgstr "חברים של סקופ חלל"
-
 #: templates/base.html:111
 msgid "Contact Us"
 msgstr "צרו קשר"
@@ -83,8 +150,9 @@ msgstr "צרו קשר"
 msgid ""
 "This website was produced by funding from the European Community's Horizon "
 "2020 Programme under grant agreement n° 638653"
-msgstr "האתר הופק בעזרת מימון של תוכנית Horizon 2020 של האיחוד האירופי, במסגרת"
-"מענק מס' 638653"
+msgstr ""
+"האתר הופק בעזרת מימון של תוכנית Horizon 2020 של האיחוד האירופי, במסגרתמענק "
+"מס' 638653"
 
 #: templates/warning_fallback_language.html:4
 msgid ""

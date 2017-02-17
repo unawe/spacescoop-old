@@ -1,164 +1,243 @@
 msgid ""
 msgstr ""
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-02-17 20:46+0100\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-
-msgid "Stories"
-msgstr "Myndir"
-
-msgid "Pictures"
-msgstr "Myndir"
-
-msgid "Space Words"
-msgstr "Hugtök"
-
-msgid "Topics"
-msgstr "Viðfangsefni"
-
-msgid "Search"
-msgstr "Leit"
-
-msgid "News from Across the Universe"
-msgstr "Fréttir af himingeimnum"
-
-msgid "Discover more awesome topics!"
-msgstr "Skoðaðu fleiri spennandi viðfangsefni!"
-
-msgid "Still curious? Learn more..."
-msgstr "Enn forvitin(n)? Lærðu meira..."
-
-msgid "What is Space Scoop?"
-msgstr "Hvað er Space Scoop?"
-
-msgid "Discover more Astronomy"
-msgstr "Lærðu meira um stjörnufræði"
-
-msgid "Inspiring a New Generation of Space Explorers"
-msgstr "Veitir næstu kynslóð geimkönnuða innblástur"
-
-msgid "Space Scoop Friends"
-msgstr "Vinir Space Scoop"
-
-msgid "Contact Us"
-msgstr "Hafðu samband"
-
-msgid "Bringing News from across the Universe to kids around the world"
-msgstr "Færir börnum um allan heim fréttir af himingeimnum"
-
-msgid "Cool Fact"
-msgstr "Fróðleg staðreynd"
-
-msgid "This Space Scoop is based on a Press Release from INSTITUTION_NAME"
-msgstr "Þetta Space Scoop er byggt á fréttatilkynningu frá INSTITUTION_NAME"
-
-msgid "This Space Scoop is based on Press Releases from INSTITUTIONS_NAME"
-msgstr "Þetta Space Scoop er byggt á fréttatilkynningu frá INSTITUTIONS_NAME"
-
-msgid "Image"
-msgstr "Mynd"
-
-msgid "Print Friendly Version"
-msgstr "Prentvæn útgáfa"
-
-msgid "Share"
-msgstr "Deila"
-
-msgid "Related Space Scoops"
-msgstr "Tengd Space Scoops"
-
-msgid "More Space Scoops"
-msgstr "Fleiri Space Scoops"
-
-msgid "Partner"
-msgstr "Samstarfsaðilar"
-
-msgid "[Read more Space Scoops] based on INSTITUTION_NAME Press Releases"
-msgstr "[Lestu fleiri Space Scoops] frá INSTITUTION_NAME"
-
-msgid "[Learn more] about INSTITUTION_NAME"
-msgstr "[Lærðu meira] um INSTITUTION_NAME"
-
+#: spacescoop/newsletter/templates/spacescoop/newsletter/subscribe.html:14
 msgid "Newsletter"
 msgstr "Fréttabréf"
 
-msgid "Subscribe for the newsletter now and receive all the latest news every month!!"
-msgstr "Vertu áskrifandi að fréttabréfinu og fáðu nýjustu fréttir sendar mánaðarlega!"
+#: spacescoop/newsletter/templates/spacescoop/newsletter/subscribe.html:25
+msgid ""
+"Subscribe for the newsletter now and receive all the latest news every "
+"month!!"
+msgstr ""
+"Vertu áskrifandi að fréttabréfinu og fáðu nýjustu fréttir sendar mánaðarlega!"
 
+#: spacescoop/newsletter/templates/spacescoop/newsletter/subscribe.html:27
 msgid "Write your name here..."
 msgstr "Skrifaðu nafnið þitt hér..."
 
+#: spacescoop/newsletter/templates/spacescoop/newsletter/subscribe.html:30
 msgid "Write your e-mail here..."
 msgstr "Skrifaðu tölvupóstfangið þitt hér..."
 
+#: spacescoop/newsletter/templates/spacescoop/newsletter/subscribe.html:37
 msgid "Subscribe"
 msgstr "Áskrift"
 
-msgid "No articles are available."
-msgstr "Engar greinar til"
+#: spacescoop/search/templates/search/search.html:22
+#: spacescoop/search/templates/search/search.html:27 templates/base.html:79
+msgid "Search"
+msgstr "Leit"
 
+#: spacescoop/search/templates/search/search.html:45
+#: spacescoop/search/templates/search/search.html:58
 msgid "Sorry, no results found that match your query."
 msgstr "Afsakaðu, engar niðurstöður passa við leitina þína"
 
-msgid "This page isn't available in your language yet, if you'd like to provide a translation please contact us at CONTACT_ADDRESS"
-msgstr "Þessi vefsíða er því miður ekki enn til á tungumálinu þínu, hafðu samband ef þú vilt þýða hana CONTACT_ADDRESS"
+#: spacescoop/templates/spacescoop/home.html:15
+msgid "News from Across the Universe"
+msgstr "Fréttir af himingeimnum"
 
-msgid "Atoms and Molecules"
-msgstr "Atóm og sameindir"
+#: spacescoop/templates/spacescoop/home.html:45
+msgid "Discover more awesome topics!"
+msgstr "Skoðaðu fleiri spennandi viðfangsefni!"
 
-msgid "Cosmology"
-msgstr "Heimsfræði"
+#: spacescoops/models.py:73 spacescoops/models.py:251
+msgid "title"
+msgstr ""
 
-msgid "Black Holes"
-msgstr "Svarthol"
+#: spacescoops/templates/spacescoops/article_detail.html:40
+msgid "Cool Fact"
+msgstr "Fróðleg staðreynd"
 
-msgid "Dark Matter"
-msgstr "Hulduefni"
+#: spacescoops/templates/spacescoops/article_detail.html:51
+#, fuzzy
+#| msgid "This Space Scoop is based on a Press Release from INSTITUTION_NAME"
+msgid "This Space Scoop is based on a Press Release from "
+msgstr "Þetta Space Scoop er byggt á fréttatilkynningu frá INSTITUTION_NAME"
 
-msgid "Missions"
-msgstr "Geimleiðangrar"
+#: spacescoops/templates/spacescoops/article_detail.html:54
+#, fuzzy
+#| msgid "This Space Scoop is based on Press Releases from INSTITUTIONS_NAME"
+msgid "This Space Scoop is based on Press Releases from "
+msgstr "Þetta Space Scoop er byggt á fréttatilkynningu frá INSTITUTIONS_NAME"
 
-msgid "Technology"
-msgstr "Tækni"
+#: spacescoops/templates/spacescoops/article_detail.html:78
+msgid "Image"
+msgstr "Mynd"
 
-msgid "Gravity"
-msgstr "Þyngdarkraftur"
+#: spacescoops/templates/spacescoops/article_detail.html:82
+msgid "Print Friendly Version"
+msgstr "Prentvæn útgáfa"
 
-msgid "Solar System"
-msgstr "Sólkerfið"
+#: spacescoops/templates/spacescoops/article_detail.html:85
+msgid "Share"
+msgstr "Deila"
 
-msgid "Planets"
-msgstr "Reikistjörnur"
+#: spacescoops/templates/spacescoops/article_detail.html:114
+msgid "More Space Scoops"
+msgstr "Fleiri Space Scoops"
 
-msgid "Comets"
-msgstr "Halastjörnur"
+#: spacescoops/templates/spacescoops/article_list.html:13
+#: templates/base.html:59
+msgid "Pictures"
+msgstr "Myndir"
 
-msgid "Asteroids"
-msgstr "Smástirni"
+#: spacescoops/templates/spacescoops/article_list_component.html:33
+#: spacescoops/templates/spacescoops/category_list.html:24
+msgid "No articles are available."
+msgstr "Engar greinar til"
 
-msgid "Supernova Remnants"
-msgstr "Sprengistjörnuleifar"
+#: spacescoops/templates/spacescoops/category_detail.html:13
+#: spacescoops/templates/spacescoops/category_list.html:8
+#: templates/base.html:71
+msgid "Topics"
+msgstr "Viðfangsefni"
 
-msgid "Planetary Nebulae"
-msgstr "Hringþokur"
+#: spacescoops/templates/spacescoops/partner_detail.html:13
+msgid "Partner"
+msgstr "Samstarfsaðilar"
 
-msgid "Star Forming Nebulae"
-msgstr "Stjörnumyndunarsvæði"
+#: spacescoops/templates/spacescoops/partner_list.html:9
+#: templates/base.html:107
+msgid "Space Scoop Friends"
+msgstr "Vinir Space Scoop"
 
-msgid "Irregular Galaxies"
-msgstr "Óregluleg vetrarbraut"
+#: spacescoops/templates/spacescoops/partner_list.html:30
+#, python-format
+msgid ""
+"<a href=\"%(partner_detail_url)s\">Read more Space Scoops</a> based on "
+"%(partner_name)s Press Releases."
+msgstr ""
 
-msgid "Elliptical Galaxies"
-msgstr "Sporvöluvetrarbraut"
+#: spacescoops/templates/spacescoops/partner_list.html:31
+#, python-format
+msgid ""
+"<a href=\"%(partner_url)s\" target=\"_blank\">Learn more</a> about "
+"%(partner_name)s."
+msgstr ""
 
-msgid "Spiral Galaxies"
-msgstr "Þyrilvetrarbraut"
+#: spacescoops/views.py:114
+msgid "Article does not exist"
+msgstr ""
 
-msgid "Stars"
-msgstr "Stjarna"
+#: templates/base.html:65
+msgid "Space Words"
+msgstr "Hugtök"
 
-msgid "Open clusters"
-msgstr "Lausþyrpingar"
+#: templates/base.html:103
+msgid "Still curious? Learn more..."
+msgstr "Enn forvitin(n)? Lærðu meira..."
 
-msgid "Globular clusters"
-msgstr "Kúluþyrpingar"
+#: templates/base.html:104
+msgid "What is Space Scoop?"
+msgstr "Hvað er Space Scoop?"
+
+#: templates/base.html:105
+msgid "Discover more Astronomy"
+msgstr "Lærðu meira um stjörnufræði"
+
+#: templates/base.html:106
+msgid "Inspiring a New Generation of Space Explorers"
+msgstr "Veitir næstu kynslóð geimkönnuða innblástur"
+
+#: templates/base.html:111
+msgid "Contact Us"
+msgstr "Hafðu samband"
+
+#: templates/base.html:138
+msgid ""
+"This website was produced by funding from the European Community's Horizon "
+"2020 Programme under grant agreement n° 638653"
+msgstr ""
+
+#: templates/warning_fallback_language.html:4
+#, fuzzy
+#| msgid ""
+#| "This page isn't available in your language yet, if you'd like to provide "
+#| "a translation please contact us at CONTACT_ADDRESS"
+msgid ""
+"This page isn't available in your language yet, if you'd like to provide a "
+"translation please contact us at "
+msgstr ""
+"Þessi vefsíða er því miður ekki enn til á tungumálinu þínu, hafðu samband ef "
+"þú vilt þýða hana CONTACT_ADDRESS"
+
+#~ msgid "Stories"
+#~ msgstr "Myndir"
+
+#~ msgid "Bringing News from across the Universe to kids around the world"
+#~ msgstr "Færir börnum um allan heim fréttir af himingeimnum"
+
+#~ msgid "Related Space Scoops"
+#~ msgstr "Tengd Space Scoops"
+
+#~ msgid "[Read more Space Scoops] based on INSTITUTION_NAME Press Releases"
+#~ msgstr "[Lestu fleiri Space Scoops] frá INSTITUTION_NAME"
+
+#~ msgid "[Learn more] about INSTITUTION_NAME"
+#~ msgstr "[Lærðu meira] um INSTITUTION_NAME"
+
+#~ msgid "Atoms and Molecules"
+#~ msgstr "Atóm og sameindir"
+
+#~ msgid "Cosmology"
+#~ msgstr "Heimsfræði"
+
+#~ msgid "Black Holes"
+#~ msgstr "Svarthol"
+
+#~ msgid "Dark Matter"
+#~ msgstr "Hulduefni"
+
+#~ msgid "Missions"
+#~ msgstr "Geimleiðangrar"
+
+#~ msgid "Technology"
+#~ msgstr "Tækni"
+
+#~ msgid "Gravity"
+#~ msgstr "Þyngdarkraftur"
+
+#~ msgid "Solar System"
+#~ msgstr "Sólkerfið"
+
+#~ msgid "Planets"
+#~ msgstr "Reikistjörnur"
+
+#~ msgid "Comets"
+#~ msgstr "Halastjörnur"
+
+#~ msgid "Asteroids"
+#~ msgstr "Smástirni"
+
+#~ msgid "Supernova Remnants"
+#~ msgstr "Sprengistjörnuleifar"
+
+#~ msgid "Planetary Nebulae"
+#~ msgstr "Hringþokur"
+
+#~ msgid "Star Forming Nebulae"
+#~ msgstr "Stjörnumyndunarsvæði"
+
+#~ msgid "Irregular Galaxies"
+#~ msgstr "Óregluleg vetrarbraut"
+
+#~ msgid "Elliptical Galaxies"
+#~ msgstr "Sporvöluvetrarbraut"
+
+#~ msgid "Spiral Galaxies"
+#~ msgstr "Þyrilvetrarbraut"
+
+#~ msgid "Stars"
+#~ msgstr "Stjarna"
+
+#~ msgid "Open clusters"
+#~ msgstr "Lausþyrpingar"
+
+#~ msgid "Globular clusters"
+#~ msgstr "Kúluþyrpingar"

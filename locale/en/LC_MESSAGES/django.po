@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-23 00:08+0100\n"
+"POT-Creation-Date: 2017-02-17 20:46+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -57,16 +57,83 @@ msgstr ""
 msgid "Discover more awesome topics!"
 msgstr ""
 
+#: spacescoops/models.py:73 spacescoops/models.py:251
+msgid "title"
+msgstr ""
+
+#: spacescoops/templates/spacescoops/article_detail.html:40
+msgid "Cool Fact"
+msgstr ""
+
+#: spacescoops/templates/spacescoops/article_detail.html:51
+msgid "This Space Scoop is based on a Press Release from "
+msgstr ""
+
+#: spacescoops/templates/spacescoops/article_detail.html:54
+msgid "This Space Scoop is based on Press Releases from "
+msgstr ""
+
+#: spacescoops/templates/spacescoops/article_detail.html:78
+msgid "Image"
+msgstr ""
+
+#: spacescoops/templates/spacescoops/article_detail.html:82
+msgid "Print Friendly Version"
+msgstr ""
+
+#: spacescoops/templates/spacescoops/article_detail.html:85
+msgid "Share"
+msgstr ""
+
+#: spacescoops/templates/spacescoops/article_detail.html:114
+msgid "More Space Scoops"
+msgstr ""
+
+#: spacescoops/templates/spacescoops/article_list.html:13
 #: templates/base.html:59
 msgid "Pictures"
 msgstr "Stories"
 
-#: templates/base.html:65
-msgid "Space Words"
+#: spacescoops/templates/spacescoops/article_list_component.html:33
+#: spacescoops/templates/spacescoops/category_list.html:24
+msgid "No articles are available."
 msgstr ""
 
+#: spacescoops/templates/spacescoops/category_detail.html:13
+#: spacescoops/templates/spacescoops/category_list.html:8
 #: templates/base.html:71
 msgid "Topics"
+msgstr ""
+
+#: spacescoops/templates/spacescoops/partner_detail.html:13
+msgid "Partner"
+msgstr ""
+
+#: spacescoops/templates/spacescoops/partner_list.html:9
+#: templates/base.html:107
+msgid "Space Scoop Friends"
+msgstr ""
+
+#: spacescoops/templates/spacescoops/partner_list.html:30
+#, python-format
+msgid ""
+"<a href=\"%(partner_detail_url)s\">Read more Space Scoops</a> based on "
+"%(partner_name)s Press Releases."
+msgstr ""
+
+#: spacescoops/templates/spacescoops/partner_list.html:31
+#, python-format
+msgid ""
+"<a href=\"%(partner_url)s\" target=\"_blank\">Learn more</a> about "
+"%(partner_name)s."
+msgstr ""
+
+#: spacescoops/views.py:114
+msgid "Article does not exist"
+msgstr ""
+
+#: templates/base.html:65
+msgid "Space Words"
 msgstr ""
 
 #: templates/base.html:103
@@ -83,10 +150,6 @@ msgstr ""
 
 #: templates/base.html:106
 msgid "Inspiring a New Generation of Space Explorers"
-msgstr ""
-
-#: templates/base.html:107
-msgid "Space Scoop Friends"
 msgstr ""
 
 #: templates/base.html:111

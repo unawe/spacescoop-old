@@ -1,167 +1,250 @@
 msgid ""
 msgstr ""
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-02-17 20:46+0100\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-
-msgid "Stories"
-msgstr "Imagini"
-
-msgid "Pictures"
-msgstr "Imagini"
-
-msgid "Space Words"
-msgstr "Cuvinte din astronomie"
-
-msgid "Topics"
-msgstr "Subiecte"
-
-msgid "Search"
-msgstr "Caută"
-
-msgid "News from Across the Universe"
-msgstr "Știri din întregul Univers!"
-
-msgid "Discover more awesome topics!"
-msgstr "Descoperă mai multe subiecte interesante!"
-
-msgid "Still curious? Learn more..."
-msgstr "Ești încă curios? Află mai multe..."
-
-msgid "What is Space Scoop?"
-msgstr "Ce este Space Scoop?"
-
-msgid "Discover more Astronomy"
-msgstr "Descoperă mai multe despre astronomie"
-
-msgid "Inspiring a New Generation of Space Explorers"
-msgstr "Inspiră o nouă generație de exploratori spațiali"
-
-msgid "Space Scoop Friends"
-msgstr "Prietenii Space Scoop"
-
-msgid "Contact Us"
-msgstr "Contactează-ne!"
-
-msgid "Bringing News from across the Universe to kids around the world"
-msgstr "Aduce știrile din Univers copiilor din lumea întreagă"
-
-msgid "Cool Fact"
-msgstr "Interesant"
-
-msgid "This Space Scoop is based on a Press Release from INSTITUTION_NAME"
-msgstr "Acest Space Scoop este realizat pe baza unui comunicat de presă de la INSTITUTION_NAME"
-
-msgid "This Space Scoop is based on Press Releases from INSTITUTIONS_NAME"
-msgstr "Acest Space Scoop este realizat pe baza unui comunicat de presă de la INSTITUTIONS_NAME"
-
-msgid "Image"
-msgstr "Imagine"
-
-msgid "Print Friendly Version"
-msgstr "Versiune printabilă"
-
-msgid "Share"
-msgstr "Distribuie"
-
-msgid "Related Space Scoops"
-msgstr "Articole Space Scoop  asemănatoare"
-
-msgid "More Space Scoops"
-msgstr "Mai multe articole Space Scoop"
-
-msgid "Partner"
-msgstr "Partener"
-
-msgid "[Read more Space Scoops] based on INSTITUTION_NAME Press Releases"
-msgstr "[Citește mai multe articole Space Scoop] realizate pe baza comunicatelor de presă de la  INSTITUTION_NAME"
-
-msgid "[Learn more] about INSTITUTION_NAME"
-msgstr "[Află mai multe] despre INSTITUTION_NAME"
-
+#: spacescoop/newsletter/templates/spacescoop/newsletter/subscribe.html:14
 msgid "Newsletter"
 msgstr "Buletin informativ"
 
-msgid "Subscribe for the newsletter now and receive all the latest news every month!!"
+#: spacescoop/newsletter/templates/spacescoop/newsletter/subscribe.html:25
+msgid ""
+"Subscribe for the newsletter now and receive all the latest news every "
+"month!!"
 msgstr "Inreginstrează-te  pentru a primi lunar cele mai recente știri!"
 
+#: spacescoop/newsletter/templates/spacescoop/newsletter/subscribe.html:27
 msgid "Write your name here..."
 msgstr "Scrie numele tău aici..."
 
+#: spacescoop/newsletter/templates/spacescoop/newsletter/subscribe.html:30
 msgid "Write your e-mail here..."
 msgstr "Scrie adresa ta de e-mail aici..."
 
+#: spacescoop/newsletter/templates/spacescoop/newsletter/subscribe.html:37
 msgid "Subscribe"
 msgstr "Inreginstrează-te"
 
-msgid "No articles are available."
-msgstr "Nu sunt articole disponibile."
+#: spacescoop/search/templates/search/search.html:22
+#: spacescoop/search/templates/search/search.html:27 templates/base.html:79
+msgid "Search"
+msgstr "Caută"
 
+#: spacescoop/search/templates/search/search.html:45
+#: spacescoop/search/templates/search/search.html:58
 msgid "Sorry, no results found that match your query."
 msgstr "Ne pare rau, nu a fost găsit nici un rezultat in urma căutării tale."
 
-msgid "This page isn't available in your language yet, if you'd like to provide a translation please contact us at CONTACT_ADDRESS"
-msgstr "Acestă pagină nu este tradusă în acestă limbă; dacă doresti să realizezi traducerea te rugăm să ne contactezi la adresa CONTACT_ADDRESS"
+#: spacescoop/templates/spacescoop/home.html:15
+msgid "News from Across the Universe"
+msgstr "Știri din întregul Univers!"
 
-msgid "Atoms and Molecules"
-msgstr "Atomi și molecule"
+#: spacescoop/templates/spacescoop/home.html:45
+msgid "Discover more awesome topics!"
+msgstr "Descoperă mai multe subiecte interesante!"
 
-msgid "Cosmology"
-msgstr "Cosmologie"
+#: spacescoops/models.py:73 spacescoops/models.py:251
+msgid "title"
+msgstr ""
 
-msgid "Black Holes"
-msgstr "Gaură neagră"
+#: spacescoops/templates/spacescoops/article_detail.html:40
+msgid "Cool Fact"
+msgstr "Interesant"
 
-msgid "Dark Matter"
-msgstr "Materie întunecată"
+#: spacescoops/templates/spacescoops/article_detail.html:51
+#, fuzzy
+#| msgid "This Space Scoop is based on a Press Release from INSTITUTION_NAME"
+msgid "This Space Scoop is based on a Press Release from "
+msgstr ""
+"Acest Space Scoop este realizat pe baza unui comunicat de presă de la "
+"INSTITUTION_NAME"
 
-msgid "Missions"
-msgstr "Misiuni spațiale"
+#: spacescoops/templates/spacescoops/article_detail.html:54
+#, fuzzy
+#| msgid "This Space Scoop is based on Press Releases from INSTITUTIONS_NAME"
+msgid "This Space Scoop is based on Press Releases from "
+msgstr ""
+"Acest Space Scoop este realizat pe baza unui comunicat de presă de la "
+"INSTITUTIONS_NAME"
 
-msgid "Technology"
-msgstr "Tehnologie"
+#: spacescoops/templates/spacescoops/article_detail.html:78
+msgid "Image"
+msgstr "Imagine"
 
-msgid "Gravity"
-msgstr "Gravitație"
+#: spacescoops/templates/spacescoops/article_detail.html:82
+msgid "Print Friendly Version"
+msgstr "Versiune printabilă"
 
-msgid "Solar System"
-msgstr "Sistem Solar"
+#: spacescoops/templates/spacescoops/article_detail.html:85
+msgid "Share"
+msgstr "Distribuie"
 
-msgid "Planets"
-msgstr "Planete"
+#: spacescoops/templates/spacescoops/article_detail.html:114
+msgid "More Space Scoops"
+msgstr "Mai multe articole Space Scoop"
 
-msgid "Comets"
-msgstr "Comete"
+#: spacescoops/templates/spacescoops/article_list.html:13
+#: templates/base.html:59
+msgid "Pictures"
+msgstr "Imagini"
 
-msgid "Asteroids"
-msgstr "Asteroizi"
+#: spacescoops/templates/spacescoops/article_list_component.html:33
+#: spacescoops/templates/spacescoops/category_list.html:24
+msgid "No articles are available."
+msgstr "Nu sunt articole disponibile."
 
-msgid "Supernova Remnants"
-msgstr "Rest de supernovă"
+#: spacescoops/templates/spacescoops/category_detail.html:13
+#: spacescoops/templates/spacescoops/category_list.html:8
+#: templates/base.html:71
+msgid "Topics"
+msgstr "Subiecte"
 
-msgid "Planetary Nebulae"
-msgstr "Nebuloasă planetară"
+#: spacescoops/templates/spacescoops/partner_detail.html:13
+msgid "Partner"
+msgstr "Partener"
 
-msgid "Star Forming Nebulae"
-msgstr "Nebuloasă în care se nasc stele"
+#: spacescoops/templates/spacescoops/partner_list.html:9
+#: templates/base.html:107
+msgid "Space Scoop Friends"
+msgstr "Prietenii Space Scoop"
 
-msgid "Irregular Galaxies"
-msgstr "Galaxie neregulată"
+#: spacescoops/templates/spacescoops/partner_list.html:30
+#, python-format
+msgid ""
+"<a href=\"%(partner_detail_url)s\">Read more Space Scoops</a> based on "
+"%(partner_name)s Press Releases."
+msgstr ""
 
-msgid "Elliptical Galaxies"
-msgstr "Galaxie eliptică"
+#: spacescoops/templates/spacescoops/partner_list.html:31
+#, python-format
+msgid ""
+"<a href=\"%(partner_url)s\" target=\"_blank\">Learn more</a> about "
+"%(partner_name)s."
+msgstr ""
 
-msgid "Spiral Galaxies"
-msgstr "Galaxie de tip spirală"
+#: spacescoops/views.py:114
+msgid "Article does not exist"
+msgstr ""
 
-msgid "Stars"
-msgstr "Stea"
+#: templates/base.html:65
+msgid "Space Words"
+msgstr "Cuvinte din astronomie"
 
-msgid "Open clusters"
-msgstr "Roi deschis"
+#: templates/base.html:103
+msgid "Still curious? Learn more..."
+msgstr "Ești încă curios? Află mai multe..."
 
-msgid "Globular clusters"
-msgstr "Roi globular"
+#: templates/base.html:104
+msgid "What is Space Scoop?"
+msgstr "Ce este Space Scoop?"
 
-msgid "This website was produced by funding from the European Community's Horizon 2020 Programme under grant agreement n° 638653"
-msgstr "Acest website a fost realizat pe faza unei finanțări în cadrul programului Comunității Europene -  Horizon 2020, grant  n° 638653."
+#: templates/base.html:105
+msgid "Discover more Astronomy"
+msgstr "Descoperă mai multe despre astronomie"
+
+#: templates/base.html:106
+msgid "Inspiring a New Generation of Space Explorers"
+msgstr "Inspiră o nouă generație de exploratori spațiali"
+
+#: templates/base.html:111
+msgid "Contact Us"
+msgstr "Contactează-ne!"
+
+#: templates/base.html:138
+msgid ""
+"This website was produced by funding from the European Community's Horizon "
+"2020 Programme under grant agreement n° 638653"
+msgstr ""
+"Acest website a fost realizat pe faza unei finanțări în cadrul programului "
+"Comunității Europene -  Horizon 2020, grant  n° 638653."
+
+#: templates/warning_fallback_language.html:4
+#, fuzzy
+#| msgid ""
+#| "This page isn't available in your language yet, if you'd like to provide "
+#| "a translation please contact us at CONTACT_ADDRESS"
+msgid ""
+"This page isn't available in your language yet, if you'd like to provide a "
+"translation please contact us at "
+msgstr ""
+"Acestă pagină nu este tradusă în acestă limbă; dacă doresti să realizezi "
+"traducerea te rugăm să ne contactezi la adresa CONTACT_ADDRESS"
+
+#~ msgid "Stories"
+#~ msgstr "Imagini"
+
+#~ msgid "Bringing News from across the Universe to kids around the world"
+#~ msgstr "Aduce știrile din Univers copiilor din lumea întreagă"
+
+#~ msgid "Related Space Scoops"
+#~ msgstr "Articole Space Scoop  asemănatoare"
+
+#~ msgid "[Read more Space Scoops] based on INSTITUTION_NAME Press Releases"
+#~ msgstr ""
+#~ "[Citește mai multe articole Space Scoop] realizate pe baza comunicatelor "
+#~ "de presă de la  INSTITUTION_NAME"
+
+#~ msgid "[Learn more] about INSTITUTION_NAME"
+#~ msgstr "[Află mai multe] despre INSTITUTION_NAME"
+
+#~ msgid "Atoms and Molecules"
+#~ msgstr "Atomi și molecule"
+
+#~ msgid "Cosmology"
+#~ msgstr "Cosmologie"
+
+#~ msgid "Black Holes"
+#~ msgstr "Gaură neagră"
+
+#~ msgid "Dark Matter"
+#~ msgstr "Materie întunecată"
+
+#~ msgid "Missions"
+#~ msgstr "Misiuni spațiale"
+
+#~ msgid "Technology"
+#~ msgstr "Tehnologie"
+
+#~ msgid "Gravity"
+#~ msgstr "Gravitație"
+
+#~ msgid "Solar System"
+#~ msgstr "Sistem Solar"
+
+#~ msgid "Planets"
+#~ msgstr "Planete"
+
+#~ msgid "Comets"
+#~ msgstr "Comete"
+
+#~ msgid "Asteroids"
+#~ msgstr "Asteroizi"
+
+#~ msgid "Supernova Remnants"
+#~ msgstr "Rest de supernovă"
+
+#~ msgid "Planetary Nebulae"
+#~ msgstr "Nebuloasă planetară"
+
+#~ msgid "Star Forming Nebulae"
+#~ msgstr "Nebuloasă în care se nasc stele"
+
+#~ msgid "Irregular Galaxies"
+#~ msgstr "Galaxie neregulată"
+
+#~ msgid "Elliptical Galaxies"
+#~ msgstr "Galaxie eliptică"
+
+#~ msgid "Spiral Galaxies"
+#~ msgstr "Galaxie de tip spirală"
+
+#~ msgid "Stars"
+#~ msgstr "Stea"
+
+#~ msgid "Open clusters"
+#~ msgstr "Roi deschis"
+
+#~ msgid "Globular clusters"
+#~ msgstr "Roi globular"
