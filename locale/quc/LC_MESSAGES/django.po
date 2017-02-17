@@ -1,167 +1,251 @@
 msgid ""
 msgstr ""
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-02-17 20:46+0100\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-
-msgid "Stories"
-msgstr "Taq wachib'al"
-
-msgid "Pictures"
-msgstr "Taq wachib'al"
-
-msgid "Space Words"
-msgstr "Taq tzij rech uwakaj"
-
-msgid "Topics"
-msgstr "Taq ub'i' ch'ob'oj"
-
-msgid "Search"
-msgstr "Utzukuxik"
-
-msgid "News from Across the Universe"
-msgstr "Ba'onoj rech uwakaj"
-
-msgid "Discover more awesome topics!"
-msgstr "¡Chariqa' nik'aj chik ayib'al ub'i' ch'ob'oj!"
-
-msgid "Still curious? Learn more..."
-msgstr "¿K'o kawaj kaweta'maj na? chaweta'maj nik'aj chik..."
-
-msgid "What is Space Scoop?"
-msgstr "¿Jas uwach ri' Space Scoop?"
-
-msgid "Discover more Astronomy"
-msgstr "Chariqa' nik'aj chik Unik'oxik uwakaj"
-
-msgid "Inspiring a New Generation of Space Explorers"
-msgstr "Uk'utik chi kiwach k'ak' taq nik'ol uwakaj"
-
-msgid "Space Scoop Friends"
-msgstr "Achi'il rech Space Scoop"
-
-msgid "Contact Us"
-msgstr "Chojach'ab'ej"
-
-msgid "Bringing News from across the Universe to kids around the world"
-msgstr "utzijoxik taq b'anoj rech uwakaj chi kech ak'alab' rech ronojel we uwachulew"
-
-msgid "Cool Fact"
-msgstr "Ajawatal juq'attzij"
-
-msgid "This Space Scoop is based on a Press Release from INSTITUTION_NAME"
-msgstr "We Space Scoop elesam chech jun tzijonem rech b'anoj rech INSTITUTION_NAME"
-
-msgid "This Space Scoop is based on Press Releases from INSTITUTIONS_NAME"
-msgstr "We Space Scoop elesam chech jun tzijonem rech b'anoj rech INSTITUTION_NAME"
-
-msgid "Image"
-msgstr "Wachib'al"
-
-msgid "Print Friendly Version"
-msgstr "Okib'al rech Man k'ax ta utz'ajtz'ib'axik"
-
-msgid "Share"
-msgstr "Ukomonexik"
-
-msgid "Related Space Scoops"
-msgstr "Ujunamatajem Space Scoops"
-
-msgid "More Space Scoops"
-msgstr "Nik'aj chi Space Scoops"
-
-msgid "Partner"
-msgstr "Rachi'l"
-
-msgid "[Read more Space Scoops] based on INSTITUTION_NAME Press Releases"
-msgstr "[Usik'ixik nik'aj chik Space Scoops] petinaq pa ub'ixikil INSTITUTION_NAME"
-
-msgid "[Learn more] about INSTITUTION_NAME"
-msgstr "[Reta'maxik nik'aj chik] chi rij INSTITUTION_NAME"
-
+#: spacescoop/newsletter/templates/spacescoop/newsletter/subscribe.html:14
 msgid "Newsletter"
 msgstr "No'jwuj"
 
-msgid "Subscribe for the newsletter now and receive all the latest news every month!!"
-msgstr "!Chatz'ib'aj awib' chanim xa k'u jeri' kataq le uk'isb'al taq no'jwuj chi ik'!"
+#: spacescoop/newsletter/templates/spacescoop/newsletter/subscribe.html:25
+msgid ""
+"Subscribe for the newsletter now and receive all the latest news every "
+"month!!"
+msgstr ""
+"!Chatz'ib'aj awib' chanim xa k'u jeri' kataq le uk'isb'al taq no'jwuj chi "
+"ik'!"
 
+#: spacescoop/newsletter/templates/spacescoop/newsletter/subscribe.html:27
 msgid "Write your name here..."
 msgstr "Chatz'ib'aj le ab'i' waral..."
 
+#: spacescoop/newsletter/templates/spacescoop/newsletter/subscribe.html:30
 msgid "Write your e-mail here..."
 msgstr "Chatz'ib'aj le ataqoqxa'nib'al pa kematz'ib' waral..."
 
+#: spacescoop/newsletter/templates/spacescoop/newsletter/subscribe.html:37
 msgid "Subscribe"
 msgstr "Utz'ib'axik ib'"
 
-msgid "No articles are available."
-msgstr "Man k'o ta jastaq jamal uwach."
+#: spacescoop/search/templates/search/search.html:22
+#: spacescoop/search/templates/search/search.html:27 templates/base.html:79
+msgid "Search"
+msgstr "Utzukuxik"
 
+#: spacescoop/search/templates/search/search.html:45
+#: spacescoop/search/templates/search/search.html:58
 msgid "Sorry, no results found that match your query."
 msgstr "Chakuyu', man k'o ta kajunamataj ruk' le atzukunem."
 
-msgid "This page isn't available in your language yet, if you'd like to provide a translation please contact us at CONTACT_ADDRESS"
-msgstr "We uxaq web' man jamal ta uwach pa le ach'ab'al, xa k'u, we kawaj kaq'axej taq le tzij pa le ach'ab'al, chojach'ab'ej pa CONTACT_ADDRESS"
+#: spacescoop/templates/spacescoop/home.html:15
+msgid "News from Across the Universe"
+msgstr "Ba'onoj rech uwakaj"
 
-msgid "Atoms and Molecules"
-msgstr "Taq Xe'lq'aq' chi'l taq ucholajil xe'lq'aq'"
+#: spacescoop/templates/spacescoop/home.html:45
+msgid "Discover more awesome topics!"
+msgstr "¡Chariqa' nik'aj chik ayib'al ub'i' ch'ob'oj!"
 
-msgid "Cosmology"
-msgstr "Ucholajil kaj"
+#: spacescoops/models.py:73 spacescoops/models.py:251
+msgid "title"
+msgstr ""
 
-msgid "Black Holes"
-msgstr "Q'eq taq jul"
+#: spacescoops/templates/spacescoops/article_detail.html:40
+msgid "Cool Fact"
+msgstr "Ajawatal juq'attzij"
 
-msgid "Dark Matter"
-msgstr "Q'eq uxe'al"
+#: spacescoops/templates/spacescoops/article_detail.html:51
+#, fuzzy
+#| msgid "This Space Scoop is based on a Press Release from INSTITUTION_NAME"
+msgid "This Space Scoop is based on a Press Release from "
+msgstr ""
+"We Space Scoop elesam chech jun tzijonem rech b'anoj rech INSTITUTION_NAME"
 
-msgid "Missions"
-msgstr "Taq rilik chak"
+#: spacescoops/templates/spacescoops/article_detail.html:54
+#, fuzzy
+#| msgid "This Space Scoop is based on Press Releases from INSTITUTIONS_NAME"
+msgid "This Space Scoop is based on Press Releases from "
+msgstr ""
+"We Space Scoop elesam chech jun tzijonem rech b'anoj rech INSTITUTION_NAME"
 
-msgid "Technology"
-msgstr "K'ak' eta'mab'al"
+#: spacescoops/templates/spacescoops/article_detail.html:78
+msgid "Image"
+msgstr "Wachib'al"
 
-msgid "Gravity"
-msgstr "Ujek'b'alil ulew"
+#: spacescoops/templates/spacescoops/article_detail.html:82
+msgid "Print Friendly Version"
+msgstr "Okib'al rech Man k'ax ta utz'ajtz'ib'axik"
 
-msgid "Solar System"
-msgstr "Ukemb'al q'ij"
+#: spacescoops/templates/spacescoops/article_detail.html:85
+msgid "Share"
+msgstr "Ukomonexik"
 
-msgid "Planets"
-msgstr "Taq ralq'ij"
+#: spacescoops/templates/spacescoops/article_detail.html:114
+msgid "More Space Scoops"
+msgstr "Nik'aj chi Space Scoops"
 
-msgid "Comets"
-msgstr "Taq juch'ch'umil"
+#: spacescoops/templates/spacescoops/article_list.html:13
+#: templates/base.html:59
+msgid "Pictures"
+msgstr "Taq wachib'al"
 
-msgid "Asteroids"
-msgstr "Taq chutiralq'ij"
+#: spacescoops/templates/spacescoops/article_list_component.html:33
+#: spacescoops/templates/spacescoops/category_list.html:24
+msgid "No articles are available."
+msgstr "Man k'o ta jastaq jamal uwach."
 
-msgid "Supernova Remnants"
-msgstr "Utz'aqatil nimapoq'ch'ub'lin"
+#: spacescoops/templates/spacescoops/category_detail.html:13
+#: spacescoops/templates/spacescoops/category_list.html:8
+#: templates/base.html:71
+msgid "Topics"
+msgstr "Taq ub'i' ch'ob'oj"
 
-msgid "Planetary Nebulae"
-msgstr "Sutz' taq ralq'ij"
+#: spacescoops/templates/spacescoops/partner_detail.html:13
+msgid "Partner"
+msgstr "Rachi'l"
 
-msgid "Star Forming Nebulae"
-msgstr "Sutz' taq winaqirisanem uxe'al"
+#: spacescoops/templates/spacescoops/partner_list.html:9
+#: templates/base.html:107
+msgid "Space Scoop Friends"
+msgstr "Achi'il rech Space Scoop"
 
-msgid "Irregular Galaxies"
-msgstr "Utz'aqatil jupuq ch'umil"
+#: spacescoops/templates/spacescoops/partner_list.html:30
+#, python-format
+msgid ""
+"<a href=\"%(partner_detail_url)s\">Read more Space Scoops</a> based on "
+"%(partner_name)s Press Releases."
+msgstr ""
 
-msgid "Elliptical Galaxies"
-msgstr "Rab'set jupuqch'umil"
+#: spacescoops/templates/spacescoops/partner_list.html:31
+#, python-format
+msgid ""
+"<a href=\"%(partner_url)s\" target=\"_blank\">Learn more</a> about "
+"%(partner_name)s."
+msgstr ""
 
-msgid "Spiral Galaxies"
-msgstr "T’ot’ jupuqch’umil"
+#: spacescoops/views.py:114
+msgid "Article does not exist"
+msgstr ""
 
-msgid "Stars"
-msgstr "Taq ch'umil"
+#: templates/base.html:65
+msgid "Space Words"
+msgstr "Taq tzij rech uwakaj"
 
-msgid "Open clusters"
-msgstr "Molajil ch'umil"
+#: templates/base.html:103
+msgid "Still curious? Learn more..."
+msgstr "¿K'o kawaj kaweta'maj na? chaweta'maj nik'aj chik..."
 
-msgid "Globular clusters"
-msgstr "Molajil ojer taq ch'umil"
+#: templates/base.html:104
+msgid "What is Space Scoop?"
+msgstr "¿Jas uwach ri' Space Scoop?"
 
-msgid "This website was produced by funding from the European Community's Horizon 2020 Programme under grant agreement n° 638653"
-msgstr "We uxaq web' xwinaqirisax rumal le cholb'al chak rech le Wokaj rech Europa Horizon 2020, ruk' le uwujil uk'amik chak rech tob'anem n° 638653."
+#: templates/base.html:105
+msgid "Discover more Astronomy"
+msgstr "Chariqa' nik'aj chik Unik'oxik uwakaj"
+
+#: templates/base.html:106
+msgid "Inspiring a New Generation of Space Explorers"
+msgstr "Uk'utik chi kiwach k'ak' taq nik'ol uwakaj"
+
+#: templates/base.html:111
+msgid "Contact Us"
+msgstr "Chojach'ab'ej"
+
+#: templates/base.html:138
+msgid ""
+"This website was produced by funding from the European Community's Horizon "
+"2020 Programme under grant agreement n° 638653"
+msgstr ""
+"We uxaq web' xwinaqirisax rumal le cholb'al chak rech le Wokaj rech Europa "
+"Horizon 2020, ruk' le uwujil uk'amik chak rech tob'anem n° 638653."
+
+#: templates/warning_fallback_language.html:4
+#, fuzzy
+#| msgid ""
+#| "This page isn't available in your language yet, if you'd like to provide "
+#| "a translation please contact us at CONTACT_ADDRESS"
+msgid ""
+"This page isn't available in your language yet, if you'd like to provide a "
+"translation please contact us at "
+msgstr ""
+"We uxaq web' man jamal ta uwach pa le ach'ab'al, xa k'u, we kawaj kaq'axej "
+"taq le tzij pa le ach'ab'al, chojach'ab'ej pa CONTACT_ADDRESS"
+
+#~ msgid "Stories"
+#~ msgstr "Taq wachib'al"
+
+#~ msgid "Bringing News from across the Universe to kids around the world"
+#~ msgstr ""
+#~ "utzijoxik taq b'anoj rech uwakaj chi kech ak'alab' rech ronojel we "
+#~ "uwachulew"
+
+#~ msgid "Related Space Scoops"
+#~ msgstr "Ujunamatajem Space Scoops"
+
+#~ msgid "[Read more Space Scoops] based on INSTITUTION_NAME Press Releases"
+#~ msgstr ""
+#~ "[Usik'ixik nik'aj chik Space Scoops] petinaq pa ub'ixikil INSTITUTION_NAME"
+
+#~ msgid "[Learn more] about INSTITUTION_NAME"
+#~ msgstr "[Reta'maxik nik'aj chik] chi rij INSTITUTION_NAME"
+
+#~ msgid "Atoms and Molecules"
+#~ msgstr "Taq Xe'lq'aq' chi'l taq ucholajil xe'lq'aq'"
+
+#~ msgid "Cosmology"
+#~ msgstr "Ucholajil kaj"
+
+#~ msgid "Black Holes"
+#~ msgstr "Q'eq taq jul"
+
+#~ msgid "Dark Matter"
+#~ msgstr "Q'eq uxe'al"
+
+#~ msgid "Missions"
+#~ msgstr "Taq rilik chak"
+
+#~ msgid "Technology"
+#~ msgstr "K'ak' eta'mab'al"
+
+#~ msgid "Gravity"
+#~ msgstr "Ujek'b'alil ulew"
+
+#~ msgid "Solar System"
+#~ msgstr "Ukemb'al q'ij"
+
+#~ msgid "Planets"
+#~ msgstr "Taq ralq'ij"
+
+#~ msgid "Comets"
+#~ msgstr "Taq juch'ch'umil"
+
+#~ msgid "Asteroids"
+#~ msgstr "Taq chutiralq'ij"
+
+#~ msgid "Supernova Remnants"
+#~ msgstr "Utz'aqatil nimapoq'ch'ub'lin"
+
+#~ msgid "Planetary Nebulae"
+#~ msgstr "Sutz' taq ralq'ij"
+
+#~ msgid "Star Forming Nebulae"
+#~ msgstr "Sutz' taq winaqirisanem uxe'al"
+
+#~ msgid "Irregular Galaxies"
+#~ msgstr "Utz'aqatil jupuq ch'umil"
+
+#~ msgid "Elliptical Galaxies"
+#~ msgstr "Rab'set jupuqch'umil"
+
+#~ msgid "Spiral Galaxies"
+#~ msgstr "T’ot’ jupuqch’umil"
+
+#~ msgid "Stars"
+#~ msgstr "Taq ch'umil"
+
+#~ msgid "Open clusters"
+#~ msgstr "Molajil ch'umil"
+
+#~ msgid "Globular clusters"
+#~ msgstr "Molajil ojer taq ch'umil"
