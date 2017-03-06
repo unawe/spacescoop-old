@@ -1,7 +1,4 @@
-import os
-
-from whoosh.index import create_in, open_dir
-from whoosh.fields import *
+from whoosh.fields import Schema, ID, TEXT
 from whoosh.columns import RefBytesColumn
 from whoosh.qparser import QueryParser, MultifieldParser, WildcardPlugin
 from whoosh.analysis import StemmingAnalyzer, CharsetFilter
@@ -9,78 +6,19 @@ from whoosh.sorting import Facets, StoredFieldFacet, FieldFacet
 from whoosh.support.charset import accent_map
 from django.conf import settings
 
-
+from django_ext.whoosh_utils import LanguageIndex
 from spacescoops.models import Article
 
 
 def _get_schema():
     analyzer = StemmingAnalyzer() | CharsetFilter(accent_map)  # WARN: stemming is english specific; character folding is for western languages
-    schema = Schema(code = ID(unique=True, stored=True), 
-                    slug = ID(unique=False, stored=True), 
-                    title = TEXT(analyzer=analyzer, stored=True), 
-                    content = TEXT(analyzer=analyzer),
-
-                    # teaser = STORED(),
-                    # theme = STORED(),
-                    # age_range = STORED(),
-                    # release_date = STORED(),
-                    # author_list = STORED(),
-                    # code = STORED(),
-                    # main_visual = STORED(),
-                    # thumb2_url = STORED(),
-
-                    )
+    schema = Schema(
+        code=ID(unique=True, stored=True),
+        slug=ID(unique=False, stored=True),
+        title=TEXT(analyzer=analyzer, stored=True),
+        content=TEXT(analyzer=analyzer),
+        )
     return schema
-
-
-class LanguageIndex(object):
-    index = None
-    # writer = None  # keep a writer for bulk updates
-
-    def __init__(self, lang):
-        self.lang = lang
-
-    def _get_path(self):
-        return os.path.join(settings.WHOOSH_INDEX_PATH, self.lang)
-
-    def clear(self):
-        '''create index from scratch; creates a writer too.'''
-
-        index_path = self._get_path()
-        if not os.path.exists(index_path):
-            os.makedirs(index_path)
-        self.index = create_in(index_path, _get_schema())
-
-        writer = self.index.writer()
-        ## optimize analyzer for batch updates
-        # analyzer = writer.schema['content'].format.analyzer
-        # analyzer.cachesize = -1
-        # analyzer.clear()
-        from whoosh.analysis.morph import StemFilter
-        analyzer = writer.schema['content'].analyzer
-        for item in analyzer.items:
-            if isinstance(item, StemFilter):
-                item.cachesize = -1
-                item.clear()
-        writer.commit()
-        # self.writer = writer
-
-    def load(self):
-        '''load an existing index'''
-        self.index = open_dir(self._get_path())
-        return self.index
-        # return open_dir(self._get_path())
-
-    def get_writer(self):
-        # if not self.writer:
-        #     self.writer = self.index.writer()
-        # return self.writer
-        return self.index.writer()
-
-    # def close_writer(self):
-    #     if self.writer:
-    #         self.writer.close()
-    #         self.writer = None
 
 
 def _remove_html_tags(data):
@@ -90,7 +28,6 @@ def _remove_html_tags(data):
 
 
 def _content(obj):
-    # TODO: remove markup
     return '\n\n\n'.join([
         # obj.title,
         _remove_html_tags(obj.story),
@@ -102,14 +39,14 @@ def _content(obj):
 def rebuild_indexes():
     try:
         writers = {}
-        print("rebuild_indexes")
+        # print("rebuild_indexes")
         for obj_master in Article.objects.available():
             for obj in obj_master.translations.all():
                 lang = obj.language_code
-                if not lang in writers:
-                    index = LanguageIndex(lang)
-                    index.clear()
-                    writers[lang] = index.get_writer()
+                if lang not in writers:
+                    ix = LanguageIndex(settings.WHOOSH_INDEX_PATH, lang, _get_schema())
+                    ix.clear()
+                    writers[lang] = ix.get_writer()
                 _update_article(obj_master, obj, writer=writers[lang])
     finally:
         for writer in writers.values():
@@ -124,7 +61,7 @@ def update_article(obj_master):
     indexes = LanguageIndexes()
     for obj in obj_master.translations.all():
         with indexes[obj.language_code].get_writer() as writer:
-            _update_article(obj, writer=writer)
+            _update_article(obj_master, obj, writer=writer)
 
 
 def remove_article(obj):
@@ -132,15 +69,13 @@ def remove_article(obj):
     pass
 
 
-
-
 def search(querystring, language_code):
-    ix = LanguageIndex(language_code).load()
+    ix = LanguageIndex(settings.WHOOSH_INDEX_PATH, language_code, _get_schema()).load()
     # parser = QueryParser('content', ix.schema)
     parser = MultifieldParser(['title', 'keywords', 'content'], ix.schema)  # fieldboosts={'title':5, 'keywords':4, 'content':1})
     parser.remove_plugin_class(WildcardPlugin)  # remove unused feature for better performance
     query = parser.parse(querystring)
-    print(parser,query,querystring)
+    # print(parser, query, querystring)
 
     result = {
         'results': [],
@@ -148,7 +83,7 @@ def search(querystring, language_code):
 
     with ix.searcher() as searcher:
         results = searcher.search(query)
-        print(results)
+        # print(results)
         # import pdb; pdb.set_trace()
 
         # collect results
@@ -162,7 +97,6 @@ def search(querystring, language_code):
             #.exclude(published=False).exclude(release_date__gte=datetime.today())
             # my_hit['object']['is_visible'] = True
             result['results'].append(my_hit)
-            print(hit.pos, hit.rank, hit.docnum, hit.score, hit)
-            #print(hit.pos, hit.rank, hit.docnum, hit.score, hit.fields()['age_range'], hit)
+            # print(hit.pos, hit.rank, hit.docnum, hit.score, hit)
 
     return result
