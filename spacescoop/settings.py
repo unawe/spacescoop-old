@@ -327,11 +327,6 @@ PARLER_LANGUAGES = {
     }
 }
 
-# Static files (CSS, JavaScript, Images)
-# https://docs.djangoproject.com/en/1.8/howto/static-files/
-STATIC_URL = '/static/'
-CKEDITOR_UPLOAD_PATH = 'upload/'
-
 # Email
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_HOST_USER = secrets['EMAIL_HOST_USER']
@@ -413,6 +408,7 @@ TAGGIT_CASE_INSENSITIVE = True
 FORCE_LOWERCASE = True
 
 # CK editor
+CKEDITOR_UPLOAD_PATH = 'upload/'
 CKEDITOR_CONFIGS = {
     ## see http://docs.cksource.com/CKEditor_3.x/Developers_Guide/Toolbar
 
