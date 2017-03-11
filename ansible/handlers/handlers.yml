@@ -2,19 +2,7 @@
 - name: restart nginx
   become: yes
   service: name=nginx state=restarted
-- name: restart mysql
-  become: yes
-  service: name=mysql state=restarted
-- name: restart redis
-  become: yes
-  service: name=redis-server state=restarted
 
 - name: restart uwsgi
   become: yes
   supervisorctl: name=uwsgi-spacescoop state=restarted
-- name: restart celery
-  become: yes
-  supervisorctl: name=celery state=restarted
-- name: restart flower
-  become: yes
-  supervisorctl: name=flower state=restarted

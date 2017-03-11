@@ -101,16 +101,6 @@
       notify:
         - restart uwsgi
 
-    # ## Celery
-    # - name: ensure celery-supervisor configuration is present
-    #   template: src={{ BASE_DIR_LOCAL }}/share/conf/supervisor/celery.conf.j2 dest={{ ETC_DIR }}/supervisor/celery-{{ SHORT_NAME }}.conf
-    #   notify:
-    #     - restart celery
-    # - name: ensure flower-supervisor configuration is present
-    #   template: src={{ BASE_DIR_LOCAL }}/share/conf/supervisor/flower.conf.j2 dest={{ ETC_DIR }}/supervisor/flower-{{ SHORT_NAME }}.conf
-    #   notify:
-    #     - restart flower
-
 
   handlers:
     - include: handlers/handlers.yml
