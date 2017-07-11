@@ -66,6 +66,11 @@ body {
         padding-right: 100px;
 
     }
+
+    .row > p > img {
+        max-width: 100%;
+        height: auto;
+    }
 }
 
 @media (min-width: $screen-sm-min) {
