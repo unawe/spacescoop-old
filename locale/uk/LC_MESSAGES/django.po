@@ -1,246 +1,188 @@
 msgid ""
 msgstr ""
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-17 20:46+0100\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: spacescoop/newsletter/templates/spacescoop/newsletter/subscribe.html:14
-msgid "Newsletter"
-msgstr "Розсилка"
 
-#: spacescoop/newsletter/templates/spacescoop/newsletter/subscribe.html:25
-msgid ""
-"Subscribe for the newsletter now and receive all the latest news every "
-"month!!"
-msgstr "Підпишись на розсилку зараз і отримуй найсвіжіші новини щомісяця!"
+msgid "Main Page"
+msgstr "Головна сторінка"
 
-#: spacescoop/newsletter/templates/spacescoop/newsletter/subscribe.html:27
-msgid "Write your name here..."
-msgstr "Вкажи своє ім'я тут ..."
-
-#: spacescoop/newsletter/templates/spacescoop/newsletter/subscribe.html:30
-msgid "Write your e-mail here..."
-msgstr "Вкажи свою поштову скриньку тут ..."
-
-#: spacescoop/newsletter/templates/spacescoop/newsletter/subscribe.html:37
-msgid "Subscribe"
-msgstr "Підписатись"
-
-#: spacescoop/search/templates/search/search.html:22
-#: spacescoop/search/templates/search/search.html:27 templates/base.html:79
-msgid "Search"
-msgstr "Пошук"
-
-#: spacescoop/search/templates/search/search.html:45
-#: spacescoop/search/templates/search/search.html:58
-msgid "Sorry, no results found that match your query."
-msgstr "Вибачте, пошук не дав результатів"
-
-#: spacescoop/templates/spacescoop/home.html:15
-msgid "News from Across the Universe"
-msgstr "Новини з усього Всесвіту"
-
-#: spacescoop/templates/spacescoop/home.html:45
-msgid "Discover more awesome topics!"
-msgstr "Відкрийте більше дивовижних тем!"
-
-#: spacescoops/models.py:73 spacescoops/models.py:251
-msgid "title"
-msgstr ""
-
-#: spacescoops/templates/spacescoops/article_detail.html:40
-msgid "Cool Fact"
-msgstr "Крутий факт"
-
-#: spacescoops/templates/spacescoops/article_detail.html:51
-#, fuzzy
-#| msgid "This Space Scoop is based on a Press Release from INSTITUTION_NAME"
-msgid "This Space Scoop is based on a Press Release from "
-msgstr "Цей Space Scoop оснований на прес-релізі INSTITUTION_NAME"
-
-#: spacescoops/templates/spacescoops/article_detail.html:54
-#, fuzzy
-#| msgid "This Space Scoop is based on Press Releases from INSTITUTIONS_NAME"
-msgid "This Space Scoop is based on Press Releases from "
-msgstr "Цей Space Scoop оснований на прес-релізах INSTITUTION_NAME"
-
-#: spacescoops/templates/spacescoops/article_detail.html:78
-msgid "Image"
+msgid "Stories"
 msgstr "Зображення"
 
-#: spacescoops/templates/spacescoops/article_detail.html:82
-msgid "Print Friendly Version"
-msgstr "Версія для друку"
-
-#: spacescoops/templates/spacescoops/article_detail.html:85
-msgid "Share"
-msgstr "Поширити"
-
-#: spacescoops/templates/spacescoops/article_detail.html:114
-msgid "More Space Scoops"
-msgstr "Більше Space Scoops"
-
-#: spacescoops/templates/spacescoops/article_list.html:13
-#: templates/base.html:59
 msgid "Pictures"
 msgstr "Зображення"
 
-#: spacescoops/templates/spacescoops/article_list_component.html:33
-#: spacescoops/templates/spacescoops/category_list.html:24
-msgid "No articles are available."
-msgstr "Немає доступних статей"
-
-#: spacescoops/templates/spacescoops/category_detail.html:13
-#: spacescoops/templates/spacescoops/category_list.html:8
-#: templates/base.html:71
-msgid "Topics"
-msgstr "Теми"
-
-#: spacescoops/templates/spacescoops/partner_detail.html:13
-msgid "Partner"
-msgstr "Партнер"
-
-#: spacescoops/templates/spacescoops/partner_list.html:9
-#: templates/base.html:107
-msgid "Space Scoop Friends"
-msgstr "Друзі Space Scoop"
-
-#: spacescoops/templates/spacescoops/partner_list.html:30
-#, python-format
-msgid ""
-"<a href=\"%(partner_detail_url)s\">Read more Space Scoops</a> based on "
-"%(partner_name)s Press Releases."
-msgstr ""
-
-#: spacescoops/templates/spacescoops/partner_list.html:31
-#, python-format
-msgid ""
-"<a href=\"%(partner_url)s\" target=\"_blank\">Learn more</a> about "
-"%(partner_name)s."
-msgstr ""
-
-#: spacescoops/views.py:114
-msgid "Article does not exist"
-msgstr ""
-
-#: templates/base.html:65
 msgid "Space Words"
 msgstr "Космічні слова"
 
-#: templates/base.html:103
+msgid "Topics"
+msgstr "Теми"
+
+msgid "Search"
+msgstr "Пошук"
+
+msgid "News from Across the Universe"
+msgstr "Новини з усього Всесвіту"
+
+msgid "Discover more awesome topics!"
+msgstr "Відкрийте більше дивовижних тем!"
+
 msgid "Still curious? Learn more..."
 msgstr "Все ще зацікавлені? Дізнайтесь більше..."
 
-#: templates/base.html:104
 msgid "What is Space Scoop?"
 msgstr "Що таке Space Scoop?"
 
-#: templates/base.html:105
 msgid "Discover more Astronomy"
 msgstr "Дізнайтесь більше про Астрономію"
 
-#: templates/base.html:106
 msgid "Inspiring a New Generation of Space Explorers"
 msgstr "Надихаючи нове покоління дослідників космосу"
 
-#: templates/base.html:111
+msgid "Space Scoop Friends"
+msgstr "Друзі Space Scoop"
+
 msgid "Contact Us"
 msgstr "Контакти"
 
-#: templates/base.html:138
-msgid ""
-"This website was produced by funding from the European Community's Horizon "
-"2020 Programme under grant agreement n° 638653"
-msgstr ""
-"Ця інтернет сторінка була створена за фінансової підтримки програми "
-"\"Horizon 2020\" від Європейської спільноти в рамках угоди про надання "
-"гранту №638653"
+msgid "Bringing News from across the Universe to kids around the world"
+msgstr "Доставляємо новини зі всього Всесвіту для дітей в усьому світі"
 
-#: templates/warning_fallback_language.html:4
-#, fuzzy
-#| msgid ""
-#| "This page isn't available in your language yet, if you'd like to provide "
-#| "a translation please contact us at CONTACT_ADDRESS"
-msgid ""
-"This page isn't available in your language yet, if you'd like to provide a "
-"translation please contact us at "
-msgstr ""
-"Ця сторінка поки що недоступна вашою мовою, якщо Ви би хотіли допомогти нам "
-"з перекладом, напишіть нам на адресу CONTACT_ADDRESS"
+msgid "Space Scoop Page"
+msgstr "Сторінка Space Scoop"
 
-#~ msgid "Stories"
-#~ msgstr "Зображення"
+msgid "Cool Fact"
+msgstr "Крутий факт"
 
-#~ msgid "Bringing News from across the Universe to kids around the world"
-#~ msgstr "Доставляємо новини зі всього Всесвіту для дітей в усьому світі"
+msgid "This Space Scoop is based on a Press Release from INSTITUTION_NAME"
+msgstr "Цей Space Scoop оснований на прес-релізі INSTITUTION_NAME"
 
-#~ msgid "Related Space Scoops"
-#~ msgstr "Пов'язані Space Scoops"
+msgid "This Space Scoop is based on Press Releases from INSTITUTIONS_NAME"
+msgstr "Цей Space Scoop оснований на прес-релізах INSTITUTION_NAME"
 
-#~ msgid "[Read more Space Scoops] based on INSTITUTION_NAME Press Releases"
-#~ msgstr ""
-#~ "[Читай більше Space Scoops] основано на Прес Релізах  INSTITUTION_NAME"
+msgid "Image"
+msgstr "Зображення"
 
-#~ msgid "[Learn more] about INSTITUTION_NAME"
-#~ msgstr "[Дізнайся більше] про INSTITUTION_NAME"
+msgid "Print Friendly Version"
+msgstr "Версія для друку"
 
-#~ msgid "Atoms and Molecules"
-#~ msgstr "Атоми та молекули"
+msgid "Share"
+msgstr "Поширити"
 
-#~ msgid "Cosmology"
-#~ msgstr "Космологія"
+msgid "Related Space Scoops"
+msgstr "Пов'язані Space Scoops"
 
-#~ msgid "Black Holes"
-#~ msgstr "Чорні діри"
+msgid "More Space Scoops"
+msgstr "Більше Space Scoops"
 
-#~ msgid "Dark Matter"
-#~ msgstr "Темна матерія"
+msgid "Partners Page"
+msgstr "Сторінка партнерів"
 
-#~ msgid "Missions"
-#~ msgstr "Місії"
+msgid "Partner"
+msgstr "Партнер"
 
-#~ msgid "Technology"
-#~ msgstr "Технології"
+msgid "[Read more Space Scoops] based on INSTITUTION_NAME Press Releases"
+msgstr "[Читай більше Space Scoops] основано на Прес Релізах  INSTITUTION_NAME"
 
-#~ msgid "Gravity"
-#~ msgstr "Гравітація"
+msgid "[Learn more] about INSTITUTION_NAME"
+msgstr "[Дізнайся більше] про INSTITUTION_NAME"
 
-#~ msgid "Solar System"
-#~ msgstr "Сонячна Система"
+msgid "Newsletter"
+msgstr "Розсилка"
 
-#~ msgid "Planets"
-#~ msgstr "Планети"
+msgid "Newsletter"
+msgstr "Розсилка"
 
-#~ msgid "Comets"
-#~ msgstr "Комети"
+msgid "Subscribe for the newsletter now and receive all the latest news every month!!"
+msgstr "Підпишись на розсилку зараз і отримуй найсвіжіші новини щомісяця!"
 
-#~ msgid "Asteroids"
-#~ msgstr "Астероїди"
+msgid "Write your name here..."
+msgstr "Вкажи своє ім'я тут ..."
 
-#~ msgid "Supernova Remnants"
-#~ msgstr "Залишки наднових"
+msgid "Write your e-mail here..."
+msgstr "Вкажи свою поштову скриньку тут ..."
 
-#~ msgid "Planetary Nebulae"
-#~ msgstr "Планетарні туманності"
+msgid "Subscribe"
+msgstr "Підписатись"
 
-#~ msgid "Star Forming Nebulae"
-#~ msgstr "Зореутворюючі туманності"
+msgid "Misc"
+msgstr "Різне"
 
-#~ msgid "Irregular Galaxies"
-#~ msgstr "Неправильні галактики"
+msgid "No articles are available."
+msgstr "Немає доступних статей"
 
-#~ msgid "Elliptical Galaxies"
-#~ msgstr "Еліптичні галактики"
+msgid "Sorry, no results found that match your query."
+msgstr "Вибачте, пошук не дав результатів"
 
-#~ msgid "Spiral Galaxies"
-#~ msgstr "Спіральні галактики"
+msgid "This page isn't available in your language yet, if you'd like to provide a translation please contact us at CONTACT_ADDRESS"
+msgstr "Ця сторінка поки що недоступна вашою мовою, якщо Ви би хотіли допомогти нам з перекладом, напишіть нам на адресу CONTACT_ADDRESS"
 
-#~ msgid "Stars"
-#~ msgstr "Зорі"
+msgid "Topics"
+msgstr "Теми"
 
-#~ msgid "Open clusters"
-#~ msgstr "Розсіяні скупчення"
+msgid "Atoms and Molecules"
+msgstr "Атоми та молекули"
 
-#~ msgid "Globular clusters"
-#~ msgstr "Кулясті скупчення"
+msgid "Cosmology"
+msgstr "Космологія"
+
+msgid "Black Holes"
+msgstr "Чорні діри"
+
+msgid "Dark Matter"
+msgstr "Темна матерія"
+
+msgid "Missions"
+msgstr "Місії"
+
+msgid "Technology"
+msgstr "Технології"
+
+msgid "Gravity"
+msgstr "Гравітація"
+
+msgid "Solar System"
+msgstr "Сонячна Система"
+
+msgid "Planets"
+msgstr "Планети"
+
+msgid "Comets"
+msgstr "Комети"
+
+msgid "Asteroids"
+msgstr "Астероїди"
+
+msgid "Supernova Remnants"
+msgstr "Залишки наднових"
+
+msgid "Planetary Nebulae"
+msgstr "Планетарні туманності"
+
+msgid "Star Forming Nebulae"
+msgstr "Зореутворюючі туманності"
+
+msgid "Irregular Galaxies"
+msgstr "Неправильні галактики"
+
+msgid "Elliptical Galaxies"
+msgstr "Еліптичні галактики"
+
+msgid "Spiral Galaxies"
+msgstr "Спіральні галактики"
+
+msgid "Stars"
+msgstr "Зорі"
+
+msgid "Open clusters"
+msgstr "Розсіяні скупчення"
+
+msgid "Globular clusters"
+msgstr "Кулясті скупчення"
+
+msgid "Glossary"
+msgstr "Словник"
+
+msgid "This website was produced by funding from the European Community's Horizon 2020 Programme under grant agreement n° 638653"
+msgstr "Ця інтернет сторінка була створена за фінансової підтримки програми \"Horizon 2020\" від Європейської спільноти в рамках угоди про надання гранту №638653"

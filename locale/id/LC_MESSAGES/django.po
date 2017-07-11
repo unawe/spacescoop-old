@@ -1,245 +1,191 @@
 msgid ""
 msgstr ""
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-17 20:46+0100\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: spacescoop/newsletter/templates/spacescoop/newsletter/subscribe.html:14
-msgid "Newsletter"
-msgstr "Buletin elektronik"
 
-#: spacescoop/newsletter/templates/spacescoop/newsletter/subscribe.html:25
-msgid ""
-"Subscribe for the newsletter now and receive all the latest news every "
-"month!!"
-msgstr "Daftar dan dapatkan berita terbaru setiap bulan!"
+msgid "Main Page"
+msgstr "Beranda"
 
-#: spacescoop/newsletter/templates/spacescoop/newsletter/subscribe.html:27
-msgid "Write your name here..."
-msgstr "Tulis nama disini..."
-
-#: spacescoop/newsletter/templates/spacescoop/newsletter/subscribe.html:30
-msgid "Write your e-mail here..."
-msgstr "Tulis alamat surel  disini..."
-
-#: spacescoop/newsletter/templates/spacescoop/newsletter/subscribe.html:37
-msgid "Subscribe"
-msgstr "Daftar"
-
-#: spacescoop/search/templates/search/search.html:22
-#: spacescoop/search/templates/search/search.html:27 templates/base.html:79
-msgid "Search"
-msgstr "Cari"
-
-#: spacescoop/search/templates/search/search.html:45
-#: spacescoop/search/templates/search/search.html:58
-msgid "Sorry, no results found that match your query."
-msgstr "Maaf, kata yang dicari tidak tersedia"
-
-#: spacescoop/templates/spacescoop/home.html:15
-msgid "News from Across the Universe"
-msgstr "Berita Antariksa"
-
-#: spacescoop/templates/spacescoop/home.html:45
-msgid "Discover more awesome topics!"
-msgstr "Temukan topik keren lainnya"
-
-#: spacescoops/models.py:73 spacescoops/models.py:251
-msgid "title"
-msgstr ""
-
-#: spacescoops/templates/spacescoops/article_detail.html:40
-msgid "Cool Fact"
-msgstr "Fakta Keren"
-
-#: spacescoops/templates/spacescoops/article_detail.html:51
-#, fuzzy
-#| msgid "This Space Scoop is based on a Press Release from INSTITUTION_NAME"
-msgid "This Space Scoop is based on a Press Release from "
-msgstr "Space Scoop disadur dari Rilis Berita INSTITUTION_NAME"
-
-#: spacescoops/templates/spacescoops/article_detail.html:54
-#, fuzzy
-#| msgid "This Space Scoop is based on Press Releases from INSTITUTIONS_NAME"
-msgid "This Space Scoop is based on Press Releases from "
-msgstr "Space Scoop disadur dari Press Rilis INSTITUTIONS_NAME"
-
-#: spacescoops/templates/spacescoops/article_detail.html:78
-msgid "Image"
+msgid "Stories"
 msgstr "Foto"
 
-#: spacescoops/templates/spacescoops/article_detail.html:82
-msgid "Print Friendly Version"
-msgstr "Versi cetak"
-
-#: spacescoops/templates/spacescoops/article_detail.html:85
-msgid "Share"
-msgstr "Bagikan"
-
-#: spacescoops/templates/spacescoops/article_detail.html:114
-msgid "More Space Scoops"
-msgstr "Space Scoop lainnya"
-
-#: spacescoops/templates/spacescoops/article_list.html:13
-#: templates/base.html:59
 msgid "Pictures"
 msgstr "Foto"
 
-#: spacescoops/templates/spacescoops/article_list_component.html:33
-#: spacescoops/templates/spacescoops/category_list.html:24
-msgid "No articles are available."
-msgstr "Tidak ada artikel yang tersedia"
-
-#: spacescoops/templates/spacescoops/category_detail.html:13
-#: spacescoops/templates/spacescoops/category_list.html:8
-#: templates/base.html:71
-msgid "Topics"
-msgstr "Topik"
-
-#: spacescoops/templates/spacescoops/partner_detail.html:13
-msgid "Partner"
-msgstr "Mitra"
-
-#: spacescoops/templates/spacescoops/partner_list.html:9
-#: templates/base.html:107
-msgid "Space Scoop Friends"
-msgstr "Kawan Space Scoop"
-
-#: spacescoops/templates/spacescoops/partner_list.html:30
-#, python-format
-msgid ""
-"<a href=\"%(partner_detail_url)s\">Read more Space Scoops</a> based on "
-"%(partner_name)s Press Releases."
-msgstr ""
-
-#: spacescoops/templates/spacescoops/partner_list.html:31
-#, python-format
-msgid ""
-"<a href=\"%(partner_url)s\" target=\"_blank\">Learn more</a> about "
-"%(partner_name)s."
-msgstr ""
-
-#: spacescoops/views.py:114
-msgid "Article does not exist"
-msgstr ""
-
-#: templates/base.html:65
 msgid "Space Words"
 msgstr "Istilah Antariksa"
 
-#: templates/base.html:103
+msgid "Topics"
+msgstr "Topik"
+
+msgid "Search"
+msgstr "Cari"
+
+msgid "News from Across the Universe"
+msgstr "Berita Antariksa"
+
+msgid "Discover more awesome topics!"
+msgstr "Temukan topik keren lainnya"
+
 msgid "Still curious? Learn more..."
 msgstr "Penasaran? Yuk cari tahu..."
 
-#: templates/base.html:104
 msgid "What is Space Scoop?"
 msgstr "Apa itu Space Scoop"
 
-#: templates/base.html:105
 msgid "Discover more Astronomy"
 msgstr "Topik Astronomi lainnya"
 
-#: templates/base.html:106
 msgid "Inspiring a New Generation of Space Explorers"
 msgstr "Mengilhami Generasi Baru Penjelajah Antariksa"
 
-#: templates/base.html:111
+msgid "Space Scoop Friends"
+msgstr "Kawan Space Scoop"
+
 msgid "Contact Us"
 msgstr "Kontak Kami"
 
-#: templates/base.html:138
-msgid ""
-"This website was produced by funding from the European Community's Horizon "
-"2020 Programme under grant agreement n° 638653"
-msgstr ""
-"Situs ini didanai oleh Program European Community's Horizon 2020 berdasarkan "
-"perjanjian n° 638653"
+msgid "Bringing News from across the Universe to kids around the world"
+msgstr "Menyajikan berita Antariksa untuk anak di seluruh dunia"
 
-#: templates/warning_fallback_language.html:4
-#, fuzzy
-#| msgid ""
-#| "This page isn't available in your language yet, if you'd like to provide "
-#| "a translation please contact us at CONTACT_ADDRESS"
-msgid ""
-"This page isn't available in your language yet, if you'd like to provide a "
-"translation please contact us at "
-msgstr ""
-"Laman ini tidak tersedia dalam Bahasa yang dicari! Jika kamu tertarik untuk "
-"menerjemahkan, sila kontak ke CONTACT_ADDRESS"
+msgid "Space Scoop Page"
+msgstr "Laman Space Scoop"
 
-#~ msgid "Stories"
-#~ msgstr "Foto"
+msgid "Cool Fact"
+msgstr "Fakta Keren"
 
-#~ msgid "Bringing News from across the Universe to kids around the world"
-#~ msgstr "Menyajikan berita Antariksa untuk anak di seluruh dunia"
+msgid "This Space Scoop is based on a Press Release from INSTITUTION_NAME"
+msgstr "Space Scoop disadur dari Rilis Berita INSTITUTION_NAME"
 
-#~ msgid "Related Space Scoops"
-#~ msgstr "Space Scoop terkait"
+msgid "This Space Scoop is based on Press Releases from INSTITUTIONS_NAME"
+msgstr "Space Scoop disadur dari Press Rilis INSTITUTIONS_NAME"
 
-#~ msgid "[Read more Space Scoops] based on INSTITUTION_NAME Press Releases"
-#~ msgstr ""
-#~ "[Baca Space Scoop lainnya] yang disadur dari rilis berita INSTITUTION_NAME"
+msgid "Image"
+msgstr "Foto"
 
-#~ msgid "[Learn more] about INSTITUTION_NAME"
-#~ msgstr "[Lebih lanjut] tentang INSTITUTION_NAME"
+msgid "Print Friendly Version"
+msgstr "Versi cetak"
 
-#~ msgid "Atoms and Molecules"
-#~ msgstr "Atom dan Molekul"
+msgid "Share"
+msgstr "Bagikan"
 
-#~ msgid "Cosmology"
-#~ msgstr "Kosmologi"
+msgid "Related Space Scoops"
+msgstr "Space Scoop terkait"
 
-#~ msgid "Black Holes"
-#~ msgstr "Lubang Hitam"
+msgid "More Space Scoops"
+msgstr "Space Scoop lainnya"
 
-#~ msgid "Dark Matter"
-#~ msgstr "Materi Gelap"
+msgid "Partners Page"
+msgstr "Laman Mitra"
 
-#~ msgid "Missions"
-#~ msgstr "Misi Antariksa"
+msgid "Partner"
+msgstr "Mitra"
 
-#~ msgid "Technology"
-#~ msgstr "Teknologi"
+msgid "[Read more Space Scoops] based on INSTITUTION_NAME Press Releases"
+msgstr "[Baca Space Scoop lainnya] yang disadur dari rilis berita INSTITUTION_NAME"
 
-#~ msgid "Gravity"
-#~ msgstr "Gravitasi"
+msgid "[Learn more] about INSTITUTION_NAME"
+msgstr "[Lebih lanjut] tentang INSTITUTION_NAME"
 
-#~ msgid "Solar System"
-#~ msgstr "Tata Surya"
+msgid "Newsletter"
+msgstr "Buletin elektronik"
 
-#~ msgid "Planets"
-#~ msgstr "Planet"
+msgid "Newsletter"
+msgstr "Buletin elektronik"
 
-#~ msgid "Comets"
-#~ msgstr "Komet"
+msgid "Subscribe for the newsletter now and receive all the latest news every month!!"
+msgstr "Daftar dan dapatkan berita terbaru setiap bulan!"
 
-#~ msgid "Asteroids"
-#~ msgstr "Asteroid"
+msgid "Write your name here..."
+msgstr "Tulis nama disini..."
 
-#~ msgid "Supernova Remnants"
-#~ msgstr "Sisa-Sisa Supernova"
+msgid "Write your e-mail here..."
+msgstr "Tulis alamat surel  disini..."
 
-#~ msgid "Planetary Nebulae"
-#~ msgstr "Planetari Nebula"
+msgid "Subscribe"
+msgstr "Daftar"
 
-#~ msgid "Star Forming Nebulae"
-#~ msgstr "Nebula Pembentuk Bintang"
+msgid "No articles are available."
+msgstr "Tidak ada artikel yang tersedia"
 
-#~ msgid "Irregular Galaxies"
-#~ msgstr "Galaksi Takteratur"
+msgid "Sorry, no results found that match your query."
+msgstr "Maaf, kata yang dicari tidak tersedia"
 
-#~ msgid "Elliptical Galaxies"
-#~ msgstr "Galaksi Elips"
+msgid "This page isn't available in your language yet, if you'd like to provide a translation please contact us at CONTACT_ADDRESS"
+msgstr "Laman ini tidak tersedia dalam Bahasa yang dicari! Jika kamu tertarik untuk menerjemahkan, sila kontak ke CONTACT_ADDRESS"
 
-#~ msgid "Spiral Galaxies"
-#~ msgstr "Galaksi Spiral"
+msgid "Topics"
+msgstr "Topik"
 
-#~ msgid "Stars"
-#~ msgstr "Bintang"
+msgid "Atoms and Molecules"
+msgstr "Atom dan Molekul"
 
-#~ msgid "Open clusters"
-#~ msgstr "Gugus Terbuka"
+msgid "Cosmology"
+msgstr "Kosmologi"
 
-#~ msgid "Globular clusters"
-#~ msgstr "Gugus Bola"
+msgid "Black Holes"
+msgstr "Lubang Hitam"
+
+msgid "Dark Matter"
+msgstr "Materi Gelap"
+
+msgid "Missions"
+msgstr "Misi Antariksa"
+
+msgid "Technology"
+msgstr "Teknologi"
+
+msgid "Gravity"
+msgstr "Gravitasi"
+
+msgid "Solar System"
+msgstr "Tata Surya"
+
+msgid "Planets"
+msgstr "Planet"
+
+msgid "Comets"
+msgstr "Komet"
+
+msgid "Asteroids"
+msgstr "Asteroid"
+
+msgid "Supernova Remnants"
+msgstr "Sisa-Sisa Supernova"
+
+msgid "Planetary Nebulae"
+msgstr "Planetari Nebula"
+
+msgid "Star Forming Nebulae"
+msgstr "Nebula Pembentuk Bintang"
+
+msgid "Irregular Galaxies"
+msgstr "Galaksi Takteratur"
+
+msgid "Elliptical Galaxies"
+msgstr "Galaksi Elips"
+
+msgid "Spiral Galaxies"
+msgstr "Galaksi Spiral"
+
+msgid "Stars"
+msgstr "Bintang"
+
+msgid "Open clusters"
+msgstr "Gugus Terbuka"
+
+msgid "Globular clusters"
+msgstr "Gugus Bola"
+
+msgid "Galaxies"
+msgstr "Galaksi"
+
+msgid "Earth"
+msgstr "Bumi"
+
+msgid "Glossary"
+msgstr "Glosarium"
+
+msgid "This website was produced by funding from the European Community's Horizon 2020 Programme under grant agreement n° 638653"
+msgstr "Situs ini didanai oleh Program European Community's Horizon 2020 berdasarkan perjanjian n° 638653"

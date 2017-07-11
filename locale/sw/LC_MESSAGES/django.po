@@ -1,244 +1,179 @@
 msgid ""
 msgstr ""
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-17 20:46+0100\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: spacescoop/newsletter/templates/spacescoop/newsletter/subscribe.html:14
-msgid "Newsletter"
-msgstr "Gazeti"
 
-#: spacescoop/newsletter/templates/spacescoop/newsletter/subscribe.html:25
-msgid ""
-"Subscribe for the newsletter now and receive all the latest news every "
-"month!!"
-msgstr "Jisajili na gazeti ili upate taarifa mpya kila mwezi!!"
+msgid "Main Page"
+msgstr "Ukurasa Mkuu"
 
-#: spacescoop/newsletter/templates/spacescoop/newsletter/subscribe.html:27
-msgid "Write your name here..."
-msgstr "Andika jina lako hapa..."
-
-#: spacescoop/newsletter/templates/spacescoop/newsletter/subscribe.html:30
-msgid "Write your e-mail here..."
-msgstr "Andika barua pepe yako hapa..."
-
-#: spacescoop/newsletter/templates/spacescoop/newsletter/subscribe.html:37
-msgid "Subscribe"
-msgstr "Jisajili"
-
-#: spacescoop/search/templates/search/search.html:22
-#: spacescoop/search/templates/search/search.html:27 templates/base.html:79
-msgid "Search"
-msgstr "Tafuta"
-
-#: spacescoop/search/templates/search/search.html:45
-#: spacescoop/search/templates/search/search.html:58
-msgid "Sorry, no results found that match your query."
-msgstr "Samahani, hakuna taarifa inayohusiana na utafutaji wako"
-
-#: spacescoop/templates/spacescoop/home.html:15
-msgid "News from Across the Universe"
-msgstr "Habari za Ulimwengu"
-
-#: spacescoop/templates/spacescoop/home.html:45
-msgid "Discover more awesome topics!"
-msgstr "Tambua mada mpya!"
-
-#: spacescoops/models.py:73 spacescoops/models.py:251
-msgid "title"
-msgstr ""
-
-#: spacescoops/templates/spacescoops/article_detail.html:40
-msgid "Cool Fact"
-msgstr "Dokezo"
-
-#: spacescoops/templates/spacescoops/article_detail.html:51
-#, fuzzy
-#| msgid "This Space Scoop is based on a Press Release from INSTITUTION_NAME"
-msgid "This Space Scoop is based on a Press Release from "
-msgstr ""
-"Taarifa hii ya Space Scoop inatokana na taarifa kwa vyombo vya habari ya"
-
-#: spacescoops/templates/spacescoops/article_detail.html:54
-#, fuzzy
-#| msgid "This Space Scoop is based on Press Releases from INSTITUTIONS_NAME"
-msgid "This Space Scoop is based on Press Releases from "
-msgstr ""
-"Taarifa hii ya Space Scoop inatokana na taarifa kwa vyombo vya habari ya"
-
-#: spacescoops/templates/spacescoops/article_detail.html:78
-msgid "Image"
+msgid "Stories"
 msgstr "Picha"
 
-#: spacescoops/templates/spacescoops/article_detail.html:82
-msgid "Print Friendly Version"
-msgstr "Chapisha"
-
-#: spacescoops/templates/spacescoops/article_detail.html:85
-msgid "Share"
-msgstr "Sambaza"
-
-#: spacescoops/templates/spacescoops/article_detail.html:114
-msgid "More Space Scoops"
-msgstr "Space Scoop Nyingine"
-
-#: spacescoops/templates/spacescoops/article_list.html:13
-#: templates/base.html:59
 msgid "Pictures"
 msgstr "Picha"
 
-#: spacescoops/templates/spacescoops/article_list_component.html:33
-#: spacescoops/templates/spacescoops/category_list.html:24
-msgid "No articles are available."
-msgstr "Hakuna taarifa"
-
-#: spacescoops/templates/spacescoops/category_detail.html:13
-#: spacescoops/templates/spacescoops/category_list.html:8
-#: templates/base.html:71
-msgid "Topics"
-msgstr "Mada"
-
-#: spacescoops/templates/spacescoops/partner_detail.html:13
-msgid "Partner"
-msgstr "Madau"
-
-#: spacescoops/templates/spacescoops/partner_list.html:9
-#: templates/base.html:107
-msgid "Space Scoop Friends"
-msgstr "Marafiki wa Space Scoop"
-
-#: spacescoops/templates/spacescoops/partner_list.html:30
-#, python-format
-msgid ""
-"<a href=\"%(partner_detail_url)s\">Read more Space Scoops</a> based on "
-"%(partner_name)s Press Releases."
-msgstr ""
-
-#: spacescoops/templates/spacescoops/partner_list.html:31
-#, python-format
-msgid ""
-"<a href=\"%(partner_url)s\" target=\"_blank\">Learn more</a> about "
-"%(partner_name)s."
-msgstr ""
-
-#: spacescoops/views.py:114
-msgid "Article does not exist"
-msgstr ""
-
-#: templates/base.html:65
 msgid "Space Words"
 msgstr "Maneno ya angani"
 
-#: templates/base.html:103
+msgid "Topics"
+msgstr "Mada"
+
+msgid "Search"
+msgstr "Tafuta"
+
+msgid "News from Across the Universe"
+msgstr "Habari za Ulimwengu"
+
+msgid "Discover more awesome topics!"
+msgstr "Tambua mada mpya!"
+
 msgid "Still curious? Learn more..."
 msgstr "Bado una shauku? Jifunze zaidi..."
 
-#: templates/base.html:104
 msgid "What is Space Scoop?"
 msgstr "Space Scoop ni nini?"
 
-#: templates/base.html:105
 msgid "Discover more Astronomy"
 msgstr "Vumbua astronomia zaidi"
 
-#: templates/base.html:106
 msgid "Inspiring a New Generation of Space Explorers"
 msgstr "Hamasisha kikazi kipya cha wavumbua anga"
 
-#: templates/base.html:111
+msgid "Space Scoop Friends"
+msgstr "Marafiki wa Space Scoop"
+
 msgid "Contact Us"
 msgstr "Wasiliana nasi"
 
-#: templates/base.html:138
-msgid ""
-"This website was produced by funding from the European Community's Horizon "
-"2020 Programme under grant agreement n° 638653"
-msgstr ""
+msgid "Bringing News from across the Universe to kids around the world"
+msgstr "Tunaleta habari za kutoka Ulimwenguni kwa Watoto Duniani kote"
 
-#: templates/warning_fallback_language.html:4
-#, fuzzy
-#| msgid ""
-#| "This page isn't available in your language yet, if you'd like to provide "
-#| "a translation please contact us at CONTACT_ADDRESS"
-msgid ""
-"This page isn't available in your language yet, if you'd like to provide a "
-"translation please contact us at "
-msgstr ""
-"Ukurasa huu haupatikani katika lugha yako kwa sasa, kama ungependa kuwa "
-"mtafsiri, tafadhali wasiliana nasi"
+msgid "Space Scoop Page"
+msgstr "Ukurasa wa Space Scoop"
 
-#~ msgid "Stories"
-#~ msgstr "Picha"
+msgid "Cool Fact"
+msgstr "Dokezo"
 
-#~ msgid "Bringing News from across the Universe to kids around the world"
-#~ msgstr "Tunaleta habari za kutoka Ulimwenguni kwa Watoto Duniani kote"
+msgid "This Space Scoop is based on a Press Release from INSTITUTION_NAME"
+msgstr "Taarifa hii ya Space Scoop inatokana na taarifa kwa vyombo vya habari ya"
 
-#~ msgid "Related Space Scoops"
-#~ msgstr "Space Scoop sawa na hii"
+msgid "This Space Scoop is based on Press Releases from INSTITUTIONS_NAME"
+msgstr "Taarifa hii ya Space Scoop inatokana na taarifa kwa vyombo vya habari ya"
 
-#~ msgid "[Read more Space Scoops] based on INSTITUTION_NAME Press Releases"
-#~ msgstr "Soma Space Scoops nyingine za taarifa kwa vyombo vya habari za"
+msgid "Image"
+msgstr "Picha"
 
-#~ msgid "[Learn more] about INSTITUTION_NAME"
-#~ msgstr "Jifunze zaidi kuhusu"
+msgid "Print Friendly Version"
+msgstr "Chapisha"
 
-#~ msgid "Atoms and Molecules"
-#~ msgstr "Atom na Molekuli"
+msgid "Share"
+msgstr "Sambaza"
 
-#~ msgid "Cosmology"
-#~ msgstr "Cosmology"
+msgid "Related Space Scoops"
+msgstr "Space Scoop sawa na hii"
 
-#~ msgid "Black Holes"
-#~ msgstr "Black Hole"
+msgid "More Space Scoops"
+msgstr "Space Scoop Nyingine"
 
-#~ msgid "Dark Matter"
-#~ msgstr "Dark Matter"
+msgid "Partners Page"
+msgstr "Ukurasa wa Wadau"
 
-#~ msgid "Missions"
-#~ msgstr "Mission"
+msgid "Partner"
+msgstr "Madau"
 
-#~ msgid "Technology"
-#~ msgstr "Teknolojia"
+msgid "[Read more Space Scoops] based on INSTITUTION_NAME Press Releases"
+msgstr "Soma Space Scoops nyingine za taarifa kwa vyombo vya habari za"
 
-#~ msgid "Gravity"
-#~ msgstr "Graviti"
+msgid "[Learn more] about INSTITUTION_NAME"
+msgstr "Jifunze zaidi kuhusu"
 
-#~ msgid "Solar System"
-#~ msgstr "Mfumo wa Jua"
+msgid "Newsletter"
+msgstr "Gazeti"
 
-#~ msgid "Planets"
-#~ msgstr "Sayari"
+msgid "Newsletter"
+msgstr "Gazeti"
 
-#~ msgid "Comets"
-#~ msgstr "Vimondo"
+msgid "Subscribe for the newsletter now and receive all the latest news every month!!"
+msgstr "Jisajili na gazeti ili upate taarifa mpya kila mwezi!!"
 
-#~ msgid "Asteroids"
-#~ msgstr "Asteroid"
+msgid "Write your name here..."
+msgstr "Andika jina lako hapa..."
 
-#~ msgid "Supernova Remnants"
-#~ msgstr "Mabaki ya Milipuko ya Nyota"
+msgid "Write your e-mail here..."
+msgstr "Andika barua pepe yako hapa..."
 
-#~ msgid "Planetary Nebulae"
-#~ msgstr "Planetary Nebulae"
+msgid "Subscribe"
+msgstr "Jisajili"
 
-#~ msgid "Star Forming Nebulae"
-#~ msgstr "Star Forming Nebulae"
+msgid "No articles are available."
+msgstr "Hakuna taarifa"
 
-#~ msgid "Irregular Galaxies"
-#~ msgstr "Irregular Galaxy"
+msgid "Sorry, no results found that match your query."
+msgstr "Samahani, hakuna taarifa inayohusiana na utafutaji wako"
 
-#~ msgid "Elliptical Galaxies"
-#~ msgstr "Elliptical Galaxy"
+msgid "This page isn't available in your language yet, if you'd like to provide a translation please contact us at CONTACT_ADDRESS"
+msgstr "Ukurasa huu haupatikani katika lugha yako kwa sasa, kama ungependa kuwa mtafsiri, tafadhali wasiliana nasi"
 
-#~ msgid "Spiral Galaxies"
-#~ msgstr "Spiral Galaxy"
+msgid "Topics"
+msgstr "Mada"
 
-#~ msgid "Stars"
-#~ msgstr "Nyota"
+msgid "Atoms and Molecules"
+msgstr "Atom na Molekuli"
 
-#~ msgid "Open clusters"
-#~ msgstr "Open clusters"
+msgid "Cosmology"
+msgstr "Cosmology"
 
-#~ msgid "Globular clusters"
-#~ msgstr "Globular clusters"
+msgid "Black Holes"
+msgstr "Black Hole"
+
+msgid "Dark Matter"
+msgstr "Dark Matter"
+
+msgid "Missions"
+msgstr "Mission"
+
+msgid "Technology"
+msgstr "Teknolojia"
+
+msgid "Gravity"
+msgstr "Graviti"
+
+msgid "Solar System"
+msgstr "Mfumo wa Jua"
+
+msgid "Planets"
+msgstr "Sayari"
+
+msgid "Comets"
+msgstr "Vimondo"
+
+msgid "Asteroids"
+msgstr "Asteroid"
+
+msgid "Supernova Remnants"
+msgstr "Mabaki ya Milipuko ya Nyota"
+
+msgid "Planetary Nebulae"
+msgstr "Planetary Nebulae"
+
+msgid "Star Forming Nebulae"
+msgstr "Star Forming Nebulae"
+
+msgid "Irregular Galaxies"
+msgstr "Irregular Galaxy"
+
+msgid "Elliptical Galaxies"
+msgstr "Elliptical Galaxy"
+
+msgid "Spiral Galaxies"
+msgstr "Spiral Galaxy"
+
+msgid "Stars"
+msgstr "Nyota"
+
+msgid "Open clusters"
+msgstr "Open clusters"
+
+msgid "Globular clusters"
+msgstr "Globular clusters"

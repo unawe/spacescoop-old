@@ -1,246 +1,185 @@
 msgid ""
 msgstr ""
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-17 20:46+0100\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: spacescoop/newsletter/templates/spacescoop/newsletter/subscribe.html:14
-msgid "Newsletter"
-msgstr "Nyhetsbrev"
 
-#: spacescoop/newsletter/templates/spacescoop/newsletter/subscribe.html:25
-msgid ""
-"Subscribe for the newsletter now and receive all the latest news every "
-"month!!"
-msgstr ""
-"Abonner på nyhetsbrevet nå og motta alle de siste nyhetene hver måned!!"
+msgid "Main Page"
+msgstr "Hovedside"
 
-#: spacescoop/newsletter/templates/spacescoop/newsletter/subscribe.html:27
-msgid "Write your name here..."
-msgstr "Skriv navnet ditt her …"
+msgid "Stories"
+msgstr "Bilder"
 
-#: spacescoop/newsletter/templates/spacescoop/newsletter/subscribe.html:30
-msgid "Write your e-mail here..."
-msgstr "Skriv e-postadressen din her …"
-
-#: spacescoop/newsletter/templates/spacescoop/newsletter/subscribe.html:37
-msgid "Subscribe"
-msgstr "Abonner"
-
-#: spacescoop/search/templates/search/search.html:22
-#: spacescoop/search/templates/search/search.html:27 templates/base.html:79
-msgid "Search"
-msgstr "Søk"
-
-#: spacescoop/search/templates/search/search.html:45
-#: spacescoop/search/templates/search/search.html:58
-msgid "Sorry, no results found that match your query."
-msgstr "Beklager, vi fant ingen resultater som passet med forespørselen din."
-
-#: spacescoop/templates/spacescoop/home.html:15
-msgid "News from Across the Universe"
-msgstr "Nyheter fra verdensrommet"
-
-#: spacescoop/templates/spacescoop/home.html:45
-msgid "Discover more awesome topics!"
-msgstr "Opptag flere spennende temaer!"
-
-#: spacescoops/models.py:73 spacescoops/models.py:251
-msgid "title"
-msgstr ""
-
-#: spacescoops/templates/spacescoops/article_detail.html:40
-msgid "Cool Fact"
-msgstr "Kule fakta"
-
-#: spacescoops/templates/spacescoops/article_detail.html:51
-#, fuzzy
-#| msgid "This Space Scoop is based on a Press Release from INSTITUTION_NAME"
-msgid "This Space Scoop is based on a Press Release from "
-msgstr "Denne romnyheten er basert på en pressemelding fra INSTITUTION_NAME"
-
-#: spacescoops/templates/spacescoops/article_detail.html:54
-#, fuzzy
-#| msgid "This Space Scoop is based on Press Releases from INSTITUTIONS_NAME"
-msgid "This Space Scoop is based on Press Releases from "
-msgstr "Denne romnyheten er basert på en pressemeldinger fra INSTITUTIONS_NAME"
-
-#: spacescoops/templates/spacescoops/article_detail.html:78
-msgid "Image"
-msgstr "Bilde"
-
-#: spacescoops/templates/spacescoops/article_detail.html:82
-msgid "Print Friendly Version"
-msgstr "Utskriftsvennlig versjon"
-
-#: spacescoops/templates/spacescoops/article_detail.html:85
-msgid "Share"
-msgstr "Del"
-
-#: spacescoops/templates/spacescoops/article_detail.html:114
-msgid "More Space Scoops"
-msgstr "Flere Space Scoops"
-
-#: spacescoops/templates/spacescoops/article_list.html:13
-#: templates/base.html:59
 msgid "Pictures"
 msgstr "Bilder"
 
-#: spacescoops/templates/spacescoops/article_list_component.html:33
-#: spacescoops/templates/spacescoops/category_list.html:24
-msgid "No articles are available."
-msgstr "Ingen artikler er tilgjengelige."
-
-#: spacescoops/templates/spacescoops/category_detail.html:13
-#: spacescoops/templates/spacescoops/category_list.html:8
-#: templates/base.html:71
-msgid "Topics"
-msgstr "Temaer"
-
-#: spacescoops/templates/spacescoops/partner_detail.html:13
-msgid "Partner"
-msgstr "Samarbeidspartner"
-
-#: spacescoops/templates/spacescoops/partner_list.html:9
-#: templates/base.html:107
-msgid "Space Scoop Friends"
-msgstr "Venner av Space Scoop"
-
-#: spacescoops/templates/spacescoops/partner_list.html:30
-#, python-format
-msgid ""
-"<a href=\"%(partner_detail_url)s\">Read more Space Scoops</a> based on "
-"%(partner_name)s Press Releases."
-msgstr ""
-
-#: spacescoops/templates/spacescoops/partner_list.html:31
-#, python-format
-msgid ""
-"<a href=\"%(partner_url)s\" target=\"_blank\">Learn more</a> about "
-"%(partner_name)s."
-msgstr ""
-
-#: spacescoops/views.py:114
-msgid "Article does not exist"
-msgstr ""
-
-#: templates/base.html:65
 msgid "Space Words"
 msgstr "Ordliste"
 
-#: templates/base.html:103
+msgid "Topics"
+msgstr "Temaer"
+
+msgid "Search"
+msgstr "Søk"
+
+msgid "News from Across the Universe"
+msgstr "Nyheter fra verdensrommet"
+
+msgid "Discover more awesome topics!"
+msgstr "Opptag flere spennende temaer!"
+
 msgid "Still curious? Learn more..."
 msgstr "Fortsatt nysgjerrig? Lær mer ..."
 
-#: templates/base.html:104
 msgid "What is Space Scoop?"
 msgstr "Hva er Space Scoop?"
 
-#: templates/base.html:105
 msgid "Discover more Astronomy"
 msgstr "Opptag mer astronomi"
 
-#: templates/base.html:106
 msgid "Inspiring a New Generation of Space Explorers"
 msgstr "Inspirerer en ny generasjon av oppdagere"
 
-#: templates/base.html:111
+msgid "Space Scoop Friends"
+msgstr "Venner av Space Scoop"
+
 msgid "Contact Us"
 msgstr "Kontakt oss"
 
-#: templates/base.html:138
-msgid ""
-"This website was produced by funding from the European Community's Horizon "
-"2020 Programme under grant agreement n° 638653"
-msgstr ""
-"Denne websiden er produsert med støtte fra European Community's Horizon 2020 "
-"Programme under tilskuddsavtale nr. 638653"
+msgid "Bringing News from across the Universe to kids around the world"
+msgstr "Nyheter fra hele universet til barn fra alle steder på jordkloden"
 
-#: templates/warning_fallback_language.html:4
-#, fuzzy
-#| msgid ""
-#| "This page isn't available in your language yet, if you'd like to provide "
-#| "a translation please contact us at CONTACT_ADDRESS"
-msgid ""
-"This page isn't available in your language yet, if you'd like to provide a "
-"translation please contact us at "
-msgstr ""
-"Denne siden er ikke tilgjengelig på ditt språk ennå. Hvis du ønsker å hjelpe "
-"oss med en oversettelse av siden, kontakt oss på CONTACT_ADDRESS"
+msgid "Cool Fact"
+msgstr "Kule fakta"
 
-#~ msgid "Stories"
-#~ msgstr "Bilder"
+msgid "This Space Scoop is based on a Press Release from INSTITUTION_NAME"
+msgstr "Denne romnyheten er basert på en pressemelding fra INSTITUTION_NAME"
 
-#~ msgid "Bringing News from across the Universe to kids around the world"
-#~ msgstr "Nyheter fra hele universet til barn fra alle steder på jordkloden"
+msgid "This Space Scoop is based on Press Releases from INSTITUTIONS_NAME"
+msgstr "Denne romnyheten er basert på en pressemeldinger fra INSTITUTIONS_NAME"
 
-#~ msgid "Related Space Scoops"
-#~ msgstr "Relaterte Space Scoops"
+msgid "Image"
+msgstr "Bilde"
 
-#~ msgid "[Read more Space Scoops] based on INSTITUTION_NAME Press Releases"
-#~ msgstr ""
-#~ "[Les flere Space Scoops] basert på pressemeldinger fra INSTITUTION_NAME"
+msgid "Print Friendly Version"
+msgstr "Utskriftsvennlig versjon"
 
-#~ msgid "[Learn more] about INSTITUTION_NAME"
-#~ msgstr "[Lær mer] om INSTITUTION_NAME"
+msgid "Share"
+msgstr "Del"
 
-#~ msgid "Atoms and Molecules"
-#~ msgstr "Atomer og molekyler"
+msgid "Related Space Scoops"
+msgstr "Relaterte Space Scoops"
 
-#~ msgid "Cosmology"
-#~ msgstr "Kosmologi"
+msgid "More Space Scoops"
+msgstr "Flere Space Scoops"
 
-#~ msgid "Black Holes"
-#~ msgstr "Sorte hull"
+msgid "Partners Page"
+msgstr "Samarbeidspartnere"
 
-#~ msgid "Dark Matter"
-#~ msgstr "Mørk materie"
+msgid "Partner"
+msgstr "Samarbeidspartner"
 
-#~ msgid "Missions"
-#~ msgstr "Romferder"
+msgid "[Read more Space Scoops] based on INSTITUTION_NAME Press Releases"
+msgstr "[Les flere Space Scoops] basert på pressemeldinger fra INSTITUTION_NAME"
 
-#~ msgid "Technology"
-#~ msgstr "Teknologi"
+msgid "[Learn more] about INSTITUTION_NAME"
+msgstr "[Lær mer] om INSTITUTION_NAME"
 
-#~ msgid "Gravity"
-#~ msgstr "Gravitasjonskraft"
+msgid "Newsletter"
+msgstr "Nyhetsbrev"
 
-#~ msgid "Solar System"
-#~ msgstr "Solsystemet"
+msgid "Newsletter"
+msgstr "Nyhetsbrev"
 
-#~ msgid "Planets"
-#~ msgstr "Planeter"
+msgid "Subscribe for the newsletter now and receive all the latest news every month!!"
+msgstr "Abonner på nyhetsbrevet nå og motta alle de siste nyhetene hver måned!!"
 
-#~ msgid "Comets"
-#~ msgstr "Kometer"
+msgid "Write your name here..."
+msgstr "Skriv navnet ditt her …"
 
-#~ msgid "Asteroids"
-#~ msgstr "Asteroider"
+msgid "Write your e-mail here..."
+msgstr "Skriv e-postadressen din her …"
 
-#~ msgid "Supernova Remnants"
-#~ msgstr "Supernovarester"
+msgid "Subscribe"
+msgstr "Abonner"
 
-#~ msgid "Planetary Nebulae"
-#~ msgstr "Planetariske tåker"
+msgid "Misc"
+msgstr "Diverse"
 
-#~ msgid "Star Forming Nebulae"
-#~ msgstr "Stjernedannende tåker"
+msgid "No articles are available."
+msgstr "Ingen artikler er tilgjengelige."
 
-#~ msgid "Irregular Galaxies"
-#~ msgstr "Irregulære galakser"
+msgid "Sorry, no results found that match your query."
+msgstr "Beklager, vi fant ingen resultater som passet med forespørselen din."
 
-#~ msgid "Elliptical Galaxies"
-#~ msgstr "Elliptiske galakser"
+msgid "This page isn't available in your language yet, if you'd like to provide a translation please contact us at CONTACT_ADDRESS"
+msgstr "Denne siden er ikke tilgjengelig på ditt språk ennå. Hvis du ønsker å hjelpe oss med en oversettelse av siden, kontakt oss på CONTACT_ADDRESS"
 
-#~ msgid "Spiral Galaxies"
-#~ msgstr "Spiralgalakser"
+msgid "Topics"
+msgstr "Temaer"
 
-#~ msgid "Stars"
-#~ msgstr "Stjerner"
+msgid "Atoms and Molecules"
+msgstr "Atomer og molekyler"
 
-#~ msgid "Open clusters"
-#~ msgstr "Åpne stjernehoper"
+msgid "Cosmology"
+msgstr "Kosmologi"
 
-#~ msgid "Globular clusters"
-#~ msgstr "Kulehoper"
+msgid "Black Holes"
+msgstr "Sorte hull"
+
+msgid "Dark Matter"
+msgstr "Mørk materie"
+
+msgid "Missions"
+msgstr "Romferder"
+
+msgid "Technology"
+msgstr "Teknologi"
+
+msgid "Gravity"
+msgstr "Gravitasjonskraft"
+
+msgid "Solar System"
+msgstr "Solsystemet"
+
+msgid "Planets"
+msgstr "Planeter"
+
+msgid "Comets"
+msgstr "Kometer"
+
+msgid "Asteroids"
+msgstr "Asteroider"
+
+msgid "Supernova Remnants"
+msgstr "Supernovarester"
+
+msgid "Planetary Nebulae"
+msgstr "Planetariske tåker"
+
+msgid "Star Forming Nebulae"
+msgstr "Stjernedannende tåker"
+
+msgid "Irregular Galaxies"
+msgstr "Irregulære galakser"
+
+msgid "Elliptical Galaxies"
+msgstr "Elliptiske galakser"
+
+msgid "Spiral Galaxies"
+msgstr "Spiralgalakser"
+
+msgid "Stars"
+msgstr "Stjerner"
+
+msgid "Open clusters"
+msgstr "Åpne stjernehoper"
+
+msgid "Globular clusters"
+msgstr "Kulehoper"
+
+msgid "Glossary"
+msgstr "Ordliste"
+
+msgid "This website was produced by funding from the European Community's Horizon 2020 Programme under grant agreement n° 638653"
+msgstr "Denne websiden er produsert med støtte fra European Community's Horizon 2020 Programme under tilskuddsavtale nr. 638653"

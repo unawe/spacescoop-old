@@ -81,7 +81,7 @@ INSTALLED_APPS = (
 MIDDLEWARE_CLASSES = (
     'django.contrib.sessions.middleware.SessionMiddleware',
     # 'CacheMiddleware'
-    'django.middleware.locale.LocaleMiddleware',  # see https://docs.djangoproject.com/en/1.8/topics/i18n/translation/#how-django-discovers-language-preference
+    'django.middleware.localeTEST.LocaleMiddleware',  # see https://docs.djangoproject.com/en/1.8/topics/i18n/translation/#how-django-discovers-language-preference
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
@@ -212,55 +212,53 @@ LANGUAGES = (
     ('de', 'German'),
     ('es', 'Spanish'),
     ('pl', 'Polish'),
-    # ('sq', 'Albanian'),
+    ('sq', 'Albanian'),
     ('ar', 'Arabic'),
     ('bn', 'Bengali'),
     ('bg', 'Bulgarian'),
-    # ('zh', 'Chinese'),
+    ('zh', 'Chinese'),
     ('cs', 'Czech'),
     ('da', 'Danish'),
     ('fa', 'Farsi'),
     ('fr', 'French'),
     ('el', 'Greek'),
-    # ('gu', 'Gujarati'),
+    ('gu', 'Gujarati'),
     ('he', 'Hebrew'),
     ('hi', 'Hindi'),
-    # ('hu', 'Hungarian'),
+    ('hu', 'Hungarian'),
     ('is', 'Icelandic'),
     ('id', 'Indonesian'),
     ('ja', 'Japanese'),
-    ('ko', 'Korean'),
-    # ('mt', 'Maltese'),
-    ('no', 'Norwegian'),
-    # ('nb', 'Norwegian Bokmal'),
-    # ('nn', 'Norwegian Nynorsk'),
-    ('pt', 'Portuguese'),
     ('quc', 'K’iche’'),
+    ('ko', 'Korean'),
+    ('mt', 'Maltese'),
+    ('mam', 'Mam'),
+    ('no', 'Norwegian'),
+    ('pt', 'Portuguese'),
     ('ro', 'Romanian'),
     ('ru', 'Russian'),
     ('si', 'Sinhalese'),
     ('sl', 'Slovenian'),
     ('sw', 'Swahili'),
     ('ta', 'Tamil'),
-    # ('tet', 'Tetum'),
+    ('tet', 'Tetum'),
     ('tr', 'Turkish'),
     ('tzj', 'Tz’utujil'),
-    # ('uk', 'Ukrainian'),
-    # ('vi', 'Vietnamese'),
-    # ('cy', 'Welsh'),
+    ('uk', 'Ukrainian'),
+    ('vi', 'Vietnamese'),
+    ('cy', 'Welsh'),
 )
 LANGUAGES = sorted(LANGUAGES, key=operator.itemgetter(0))
 
 # # Languages using BiDi (right-to-left) layout
 # LANGUAGES_BIDI = global_settings.LANGUAGES_BIDI + ("ug",)
 
-
 # TIME_ZONE = 'UTC'
 TIME_ZONE = 'Europe/Amsterdam'
 
 USE_I18N = True
 LOCALE_PATHS = (
-    os.path.join(BASE_DIR, 'locale'),
+    os.path.join(BASE_DIR, 'localeTEST'),
 )
 
 USE_L10N = True

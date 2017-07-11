@@ -68,11 +68,11 @@ with open(filename) as csvfile:
             pass
         else:
             key = _clean(row[master])
-            if key in keys:
-                print('ERROR: key is duplicated: ', key)
-                sys.exit(-1)
-            else:
-                keys.append(key)
+            #if key in keys:
+            #    print('ERROR: key is duplicated: ', key)
+            #    sys.exit(-1)
+            #else:
+            keys.append(key)
             for col_num, item in enumerate(row):
                 if col_num > master:  # skip english
                     if item:  # skip empty cells
