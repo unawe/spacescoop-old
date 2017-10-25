@@ -1,244 +1,179 @@
 msgid ""
 msgstr ""
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-17 20:46+0100\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: spacescoop/newsletter/templates/spacescoop/newsletter/subscribe.html:14
-msgid "Newsletter"
-msgstr "පුවත්ලිපිය"
 
-#: spacescoop/newsletter/templates/spacescoop/newsletter/subscribe.html:25
-msgid ""
-"Subscribe for the newsletter now and receive all the latest news every "
-"month!!"
-msgstr "පුවත්ලිපියේ දායකත්වය ලබාගෙන නවතම තොරතුරු සැම මසකම ලබා ගන්න"
+msgid "Main Page"
+msgstr "මුල් පිටුව"
 
-#: spacescoop/newsletter/templates/spacescoop/newsletter/subscribe.html:27
-msgid "Write your name here..."
-msgstr "ඔබේ නම ලියන්න"
+msgid "Stories"
+msgstr "රූප"
 
-#: spacescoop/newsletter/templates/spacescoop/newsletter/subscribe.html:30
-msgid "Write your e-mail here..."
-msgstr "ඔබේ විද්‍යුත් තැපැල් ලිපිනය ලියන්න"
-
-#: spacescoop/newsletter/templates/spacescoop/newsletter/subscribe.html:37
-msgid "Subscribe"
-msgstr "දායකත්වය ලබාගන්න"
-
-#: spacescoop/search/templates/search/search.html:22
-#: spacescoop/search/templates/search/search.html:27 templates/base.html:79
-msgid "Search"
-msgstr "සෙවීම්"
-
-#: spacescoop/search/templates/search/search.html:45
-#: spacescoop/search/templates/search/search.html:58
-msgid "Sorry, no results found that match your query."
-msgstr "සමාවන්න. ඔබේ විමසුමට ගැලපෙන තොරතුරු නැත"
-
-#: spacescoop/templates/spacescoop/home.html:15
-msgid "News from Across the Universe"
-msgstr "විශ්වයෙන් පුවත්"
-
-#: spacescoop/templates/spacescoop/home.html:45
-msgid "Discover more awesome topics!"
-msgstr "තවත් වැදගත් මාතෘකා"
-
-#: spacescoops/models.py:73 spacescoops/models.py:251
-msgid "title"
-msgstr ""
-
-#: spacescoops/templates/spacescoops/article_detail.html:40
-msgid "Cool Fact"
-msgstr "ඔබේ දැනුමට"
-
-#: spacescoops/templates/spacescoops/article_detail.html:51
-#, fuzzy
-#| msgid "This Space Scoop is based on a Press Release from INSTITUTION_NAME"
-msgid "This Space Scoop is based on a Press Release from "
-msgstr ""
-"INSTITUTION_NAME මාධ්ය නිවේදනයක් පදනම් කරගෙන මෙම Space scoop ලිපිය රචනා කර ඇත"
-
-#: spacescoops/templates/spacescoops/article_detail.html:54
-#, fuzzy
-#| msgid "This Space Scoop is based on Press Releases from INSTITUTIONS_NAME"
-msgid "This Space Scoop is based on Press Releases from "
-msgstr ""
-"INSTITUTION_NAME මාධ්ය නිවේදනයක් පදනම් කරගෙන මෙම Space scoop ලිපිය රචනා කර ඇත"
-
-#: spacescoops/templates/spacescoops/article_detail.html:78
-msgid "Image"
-msgstr "රූපය"
-
-#: spacescoops/templates/spacescoops/article_detail.html:82
-msgid "Print Friendly Version"
-msgstr "මුද්‍රණ පිටපත"
-
-#: spacescoops/templates/spacescoops/article_detail.html:85
-msgid "Share"
-msgstr "බෙදා ගනිමු"
-
-#: spacescoops/templates/spacescoops/article_detail.html:114
-msgid "More Space Scoops"
-msgstr "තවත් Space Scoop ලිපි"
-
-#: spacescoops/templates/spacescoops/article_list.html:13
-#: templates/base.html:59
 msgid "Pictures"
 msgstr "රූප"
 
-#: spacescoops/templates/spacescoops/article_list_component.html:33
-#: spacescoops/templates/spacescoops/category_list.html:24
-msgid "No articles are available."
-msgstr "ලිපි නැත"
-
-#: spacescoops/templates/spacescoops/category_detail.html:13
-#: spacescoops/templates/spacescoops/category_list.html:8
-#: templates/base.html:71
-msgid "Topics"
-msgstr "මාතෘකා"
-
-#: spacescoops/templates/spacescoops/partner_detail.html:13
-msgid "Partner"
-msgstr "සම්පත්දායක"
-
-#: spacescoops/templates/spacescoops/partner_list.html:9
-#: templates/base.html:107
-msgid "Space Scoop Friends"
-msgstr "Space Scoop මිතුරෝ"
-
-#: spacescoops/templates/spacescoops/partner_list.html:30
-#, python-format
-msgid ""
-"<a href=\"%(partner_detail_url)s\">Read more Space Scoops</a> based on "
-"%(partner_name)s Press Releases."
-msgstr ""
-
-#: spacescoops/templates/spacescoops/partner_list.html:31
-#, python-format
-msgid ""
-"<a href=\"%(partner_url)s\" target=\"_blank\">Learn more</a> about "
-"%(partner_name)s."
-msgstr ""
-
-#: spacescoops/views.py:114
-msgid "Article does not exist"
-msgstr ""
-
-#: templates/base.html:65
 msgid "Space Words"
 msgstr "අභ්‍යවකාශ වදන්"
 
-#: templates/base.html:103
+msgid "Search"
+msgstr "සෙවීම්"
+
+msgid "News from Across the Universe"
+msgstr "විශ්වයෙන් පුවත්"
+
+msgid "Discover more awesome topics!"
+msgstr "තවත් වැදගත් මාතෘකා"
+
 msgid "Still curious? Learn more..."
 msgstr "වැඩිදුර තොරතුරු"
 
-#: templates/base.html:104
 msgid "What is Space Scoop?"
 msgstr "Space Scoop යනු කුමක්ද?"
 
-#: templates/base.html:105
 msgid "Discover more Astronomy"
 msgstr "තාරකා විද්‍යාව ගැන තවදුරටත්"
 
-#: templates/base.html:106
 msgid "Inspiring a New Generation of Space Explorers"
 msgstr "අභ්‍යවකාශ ගවේෂණයේ මීළග පරපුරේ ප්‍රගමනයට"
 
-#: templates/base.html:111
+msgid "Space Scoop Friends"
+msgstr "Space Scoop මිතුරෝ"
+
 msgid "Contact Us"
 msgstr "අපව අමතන්න"
 
-#: templates/base.html:138
-msgid ""
-"This website was produced by funding from the European Community's Horizon "
-"2020 Programme under grant agreement n° 638653"
-msgstr ""
+msgid "Bringing News from across the Universe to kids around the world"
+msgstr "විශ්වය සිසාරා එන පුවත් ළමා පරපුර වෙත"
 
-#: templates/warning_fallback_language.html:4
-#, fuzzy
-#| msgid ""
-#| "This page isn't available in your language yet, if you'd like to provide "
-#| "a translation please contact us at CONTACT_ADDRESS"
-msgid ""
-"This page isn't available in your language yet, if you'd like to provide a "
-"translation please contact us at "
-msgstr ""
-"මෙම පිටුව ඔබේ භාෂාවෙන් පරිවර්තනය කර නැත. ඔබ එය පරිවර්තනය කිරීමට කැමති නම් අපව සම්බන්ද කර "
-"ගන්න CONTACT_ADDRESS"
+msgid "Space Scoop Page"
+msgstr "Space Scoop පිටුව"
 
-#~ msgid "Stories"
-#~ msgstr "රූප"
+msgid "Cool Fact"
+msgstr "ඔබේ දැනුමට"
 
-#~ msgid "Bringing News from across the Universe to kids around the world"
-#~ msgstr "විශ්වය සිසාරා එන පුවත් ළමා පරපුර වෙත"
+msgid "This Space Scoop is based on a Press Release from INSTITUTION_NAME"
+msgstr "INSTITUTION_NAME මාධ්ය නිවේදනයක් පදනම් කරගෙන මෙම Space scoop ලිපිය රචනා කර ඇත"
 
-#~ msgid "Related Space Scoops"
-#~ msgstr "ආශ්‍රීත වෙනත් Space scoop ලිපි"
+msgid "This Space Scoop is based on Press Releases from INSTITUTIONS_NAME"
+msgstr "INSTITUTION_NAME මාධ්ය නිවේදනයක් පදනම් කරගෙන මෙම Space scoop ලිපිය රචනා කර ඇත"
 
-#~ msgid "[Read more Space Scoops] based on INSTITUTION_NAME Press Releases"
-#~ msgstr "INSTITUTION_NAME මාධ්ය නිවේදනයක් පදනම් කරගත් තවත් Space scoop ලිපි"
+msgid "Image"
+msgstr "රූපය"
 
-#~ msgid "[Learn more] about INSTITUTION_NAME"
-#~ msgstr "INSTITUTION_NAME ගැන වැඩිදුර තොරතුරු"
+msgid "Print Friendly Version"
+msgstr "මුද්‍රණ පිටපත"
 
-#~ msgid "Atoms and Molecules"
-#~ msgstr "පරමාණු හා අණු"
+msgid "Share"
+msgstr "බෙදා ගනිමු"
 
-#~ msgid "Cosmology"
-#~ msgstr "විශ්ව න්‍යය විද්‍යාව"
+msgid "Related Space Scoops"
+msgstr "ආශ්‍රීත වෙනත් Space scoop ලිපි"
 
-#~ msgid "Black Holes"
-#~ msgstr "කාල කුහර"
+msgid "More Space Scoops"
+msgstr "තවත් Space Scoop ලිපි"
 
-#~ msgid "Dark Matter"
-#~ msgstr "අඳුරු පදාර්ථ"
+msgid "Partners Page"
+msgstr "සම්පත් දායක පිටු"
 
-#~ msgid "Missions"
-#~ msgstr "මෙහෙයුම්"
+msgid "Partner"
+msgstr "සම්පත්දායක"
 
-#~ msgid "Technology"
-#~ msgstr "තාක්ෂනය"
+msgid "[Read more Space Scoops] based on INSTITUTION_NAME Press Releases"
+msgstr "INSTITUTION_NAME මාධ්ය නිවේදනයක් පදනම් කරගත් තවත් Space scoop ලිපි"
 
-#~ msgid "Gravity"
-#~ msgstr "ගුරුත්වාකර්ෂණය"
+msgid "[Learn more] about INSTITUTION_NAME"
+msgstr "INSTITUTION_NAME ගැන වැඩිදුර තොරතුරු"
 
-#~ msgid "Solar System"
-#~ msgstr "සෞර ග්‍රහ මණ්ඩලය"
+msgid "Newsletter"
+msgstr "පුවත්ලිපිය"
 
-#~ msgid "Planets"
-#~ msgstr "ග්‍රහලෝක"
+msgid "Subscribe for the newsletter now and receive all the latest news every month!!"
+msgstr "පුවත්ලිපියේ දායකත්වය ලබාගෙන නවතම තොරතුරු සැම මසකම ලබා ගන්න"
 
-#~ msgid "Comets"
-#~ msgstr "ධුමකේතු"
+msgid "Write your name here..."
+msgstr "ඔබේ නම ලියන්න"
 
-#~ msgid "Asteroids"
-#~ msgstr "ග්‍රහක"
+msgid "Write your e-mail here..."
+msgstr "ඔබේ විද්‍යුත් තැපැල් ලිපිනය ලියන්න"
 
-#~ msgid "Supernova Remnants"
-#~ msgstr "සුපර්නෝවා ඉතිරි"
+msgid "Subscribe"
+msgstr "දායකත්වය ලබාගන්න"
 
-#~ msgid "Planetary Nebulae"
-#~ msgstr "ග්‍රහ නිහාරිකා"
+msgid "Misc"
+msgstr "විවිධ"
 
-#~ msgid "Star Forming Nebulae"
-#~ msgstr "තාරකා බිහිවන නිහාරිකා"
+msgid "No articles are available."
+msgstr "ලිපි නැත"
 
-#~ msgid "Irregular Galaxies"
-#~ msgstr "අක්‍රමවත් මන්දාකිනි"
+msgid "Sorry, no results found that match your query."
+msgstr "සමාවන්න. ඔබේ විමසුමට ගැලපෙන තොරතුරු නැත"
 
-#~ msgid "Elliptical Galaxies"
-#~ msgstr "ඉලිප්සාකාර  මන්දාකිනි"
+msgid "This page isn't available in your language yet, if you'd like to provide a translation please contact us at CONTACT_ADDRESS"
+msgstr "මෙම පිටුව ඔබේ භාෂාවෙන් පරිවර්තනය කර නැත. ඔබ එය පරිවර්තනය කිරීමට කැමති නම් අපව සම්බන්ද කර ගන්න CONTACT_ADDRESS"
 
-#~ msgid "Spiral Galaxies"
-#~ msgstr "සර්පිලාකාර මන්දාකිනි"
+msgid "Topics"
+msgstr "මාතෘකා"
 
-#~ msgid "Stars"
-#~ msgstr "තාරකා"
+msgid "Atoms and Molecules"
+msgstr "පරමාණු හා අණු"
 
-#~ msgid "Open clusters"
-#~ msgstr "විවෘත තරුපොකුරු"
+msgid "Cosmology"
+msgstr "විශ්ව න්‍යය විද්‍යාව"
 
-#~ msgid "Globular clusters"
-#~ msgstr "ගෝලාකාර  තරුපොකුරු"
+msgid "Black Holes"
+msgstr "කාල කුහර"
+
+msgid "Dark Matter"
+msgstr "අඳුරු පදාර්ථ"
+
+msgid "Missions"
+msgstr "මෙහෙයුම්"
+
+msgid "Technology"
+msgstr "තාක්ෂනය"
+
+msgid "Gravity"
+msgstr "ගුරුත්වාකර්ෂණය"
+
+msgid "Solar System"
+msgstr "සෞර ග්‍රහ මණ්ඩලය"
+
+msgid "Planets"
+msgstr "ග්‍රහලෝක"
+
+msgid "Comets"
+msgstr "ධුමකේතු"
+
+msgid "Asteroids"
+msgstr "ග්‍රහක"
+
+msgid "Supernova Remnants"
+msgstr "සුපර්නෝවා ඉතිරි"
+
+msgid "Planetary Nebulae"
+msgstr "ග්‍රහ නිහාරිකා"
+
+msgid "Star Forming Nebulae"
+msgstr "තාරකා බිහිවන නිහාරිකා"
+
+msgid "Irregular Galaxies"
+msgstr "අක්‍රමවත් මන්දාකිනි"
+
+msgid "Elliptical Galaxies"
+msgstr "ඉලිප්සාකාර  මන්දාකිනි"
+
+msgid "Spiral Galaxies"
+msgstr "සර්පිලාකාර මන්දාකිනි"
+
+msgid "Stars"
+msgstr "තාරකා"
+
+msgid "Open clusters"
+msgstr "විවෘත තරුපොකුරු"
+
+msgid "Globular clusters"
+msgstr "ගෝලාකාර  තරුපොකුරු"
+
+msgid "Glossary"
+msgstr "වචන මාලාව"

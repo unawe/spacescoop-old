@@ -1,252 +1,188 @@
 msgid ""
 msgstr ""
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-17 20:46+0100\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: spacescoop/newsletter/templates/spacescoop/newsletter/subscribe.html:14
-msgid "Newsletter"
-msgstr "Bülten"
 
-#: spacescoop/newsletter/templates/spacescoop/newsletter/subscribe.html:25
-msgid ""
-"Subscribe for the newsletter now and receive all the latest news every "
-"month!!"
-msgstr "Şimdi bültene üye olun ve her ay tüm yeni gelişmeleri takip edin."
+msgid "Main Page"
+msgstr "Ana Sayfa"
 
-#: spacescoop/newsletter/templates/spacescoop/newsletter/subscribe.html:27
-msgid "Write your name here..."
-msgstr "Adınızı buraya yazın..."
+msgid "Stories"
+msgstr "Görüntüler"
 
-#: spacescoop/newsletter/templates/spacescoop/newsletter/subscribe.html:30
-msgid "Write your e-mail here..."
-msgstr "E-posta adresinizi yazın..."
-
-#: spacescoop/newsletter/templates/spacescoop/newsletter/subscribe.html:37
-msgid "Subscribe"
-msgstr "Üye olun"
-
-#: spacescoop/search/templates/search/search.html:22
-#: spacescoop/search/templates/search/search.html:27 templates/base.html:79
-msgid "Search"
-msgstr "Ara"
-
-#: spacescoop/search/templates/search/search.html:45
-#: spacescoop/search/templates/search/search.html:58
-msgid "Sorry, no results found that match your query."
-msgstr "Üzgünüz, isteğinize uygun arama sonucu bulunamadı."
-
-#: spacescoop/templates/spacescoop/home.html:15
-msgid "News from Across the Universe"
-msgstr "Evrenin Her Köşesinden Haberler"
-
-#: spacescoop/templates/spacescoop/home.html:45
-msgid "Discover more awesome topics!"
-msgstr "Birkaç harika konu daha keşfet!"
-
-#: spacescoops/models.py:73 spacescoops/models.py:251
-msgid "title"
-msgstr ""
-
-#: spacescoops/templates/spacescoops/article_detail.html:40
-msgid "Cool Fact"
-msgstr "İlginç Gerçekler"
-
-#: spacescoops/templates/spacescoops/article_detail.html:51
-#, fuzzy
-#| msgid "This Space Scoop is based on a Press Release from INSTITUTION_NAME"
-msgid "This Space Scoop is based on a Press Release from "
-msgstr ""
-"Bu Uzay Gazetesi'ne kaynak oluşturan Basın Bülteni şu kuruma aittir "
-"INSTITUTION_NAME"
-
-#: spacescoops/templates/spacescoops/article_detail.html:54
-#, fuzzy
-#| msgid "This Space Scoop is based on Press Releases from INSTITUTIONS_NAME"
-msgid "This Space Scoop is based on Press Releases from "
-msgstr ""
-"Bu Uzay Gazetesi'ne kaynak oluşturan Basın Bültenleri şu kuruma aittir "
-"INSTITUTION_NAME"
-
-#: spacescoops/templates/spacescoops/article_detail.html:78
-msgid "Image"
-msgstr "Görüntü"
-
-#: spacescoops/templates/spacescoops/article_detail.html:82
-msgid "Print Friendly Version"
-msgstr "Yazıcı Dostu Versiyon"
-
-#: spacescoops/templates/spacescoops/article_detail.html:85
-msgid "Share"
-msgstr "Paylaş"
-
-#: spacescoops/templates/spacescoops/article_detail.html:114
-msgid "More Space Scoops"
-msgstr "Daha Fazla Uzay Gazetesi"
-
-#: spacescoops/templates/spacescoops/article_list.html:13
-#: templates/base.html:59
 msgid "Pictures"
 msgstr "Görüntüler"
 
-#: spacescoops/templates/spacescoops/article_list_component.html:33
-#: spacescoops/templates/spacescoops/category_list.html:24
-msgid "No articles are available."
-msgstr "Herhangi bir haber bulunamadı."
-
-#: spacescoops/templates/spacescoops/category_detail.html:13
-#: spacescoops/templates/spacescoops/category_list.html:8
-#: templates/base.html:71
-msgid "Topics"
-msgstr "Konular"
-
-#: spacescoops/templates/spacescoops/partner_detail.html:13
-msgid "Partner"
-msgstr "Ortak"
-
-#: spacescoops/templates/spacescoops/partner_list.html:9
-#: templates/base.html:107
-msgid "Space Scoop Friends"
-msgstr "Uzay Gazetesi Dostları"
-
-#: spacescoops/templates/spacescoops/partner_list.html:30
-#, python-format
-msgid ""
-"<a href=\"%(partner_detail_url)s\">Read more Space Scoops</a> based on "
-"%(partner_name)s Press Releases."
-msgstr ""
-
-#: spacescoops/templates/spacescoops/partner_list.html:31
-#, python-format
-msgid ""
-"<a href=\"%(partner_url)s\" target=\"_blank\">Learn more</a> about "
-"%(partner_name)s."
-msgstr ""
-
-#: spacescoops/views.py:114
-msgid "Article does not exist"
-msgstr ""
-
-#: templates/base.html:65
 msgid "Space Words"
 msgstr "Uzay Kelimeleri"
 
-#: templates/base.html:103
+msgid "Search"
+msgstr "Ara"
+
+msgid "News from Across the Universe"
+msgstr "Evrenin Her Köşesinden Haberler"
+
+msgid "Discover more awesome topics!"
+msgstr "Birkaç harika konu daha keşfet!"
+
 msgid "Still curious? Learn more..."
 msgstr "Hala merak ediyor musun? Daha fazlasını öğren..."
 
-#: templates/base.html:104
 msgid "What is Space Scoop?"
 msgstr "Uzay Gazetesi Nedir?"
 
-#: templates/base.html:105
 msgid "Discover more Astronomy"
 msgstr "Gökbilimi biraz daha keşfet"
 
-#: templates/base.html:106
 msgid "Inspiring a New Generation of Space Explorers"
 msgstr "Yeni Nesil Uzay Kaşiflerine İlham Veriyor"
 
-#: templates/base.html:111
+msgid "Space Scoop Friends"
+msgstr "Uzay Gazetesi Dostları"
+
 msgid "Contact Us"
 msgstr "İletişime Geçin"
 
-#: templates/base.html:138
-msgid ""
-"This website was produced by funding from the European Community's Horizon "
-"2020 Programme under grant agreement n° 638653"
-msgstr ""
-"Bu web sayfası Avrupa Komisyonu'nun Ufuk2020 Programına bağlı n° 638653 nolu "
-"anlaşmasınca desteklenmektedir"
+msgid "Bringing News from across the Universe to kids around the world"
+msgstr "Evrenin her köşesinden yeni haberleri dünyanın her yanından çocuklara iletiyoruz"
 
-#: templates/warning_fallback_language.html:4
-#, fuzzy
-#| msgid ""
-#| "This page isn't available in your language yet, if you'd like to provide "
-#| "a translation please contact us at CONTACT_ADDRESS"
-msgid ""
-"This page isn't available in your language yet, if you'd like to provide a "
-"translation please contact us at "
-msgstr ""
-"Bu sayfa henüz bu dilde kullanıma açılmamıştır. Eger çeviri eklemek "
-"isterseniz bizimle CONTACT_ADDRESS kullanarak iletişime geçiniz."
+msgid "Space Scoop Page"
+msgstr "Uzay Gazetesi Sayfası"
 
-#~ msgid "Stories"
-#~ msgstr "Görüntüler"
+msgid "Cool Fact"
+msgstr "İlginç Gerçekler"
 
-#~ msgid "Bringing News from across the Universe to kids around the world"
-#~ msgstr ""
-#~ "Evrenin her köşesinden yeni haberleri dünyanın her yanından çocuklara "
-#~ "iletiyoruz"
+msgid "This Space Scoop is based on a Press Release from INSTITUTION_NAME"
+msgstr "Bu Uzay Gazetesi'ne kaynak oluşturan Basın Bülteni şu kuruma aittir INSTITUTION_NAME"
 
-#~ msgid "Related Space Scoops"
-#~ msgstr "İlgili Uzay Gazeteleri"
+msgid "This Space Scoop is based on Press Releases from INSTITUTIONS_NAME"
+msgstr "Bu Uzay Gazetesi'ne kaynak oluşturan Basın Bültenleri şu kuruma aittir INSTITUTION_NAME"
 
-#~ msgid "[Read more Space Scoops] based on INSTITUTION_NAME Press Releases"
-#~ msgstr ""
-#~ "INSTITUTION_NAME Basın Bültenine göre hazırlanan [Daha fazla Uzay "
-#~ "Geazetesine göz atın]"
+msgid "Image"
+msgstr "Görüntü"
 
-#~ msgid "[Learn more] about INSTITUTION_NAME"
-#~ msgstr "INSTITUTION NAME hakkında [Daha dazla bilgi] edinin."
+msgid "Print Friendly Version"
+msgstr "Yazıcı Dostu Versiyon"
 
-#~ msgid "Atoms and Molecules"
-#~ msgstr "Atomlar ve Moleküller"
+msgid "Share"
+msgstr "Paylaş"
 
-#~ msgid "Cosmology"
-#~ msgstr "Evrenbilim"
+msgid "Related Space Scoops"
+msgstr "İlgili Uzay Gazeteleri"
 
-#~ msgid "Black Holes"
-#~ msgstr "Kara Delikler"
+msgid "More Space Scoops"
+msgstr "Daha Fazla Uzay Gazetesi"
 
-#~ msgid "Dark Matter"
-#~ msgstr "Karanlık Madde"
+msgid "Partners Page"
+msgstr "Ortaklar Sayfası"
 
-#~ msgid "Missions"
-#~ msgstr "Görevler"
+msgid "Partner"
+msgstr "Ortak"
 
-#~ msgid "Technology"
-#~ msgstr "Teknoloji"
+msgid "[Read more Space Scoops] based on INSTITUTION_NAME Press Releases"
+msgstr "INSTITUTION_NAME Basın Bültenine göre hazırlanan [Daha fazla Uzay Geazetesine göz atın]"
 
-#~ msgid "Gravity"
-#~ msgstr "Kütleçekim"
+msgid "[Learn more] about INSTITUTION_NAME"
+msgstr "INSTITUTION NAME hakkında [Daha dazla bilgi] edinin."
 
-#~ msgid "Solar System"
-#~ msgstr "Güneş Sistemi"
+msgid "Newsletter"
+msgstr "Bülten"
 
-#~ msgid "Planets"
-#~ msgstr "Gezegenler"
+msgid "Subscribe for the newsletter now and receive all the latest news every month!!"
+msgstr "Şimdi bültene üye olun ve her ay tüm yeni gelişmeleri takip edin."
 
-#~ msgid "Comets"
-#~ msgstr "Kuyrukluyıldızlar"
+msgid "Write your name here..."
+msgstr "Adınızı buraya yazın..."
 
-#~ msgid "Asteroids"
-#~ msgstr "Asteroidler"
+msgid "Write your e-mail here..."
+msgstr "E-posta adresinizi yazın..."
 
-#~ msgid "Supernova Remnants"
-#~ msgstr "Süpernova Kalıntıları"
+msgid "Subscribe"
+msgstr "Üye olun"
 
-#~ msgid "Planetary Nebulae"
-#~ msgstr "Gezegenimsi Bulutsular"
+msgid "Misc"
+msgstr "Çeşitlí"
 
-#~ msgid "Star Forming Nebulae"
-#~ msgstr "Yıldız Oluşum Bulutsuları"
+msgid "No articles are available."
+msgstr "Herhangi bir haber bulunamadı."
 
-#~ msgid "Irregular Galaxies"
-#~ msgstr "Düzensiz Gökadalar"
+msgid "Sorry, no results found that match your query."
+msgstr "Üzgünüz, isteğinize uygun arama sonucu bulunamadı."
 
-#~ msgid "Elliptical Galaxies"
-#~ msgstr "Eliptik Gökadalar"
+msgid "This page isn't available in your language yet, if you'd like to provide a translation please contact us at CONTACT_ADDRESS"
+msgstr "Bu sayfa henüz bu dilde kullanıma açılmamıştır. Eger çeviri eklemek isterseniz bizimle CONTACT_ADDRESS kullanarak iletişime geçiniz."
 
-#~ msgid "Spiral Galaxies"
-#~ msgstr "Sarmal Gökadalar"
+msgid "Topics"
+msgstr "Konular"
 
-#~ msgid "Stars"
-#~ msgstr "Yıldızlar"
+msgid "Atoms and Molecules"
+msgstr "Atomlar ve Moleküller"
 
-#~ msgid "Open clusters"
-#~ msgstr "Açık Kümeler"
+msgid "Cosmology"
+msgstr "Evrenbilim"
 
-#~ msgid "Globular clusters"
-#~ msgstr "Küresel Kümeler"
+msgid "Black Holes"
+msgstr "Kara Delikler"
+
+msgid "Dark Matter"
+msgstr "Karanlık Madde"
+
+msgid "Missions"
+msgstr "Görevler"
+
+msgid "Technology"
+msgstr "Teknoloji"
+
+msgid "Gravity"
+msgstr "Kütleçekim"
+
+msgid "Solar System"
+msgstr "Güneş Sistemi"
+
+msgid "Planets"
+msgstr "Gezegenler"
+
+msgid "Comets"
+msgstr "Kuyrukluyıldızlar"
+
+msgid "Asteroids"
+msgstr "Asteroidler"
+
+msgid "Supernova Remnants"
+msgstr "Süpernova Kalıntıları"
+
+msgid "Planetary Nebulae"
+msgstr "Gezegenimsi Bulutsular"
+
+msgid "Star Forming Nebulae"
+msgstr "Yıldız Oluşum Bulutsuları"
+
+msgid "Irregular Galaxies"
+msgstr "Düzensiz Gökadalar"
+
+msgid "Elliptical Galaxies"
+msgstr "Eliptik Gökadalar"
+
+msgid "Spiral Galaxies"
+msgstr "Sarmal Gökadalar"
+
+msgid "Stars"
+msgstr "Yıldızlar"
+
+msgid "Open clusters"
+msgstr "Açık Kümeler"
+
+msgid "Globular clusters"
+msgstr "Küresel Kümeler"
+
+msgid "Galaxies"
+msgstr "Gökadalar"
+
+msgid "Earth"
+msgstr "Yeryüzü"
+
+msgid "Glossary"
+msgstr "Sözlük"
+
+msgid "This website was produced by funding from the European Community's Horizon 2020 Programme under grant agreement n° 638653"
+msgstr "Bu web sayfası Avrupa Komisyonu'nun Ufuk2020 Programına bağlı n° 638653 nolu anlaşmasınca desteklenmektedir"

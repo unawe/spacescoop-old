@@ -1,245 +1,182 @@
 msgid ""
 msgstr ""
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-17 20:46+0100\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: spacescoop/newsletter/templates/spacescoop/newsletter/subscribe.html:14
-msgid "Newsletter"
-msgstr "Bilten"
 
-#: spacescoop/newsletter/templates/spacescoop/newsletter/subscribe.html:25
-msgid ""
-"Subscribe for the newsletter now and receive all the latest news every "
-"month!!"
-msgstr "Naroči se na bilten in vsak mesec prejmi sveže novice!!"
+msgid "Main Page"
+msgstr "Glavna stran"
 
-#: spacescoop/newsletter/templates/spacescoop/newsletter/subscribe.html:27
-msgid "Write your name here..."
-msgstr "Vpiši svoje ime..."
+msgid "Stories"
+msgstr "Slike"
 
-#: spacescoop/newsletter/templates/spacescoop/newsletter/subscribe.html:30
-msgid "Write your e-mail here..."
-msgstr "Vpiši svoj e-naslov..."
-
-#: spacescoop/newsletter/templates/spacescoop/newsletter/subscribe.html:37
-msgid "Subscribe"
-msgstr "Naroči se"
-
-#: spacescoop/search/templates/search/search.html:22
-#: spacescoop/search/templates/search/search.html:27 templates/base.html:79
-msgid "Search"
-msgstr "Iskanje"
-
-#: spacescoop/search/templates/search/search.html:45
-#: spacescoop/search/templates/search/search.html:58
-msgid "Sorry, no results found that match your query."
-msgstr "Oprostite, noben rezultat ne ustreza vašemu iskanju."
-
-#: spacescoop/templates/spacescoop/home.html:15
-msgid "News from Across the Universe"
-msgstr "Novice iz širnega vesolja"
-
-#: spacescoop/templates/spacescoop/home.html:45
-msgid "Discover more awesome topics!"
-msgstr "Odkrij še več čudovitih tem!"
-
-#: spacescoops/models.py:73 spacescoops/models.py:251
-msgid "title"
-msgstr ""
-
-#: spacescoops/templates/spacescoops/article_detail.html:40
-msgid "Cool Fact"
-msgstr "Kul dejstvo"
-
-#: spacescoops/templates/spacescoops/article_detail.html:51
-#, fuzzy
-#| msgid "This Space Scoop is based on a Press Release from INSTITUTION_NAME"
-msgid "This Space Scoop is based on a Press Release from "
-msgstr "To je Space Scoop verzija novice INSTITUTION_NAME"
-
-#: spacescoops/templates/spacescoops/article_detail.html:54
-#, fuzzy
-#| msgid "This Space Scoop is based on Press Releases from INSTITUTIONS_NAME"
-msgid "This Space Scoop is based on Press Releases from "
-msgstr "To je Space Scoop verzija novice INSTITUTIONS_NAME"
-
-#: spacescoops/templates/spacescoops/article_detail.html:78
-msgid "Image"
-msgstr "Slika"
-
-#: spacescoops/templates/spacescoops/article_detail.html:82
-msgid "Print Friendly Version"
-msgstr "Verzija za tiskanje"
-
-#: spacescoops/templates/spacescoops/article_detail.html:85
-msgid "Share"
-msgstr "Deli z drugimi"
-
-#: spacescoops/templates/spacescoops/article_detail.html:114
-msgid "More Space Scoops"
-msgstr "Več Space Scoop novic"
-
-#: spacescoops/templates/spacescoops/article_list.html:13
-#: templates/base.html:59
 msgid "Pictures"
 msgstr "Slike"
 
-#: spacescoops/templates/spacescoops/article_list_component.html:33
-#: spacescoops/templates/spacescoops/category_list.html:24
-msgid "No articles are available."
-msgstr "Noben prispevek ni na razpolago."
-
-#: spacescoops/templates/spacescoops/category_detail.html:13
-#: spacescoops/templates/spacescoops/category_list.html:8
-#: templates/base.html:71
-msgid "Topics"
-msgstr "Teme"
-
-#: spacescoops/templates/spacescoops/partner_detail.html:13
-msgid "Partner"
-msgstr "Partner"
-
-#: spacescoops/templates/spacescoops/partner_list.html:9
-#: templates/base.html:107
-msgid "Space Scoop Friends"
-msgstr "Prijatelji Space Scoop"
-
-#: spacescoops/templates/spacescoops/partner_list.html:30
-#, python-format
-msgid ""
-"<a href=\"%(partner_detail_url)s\">Read more Space Scoops</a> based on "
-"%(partner_name)s Press Releases."
-msgstr ""
-
-#: spacescoops/templates/spacescoops/partner_list.html:31
-#, python-format
-msgid ""
-"<a href=\"%(partner_url)s\" target=\"_blank\">Learn more</a> about "
-"%(partner_name)s."
-msgstr ""
-
-#: spacescoops/views.py:114
-msgid "Article does not exist"
-msgstr ""
-
-#: templates/base.html:65
 msgid "Space Words"
 msgstr "Vesoljske besede"
 
-#: templates/base.html:103
+msgid "Search"
+msgstr "Iskanje"
+
+msgid "News from Across the Universe"
+msgstr "Novice iz širnega vesolja"
+
+msgid "Discover more awesome topics!"
+msgstr "Odkrij še več čudovitih tem!"
+
 msgid "Still curious? Learn more..."
 msgstr "Še radoveden/-a? Preberi več..."
 
-#: templates/base.html:104
 msgid "What is Space Scoop?"
 msgstr "Kaj so Space Scoop novice?"
 
-#: templates/base.html:105
 msgid "Discover more Astronomy"
 msgstr "Odkrij več astronomije"
 
-#: templates/base.html:106
 msgid "Inspiring a New Generation of Space Explorers"
 msgstr "Navdih za novo generacijo raziskovalcev vesolja"
 
-#: templates/base.html:111
+msgid "Space Scoop Friends"
+msgstr "Prijatelji Space Scoop"
+
 msgid "Contact Us"
 msgstr "Kontakt"
 
-#: templates/base.html:138
-msgid ""
-"This website was produced by funding from the European Community's Horizon "
-"2020 Programme under grant agreement n° 638653"
-msgstr ""
-"To spletno stran financira program Obzorje 2020 Evropske komisije po pogodbi "
-"n° 638653"
+msgid "Bringing News from across the Universe to kids around the world"
+msgstr "Prinašamo novice iz širnega vesolja otrokom širom sveta"
 
-#: templates/warning_fallback_language.html:4
-#, fuzzy
-#| msgid ""
-#| "This page isn't available in your language yet, if you'd like to provide "
-#| "a translation please contact us at CONTACT_ADDRESS"
-msgid ""
-"This page isn't available in your language yet, if you'd like to provide a "
-"translation please contact us at "
-msgstr ""
-"Ta stran še ni na razpolago v vašem jeziku. Če nam želite poslati prevod, "
-"nam pišite na CONTACT_ADDRESS"
+msgid "Space Scoop Page"
+msgstr "Stran Space Scoop"
 
-#~ msgid "Stories"
-#~ msgstr "Slike"
+msgid "Cool Fact"
+msgstr "Kul dejstvo"
 
-#~ msgid "Bringing News from across the Universe to kids around the world"
-#~ msgstr "Prinašamo novice iz širnega vesolja otrokom širom sveta"
+msgid "This Space Scoop is based on a Press Release from INSTITUTION_NAME"
+msgstr "To je Space Scoop verzija novice INSTITUTION_NAME"
 
-#~ msgid "Related Space Scoops"
-#~ msgstr "Povezane Space Scoop novice"
+msgid "This Space Scoop is based on Press Releases from INSTITUTIONS_NAME"
+msgstr "To je Space Scoop verzija novice INSTITUTIONS_NAME"
 
-#~ msgid "[Read more Space Scoops] based on INSTITUTION_NAME Press Releases"
-#~ msgstr ""
-#~ "[Preberi več Space Scoop novic], ki temeljijo na novicah INSTITUTION_NAME"
+msgid "Image"
+msgstr "Slika"
 
-#~ msgid "[Learn more] about INSTITUTION_NAME"
-#~ msgstr "[Preberi več] o INSTITUTION_NAME"
+msgid "Print Friendly Version"
+msgstr "Verzija za tiskanje"
 
-#~ msgid "Atoms and Molecules"
-#~ msgstr "Atomi in molekule"
+msgid "Share"
+msgstr "Deli z drugimi"
 
-#~ msgid "Cosmology"
-#~ msgstr "Kozmologija"
+msgid "Related Space Scoops"
+msgstr "Povezane Space Scoop novice"
 
-#~ msgid "Black Holes"
-#~ msgstr "Črna luknja"
+msgid "More Space Scoops"
+msgstr "Več Space Scoop novic"
 
-#~ msgid "Dark Matter"
-#~ msgstr "Temna snov"
+msgid "Partners Page"
+msgstr "Strani partnerjev"
 
-#~ msgid "Missions"
-#~ msgstr "Misije"
+msgid "Partner"
+msgstr "Partner"
 
-#~ msgid "Technology"
-#~ msgstr "Tehnologija"
+msgid "[Read more Space Scoops] based on INSTITUTION_NAME Press Releases"
+msgstr "[Preberi več Space Scoop novic], ki temeljijo na novicah INSTITUTION_NAME"
 
-#~ msgid "Gravity"
-#~ msgstr "Gravitacija"
+msgid "[Learn more] about INSTITUTION_NAME"
+msgstr "[Preberi več] o INSTITUTION_NAME"
 
-#~ msgid "Solar System"
-#~ msgstr "Osončje"
+msgid "Newsletter"
+msgstr "Bilten"
 
-#~ msgid "Planets"
-#~ msgstr "Planeti"
+msgid "Subscribe for the newsletter now and receive all the latest news every month!!"
+msgstr "Naroči se na bilten in vsak mesec prejmi sveže novice!!"
 
-#~ msgid "Comets"
-#~ msgstr "Kometi"
+msgid "Write your name here..."
+msgstr "Vpiši svoje ime..."
 
-#~ msgid "Asteroids"
-#~ msgstr "Asteroidi"
+msgid "Write your e-mail here..."
+msgstr "Vpiši svoj e-naslov..."
 
-#~ msgid "Supernova Remnants"
-#~ msgstr "Ostanek supernove"
+msgid "Subscribe"
+msgstr "Naroči se"
 
-#~ msgid "Planetary Nebulae"
-#~ msgstr "Planetarne meglice"
+msgid "Misc"
+msgstr "Razno"
 
-#~ msgid "Star Forming Nebulae"
-#~ msgstr "Meglice nastajajočih zvezd"
+msgid "No articles are available."
+msgstr "Noben prispevek ni na razpolago."
 
-#~ msgid "Irregular Galaxies"
-#~ msgstr "Nepravilna galaksija"
+msgid "Sorry, no results found that match your query."
+msgstr "Oprostite, noben rezultat ne ustreza vašemu iskanju."
 
-#~ msgid "Elliptical Galaxies"
-#~ msgstr "Eliptična galaksija"
+msgid "This page isn't available in your language yet, if you'd like to provide a translation please contact us at CONTACT_ADDRESS"
+msgstr "Ta stran še ni na razpolago v vašem jeziku. Če nam želite poslati prevod, nam pišite na CONTACT_ADDRESS"
 
-#~ msgid "Spiral Galaxies"
-#~ msgstr "Spiralna galaksija"
+msgid "Topics"
+msgstr "Teme"
 
-#~ msgid "Stars"
-#~ msgstr "Zvezda"
+msgid "Atoms and Molecules"
+msgstr "Atomi in molekule"
 
-#~ msgid "Open clusters"
-#~ msgstr "Razsute kopice"
+msgid "Cosmology"
+msgstr "Kozmologija"
 
-#~ msgid "Globular clusters"
-#~ msgstr "Kroglaste kopice"
+msgid "Black Holes"
+msgstr "Črna luknja"
+
+msgid "Dark Matter"
+msgstr "Temna snov"
+
+msgid "Missions"
+msgstr "Misije"
+
+msgid "Technology"
+msgstr "Tehnologija"
+
+msgid "Gravity"
+msgstr "Gravitacija"
+
+msgid "Solar System"
+msgstr "Osončje"
+
+msgid "Planets"
+msgstr "Planeti"
+
+msgid "Comets"
+msgstr "Kometi"
+
+msgid "Asteroids"
+msgstr "Asteroidi"
+
+msgid "Supernova Remnants"
+msgstr "Ostanek supernove"
+
+msgid "Planetary Nebulae"
+msgstr "Planetarne meglice"
+
+msgid "Star Forming Nebulae"
+msgstr "Meglice nastajajočih zvezd"
+
+msgid "Irregular Galaxies"
+msgstr "Nepravilna galaksija"
+
+msgid "Elliptical Galaxies"
+msgstr "Eliptična galaksija"
+
+msgid "Spiral Galaxies"
+msgstr "Spiralna galaksija"
+
+msgid "Stars"
+msgstr "Zvezda"
+
+msgid "Open clusters"
+msgstr "Razsute kopice"
+
+msgid "Globular clusters"
+msgstr "Kroglaste kopice"
+
+msgid "Glossary"
+msgstr "Slovar"
+
+msgid "This website was produced by funding from the European Community's Horizon 2020 Programme under grant agreement n° 638653"
+msgstr "To spletno stran financira program Obzorje 2020 Evropske komisije po pogodbi n° 638653"

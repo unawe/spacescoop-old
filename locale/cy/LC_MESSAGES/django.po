@@ -1,157 +1,185 @@
 msgid ""
 msgstr ""
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-17 20:46+0100\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: spacescoop/newsletter/templates/spacescoop/newsletter/subscribe.html:14
-msgid "Newsletter"
-msgstr ""
 
-#: spacescoop/newsletter/templates/spacescoop/newsletter/subscribe.html:25
-msgid ""
-"Subscribe for the newsletter now and receive all the latest news every "
-"month!!"
-msgstr ""
+msgid "Main Page"
+msgstr "Prif Dudalen"
 
-#: spacescoop/newsletter/templates/spacescoop/newsletter/subscribe.html:27
-msgid "Write your name here..."
-msgstr ""
+msgid "Stories"
+msgstr "Erthyglau"
 
-#: spacescoop/newsletter/templates/spacescoop/newsletter/subscribe.html:30
-msgid "Write your e-mail here..."
-msgstr ""
-
-#: spacescoop/newsletter/templates/spacescoop/newsletter/subscribe.html:37
-msgid "Subscribe"
-msgstr ""
-
-#: spacescoop/search/templates/search/search.html:22
-#: spacescoop/search/templates/search/search.html:27 templates/base.html:79
-msgid "Search"
-msgstr ""
-
-#: spacescoop/search/templates/search/search.html:45
-#: spacescoop/search/templates/search/search.html:58
-msgid "Sorry, no results found that match your query."
-msgstr ""
-
-#: spacescoop/templates/spacescoop/home.html:15
-msgid "News from Across the Universe"
-msgstr ""
-
-#: spacescoop/templates/spacescoop/home.html:45
-msgid "Discover more awesome topics!"
-msgstr ""
-
-#: spacescoops/models.py:73 spacescoops/models.py:251
-msgid "title"
-msgstr ""
-
-#: spacescoops/templates/spacescoops/article_detail.html:40
-msgid "Cool Fact"
-msgstr ""
-
-#: spacescoops/templates/spacescoops/article_detail.html:51
-msgid "This Space Scoop is based on a Press Release from "
-msgstr ""
-
-#: spacescoops/templates/spacescoops/article_detail.html:54
-msgid "This Space Scoop is based on Press Releases from "
-msgstr ""
-
-#: spacescoops/templates/spacescoops/article_detail.html:78
-msgid "Image"
-msgstr ""
-
-#: spacescoops/templates/spacescoops/article_detail.html:82
-msgid "Print Friendly Version"
-msgstr ""
-
-#: spacescoops/templates/spacescoops/article_detail.html:85
-msgid "Share"
-msgstr ""
-
-#: spacescoops/templates/spacescoops/article_detail.html:114
-msgid "More Space Scoops"
-msgstr ""
-
-#: spacescoops/templates/spacescoops/article_list.html:13
-#: templates/base.html:59
 msgid "Pictures"
-msgstr ""
+msgstr "Lluniau"
 
-#: spacescoops/templates/spacescoops/article_list_component.html:33
-#: spacescoops/templates/spacescoops/category_list.html:24
-msgid "No articles are available."
-msgstr ""
-
-#: spacescoops/templates/spacescoops/category_detail.html:13
-#: spacescoops/templates/spacescoops/category_list.html:8
-#: templates/base.html:71
-msgid "Topics"
-msgstr ""
-
-#: spacescoops/templates/spacescoops/partner_detail.html:13
-msgid "Partner"
-msgstr ""
-
-#: spacescoops/templates/spacescoops/partner_list.html:9
-#: templates/base.html:107
-msgid "Space Scoop Friends"
-msgstr ""
-
-#: spacescoops/templates/spacescoops/partner_list.html:30
-#, python-format
-msgid ""
-"<a href=\"%(partner_detail_url)s\">Read more Space Scoops</a> based on "
-"%(partner_name)s Press Releases."
-msgstr ""
-
-#: spacescoops/templates/spacescoops/partner_list.html:31
-#, python-format
-msgid ""
-"<a href=\"%(partner_url)s\" target=\"_blank\">Learn more</a> about "
-"%(partner_name)s."
-msgstr ""
-
-#: spacescoops/views.py:114
-msgid "Article does not exist"
-msgstr ""
-
-#: templates/base.html:65
 msgid "Space Words"
-msgstr ""
+msgstr "Termau'r Gofod"
 
-#: templates/base.html:103
+msgid "Search"
+msgstr "Chwilio"
+
+msgid "News from Across the Universe"
+msgstr "Newyddion y Bydysawd"
+
+msgid "Discover more awesome topics!"
+msgstr "Darganfyddwch mwy o bynciau diddorol!"
+
 msgid "Still curious? Learn more..."
-msgstr ""
+msgstr "Eisiau gwybod mwy?"
 
-#: templates/base.html:104
 msgid "What is Space Scoop?"
-msgstr ""
+msgstr "Beth yw Space Scoop?"
 
-#: templates/base.html:105
 msgid "Discover more Astronomy"
-msgstr ""
+msgstr "Darganfyddwch mwy o Seryddiaeth"
 
-#: templates/base.html:106
 msgid "Inspiring a New Generation of Space Explorers"
-msgstr ""
+msgstr "Ysbrydoli Cenhedlaeth Newydd o Archwilwyr Gofod"
 
-#: templates/base.html:111
+msgid "Space Scoop Friends"
+msgstr "Ffrindiau Space Scoop"
+
 msgid "Contact Us"
-msgstr ""
+msgstr "Cysylltwch â ni"
 
-#: templates/base.html:138
-msgid ""
-"This website was produced by funding from the European Community's Horizon "
-"2020 Programme under grant agreement n° 638653"
-msgstr ""
+msgid "Bringing News from across the Universe to kids around the world"
+msgstr "Yn Darparu Plant y Byd gyda Newyddion y Bydysawd"
 
-#: templates/warning_fallback_language.html:4
-msgid ""
-"This page isn't available in your language yet, if you'd like to provide a "
-"translation please contact us at "
-msgstr ""
+msgid "Space Scoop Page"
+msgstr "Tudalen Space Scoop"
+
+msgid "Cool Fact"
+msgstr "Ffaith Ddiddorol"
+
+msgid "This Space Scoop is based on a Press Release from INSTITUTION_NAME"
+msgstr "Caiff y Space Scoop yma ei seilio ar Ddatganiad i'r Wasg o INSTITUTION_NAME"
+
+msgid "This Space Scoop is based on Press Releases from INSTITUTIONS_NAME"
+msgstr "Caiff y Space Scoop yma ei seilio ar Ddatganiad i'r Wasg o INSTITUTION_NAME"
+
+msgid "Image"
+msgstr "Llun"
+
+msgid "Print Friendly Version"
+msgstr "Argarffwch y Fersiwn Cyfeillgar"
+
+msgid "Share"
+msgstr "Rhannu"
+
+msgid "Related Space Scoops"
+msgstr "Space Scoops Tebyg"
+
+msgid "More Space Scoops"
+msgstr "Mwy o Space Scoops"
+
+msgid "Partners Page"
+msgstr "Tudalen Partneriaid"
+
+msgid "Partner"
+msgstr "Partner"
+
+msgid "[Read more Space Scoops] based on INSTITUTION_NAME Press Releases"
+msgstr "(Darllenwch mwy o Space Scoops) wedi'u seilio ar Ddatganiadau Gwasg INSTITUTION_NAME"
+
+msgid "[Learn more] about INSTITUTION_NAME"
+msgstr "Dysgwch mwy am INSTITUTION_NAME"
+
+msgid "Newsletter"
+msgstr "Cylchlythyr"
+
+msgid "Subscribe for the newsletter now and receive all the latest news every month!!"
+msgstr "Tanysgrifiwch i'r cylchlythyr nawr a bydd gennych fynediad at y newyddion diweddaraf yn fisol!"
+
+msgid "Write your name here..."
+msgstr "Ysgrifennwch eich enw yma..."
+
+msgid "Write your e-mail here..."
+msgstr "Ysgrifennwch eich cyfeiriad e-bost yma..."
+
+msgid "Subscribe"
+msgstr "Tanysgrifiwch"
+
+msgid "Misc"
+msgstr "Amrywiol"
+
+msgid "No articles are available."
+msgstr "Does dim erthyglau ar gael yma."
+
+msgid "Sorry, no results found that match your query."
+msgstr "Yn anffodus, does dim canlyniad yn ateb eich ymholiad."
+
+msgid "This page isn't available in your language yet, if you'd like to provide a translation please contact us at CONTACT_ADDRESS"
+msgstr "Nid yw'r dudalen hon ar gael yn eich iaith eto. Os hoffech ei gyfieithu, cysylltwch â ni ar CONTACT_ADDRESS"
+
+msgid "Topics"
+msgstr "Pynciau"
+
+msgid "Atoms and Molecules"
+msgstr "Atomau a Moleciwlau"
+
+msgid "Cosmology"
+msgstr "Cosmoleg"
+
+msgid "Black Holes"
+msgstr "Tyllau Du"
+
+msgid "Dark Matter"
+msgstr "Matter Tywyll"
+
+msgid "Missions"
+msgstr "Teithiau"
+
+msgid "Technology"
+msgstr "Technoleg"
+
+msgid "Gravity"
+msgstr "Disgyrchiant"
+
+msgid "Solar System"
+msgstr "Cysawd yr Haul"
+
+msgid "Planets"
+msgstr "Planedau"
+
+msgid "Comets"
+msgstr "Comedau"
+
+msgid "Asteroids"
+msgstr "Asteroidau"
+
+msgid "Supernova Remnants"
+msgstr "Gweddillion Uwchnova"
+
+msgid "Planetary Nebulae"
+msgstr "Nifylau Planedol"
+
+msgid "Star Forming Nebulae"
+msgstr "Nifylau Ffurfiau Sêr"
+
+msgid "Irregular Galaxies"
+msgstr "Galaethau Afreolaidd"
+
+msgid "Elliptical Galaxies"
+msgstr "Galaethau Elipitgol"
+
+msgid "Spiral Galaxies"
+msgstr "Galaethau Troellog"
+
+msgid "Stars"
+msgstr "Sêr"
+
+msgid "Open clusters"
+msgstr "Clystyrau Agored"
+
+msgid "Globular clusters"
+msgstr "Clystyrau Crwn"
+
+msgid "Galaxies"
+msgstr "Galaethau"
+
+msgid "Earth"
+msgstr "Y Ddaear"
+
+msgid "Glossary"
+msgstr "Rhestr Termau"
