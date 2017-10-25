@@ -63,16 +63,18 @@ with open(filename) as csvfile:
         elif row_num in [1, 2, ]:
             # language names
             pass
-        elif row[0] != '':
-            # section separator
-            pass
+        #elif row[0] != '':
+        #    # section separator
+        #    pass
         else:
             key = _clean(row[master])
-            #if key in keys:
+            if key in keys:
             #    print('ERROR: key is duplicated: ', key)
             #    sys.exit(-1)
-            #else:
-            keys.append(key)
+                #continue
+                print('duplicate "%s" ' % key)
+            else:
+                keys.append(key)
             for col_num, item in enumerate(row):
                 if col_num > master:  # skip english
                     if item:  # skip empty cells

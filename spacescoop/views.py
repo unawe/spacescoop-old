@@ -4,7 +4,18 @@ from spacescoops.models import Article, Category
 
 
 def home(request):
+    try:
+        articles = Article.objects.featured().active_translations()
+        featured = Article.add_prefetch_related(articles)[:4]
+    except:
+        articles = Article.objects.none()
+        featured = []
+
+    try:
+        categories = Category.objects.all()
+    except:
+        categories = Category.objects.none()
     return render(request, 'spacescoop/home.html', {
-        'featured': Article.add_prefetch_related(Article.objects.featured().active_translations())[:4],
-        'categories': Category.objects.all(),
+        'featured': featured,
+        'categories': categories,
     })

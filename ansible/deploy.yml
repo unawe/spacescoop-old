@@ -30,9 +30,6 @@
         priv: ALL
         # role_attr_flags=CREATEDB,NOSUPERUSER
 
-
-
-
     # Django
     - name: copy source files
       synchronize:
@@ -124,6 +121,7 @@
       with_items:
         - migrate
         - collectstatic
+        - compilemessages
         # - rebuild_index --noinput
         # - rebuild_index
       environment:

@@ -29,7 +29,7 @@ if DJANGO_SETTINGS_CONFIG == 'DEV':
 SITE_URL = 'http://www.spacescoop.org'
 
 ADMINS = (
-    ('Bruno Rino', secrets['ADMIN_EMAIL']),
+    ('Vaclav Ehrlich', secrets['ADMIN_EMAIL']),
 )
 
 # MANAGERS = ADMINS
@@ -81,7 +81,7 @@ INSTALLED_APPS = (
 MIDDLEWARE_CLASSES = (
     'django.contrib.sessions.middleware.SessionMiddleware',
     # 'CacheMiddleware'
-    'django.middleware.localeTEST.LocaleMiddleware',  # see https://docs.djangoproject.com/en/1.8/topics/i18n/translation/#how-django-discovers-language-preference
+    'django.middleware.locale.LocaleMiddleware',  # see https://docs.djangoproject.com/en/1.8/topics/i18n/translation/#how-django-discovers-language-preference
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
@@ -232,7 +232,7 @@ LANGUAGES = (
     ('quc', 'K’iche’'),
     ('ko', 'Korean'),
     ('mt', 'Maltese'),
-    ('mam', 'Mam'),
+    #('mam', 'Mam'),
     ('no', 'Norwegian'),
     ('pt', 'Portuguese'),
     ('ro', 'Romanian'),
@@ -258,7 +258,7 @@ TIME_ZONE = 'Europe/Amsterdam'
 
 USE_I18N = True
 LOCALE_PATHS = (
-    os.path.join(BASE_DIR, 'localeTEST'),
+    os.path.join(BASE_DIR, 'locale'),
 )
 
 USE_L10N = True
